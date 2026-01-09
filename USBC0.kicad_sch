@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "932210fe-aa7d-4bcb-b34c-8a38bd3f1cad")
+	(paper "A4")
+	(title_block
+		(date "2026-01-09")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 127 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b21cb07-0072-4fd0-9a29-f400eff9f9c9")
+	)
+	(bus
+		(pts
+			(xy 127 76.2) (xy 104.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0f11d9-625d-4cdc-b676-1e2d0af78a7c")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a660898-1a4a-4008-befe-ee0a2847eb20")
+	)
+	(bus
+		(pts
+			(xy 127 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78147e1d-478e-4f4f-995c-12f4f9ee2c01")
+	)
+	(bus
+		(pts
+			(xy 127 81.28) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8342aa13-c3cf-42ac-a287-03d24c12a168")
+	)
+	(bus
+		(pts
+			(xy 127 86.36) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85924c21-9e6a-4586-bd93-22f344ddfe9d")
+	)
+	(label "{USBC0_SSTX[1..2]}"
+		(at 106.68 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7376e5a9-c171-4692-a568-1107501988f1")
+	)
+	(label "USBC0_INT#"
+		(at 106.68 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "842e584f-8042-4140-b50b-a3408c7004a7")
+	)
+	(label "{USBC0_D}"
+		(at 106.68 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8490a144-f1a5-4b74-8dd1-e48ce3b5681e")
+	)
+	(label "USBC0_SBUS[1..2]"
+		(at 106.68 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cb6300a-f3ab-481a-a027-43d62162e209")
+	)
+	(label "{CPU_I2C4}"
+		(at 106.68 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdf84772-b30a-48fd-a0c9-8767d6780591")
+	)
+	(label "{USBC0_SSRX[1..2]}"
+		(at 106.68 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee5153be-ded6-4cf3-a643-061b522b6374")
+	)
+	(hierarchical_label "SSRX"
+		(shape bidirectional)
+		(at 104.14 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1121c584-45b4-43cd-a10b-197bb2cb42a0")
+	)
+	(hierarchical_label "SBUS"
+		(shape bidirectional)
+		(at 104.14 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f8321a6-cea6-4d39-8cf2-188761502d97")
+	)
+	(hierarchical_label "INT#"
+		(shape output)
+		(at 104.14 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bda0f2b1-891c-45b6-8473-4d3d13f7e90d")
+	)
+	(hierarchical_label "D"
+		(shape bidirectional)
+		(at 104.14 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbac33f1-3d38-45e2-ae21-4c5cd3b25f50")
+	)
+	(hierarchical_label "SSTX"
+		(shape input)
+		(at 104.14 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5bc413f-f6c7-4da4-b721-75f9c7268bbe")
+	)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 104.14 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f63a1df8-52ed-4f36-8fec-5846a0d1eb39")
+	)
+)

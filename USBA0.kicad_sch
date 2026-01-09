@@ -1,0 +1,43 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f134f291-fe65-413e-bafc-6f66d48b69dd")
+	(paper "A4")
+	(title_block
+		(date "2026-01-09")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 132.08 111.76) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebda4db-8473-41e2-a275-59edc2af5255")
+	)
+	(label "{USBA0_D}"
+		(at 119.38 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cba08a8-17e7-4c19-9cd1-f8bd9308f84c")
+	)
+	(hierarchical_label "D"
+		(shape bidirectional)
+		(at 116.84 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4aa40de6-4266-4644-adda-49c387016c7d")
+	)
+)

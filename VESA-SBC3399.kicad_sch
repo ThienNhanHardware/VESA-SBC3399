@@ -2,9 +2,1340 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid ebc9dc57-8b05-484a-a5cd-c53b1efc71d3)
-	(paper "A4")
+	(uuid "ebc9dc57-8b05-484a-a5cd-c53b1efc71d3")
+	(paper "A3")
+	(title_block
+		(title "VESA-SBC3399")
+		(date "2026-01-09")
+		(rev "1.0.0")
+	)
 	(lib_symbols)
+	(junction
+		(at 241.3 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab862e79-1672-4243-902b-584172f54dd1")
+	)
+	(bus
+		(pts
+			(xy 243.84 106.68) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163e6606-6450-43ea-b1b0-d9c80888ca50")
+	)
+	(bus
+		(pts
+			(xy 243.84 127) (xy 215.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f307281-8a20-425b-b82b-673eb4d64421")
+	)
+	(bus
+		(pts
+			(xy 243.84 109.22) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fe4115-7737-45b9-93b7-223373bae0ae")
+	)
+	(bus
+		(pts
+			(xy 243.84 154.94) (xy 215.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e70514c-1ead-4f67-949e-06e127150312")
+	)
+	(bus
+		(pts
+			(xy 241.3 160.02) (xy 243.84 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6012b85d-3444-4482-89d4-615f6afb6b6c")
+	)
+	(bus
+		(pts
+			(xy 215.9 175.26) (xy 243.84 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66cbd7e9-dd06-4fdf-bd61-49bb6c762248")
+	)
+	(wire
+		(pts
+			(xy 243.84 162.56) (xy 215.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77514c1e-b473-4da1-bd7d-b1235a4c8ebe")
+	)
+	(bus
+		(pts
+			(xy 243.84 134.62) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1817df-22b9-4604-a00a-bb196e52b140")
+	)
+	(wire
+		(pts
+			(xy 243.84 137.16) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccc34a6-4ac3-4ac7-b7de-8479b82ba9b1")
+	)
+	(bus
+		(pts
+			(xy 241.3 134.62) (xy 215.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860f430d-48f9-49df-afef-096f786e2778")
+	)
+	(bus
+		(pts
+			(xy 243.84 149.86) (xy 215.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccf41cd-4f97-49c3-b87b-3803f38e98f4")
+	)
+	(bus
+		(pts
+			(xy 241.3 134.62) (xy 241.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbeb620-6f2f-4336-891a-78264fa4a471")
+	)
+	(bus
+		(pts
+			(xy 243.84 129.54) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99107938-575a-470a-bf37-13ecdecaa5ee")
+	)
+	(bus
+		(pts
+			(xy 243.84 104.14) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af20ce4e-98ba-4a9e-bfcc-46ac4d6831fe")
+	)
+	(bus
+		(pts
+			(xy 243.84 132.08) (xy 215.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e698c8-e2c0-46dd-9a1c-f3e4d4b44f8f")
+	)
+	(bus
+		(pts
+			(xy 243.84 157.48) (xy 215.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48d2b57-9951-4156-8440-3954c80eedb8")
+	)
+	(bus
+		(pts
+			(xy 243.84 111.76) (xy 215.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf938e25-61bd-4163-80bf-012ad2f4a4f2")
+	)
+	(bus
+		(pts
+			(xy 215.9 187.96) (xy 243.84 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d5871b-740e-4a2f-b605-e4a6e123ff5b")
+	)
+	(bus
+		(pts
+			(xy 243.84 101.6) (xy 215.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68ea0d7-1874-4e83-b703-f148e5c079c8")
+	)
+	(bus
+		(pts
+			(xy 243.84 124.46) (xy 215.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6030623-a30d-434a-8349-702eb15cfc88")
+	)
+	(bus
+		(pts
+			(xy 243.84 152.4) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f172ddbb-5bad-4da4-b29d-ebbf520dd166")
+	)
+	(label "{CPU_I2C4}"
+		(at 218.44 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e44d82d-d10c-4aef-a07d-bf30ba8e0e13")
+	)
+	(label "{PCIe_GPIO}"
+		(at 218.44 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f1f1dea-21a0-47d7-9c71-70ccb13762fe")
+	)
+	(label "{USBC1_SSRX[1..2]}"
+		(at 218.44 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32f790bf-82b1-4c47-8d26-384f40f3c210")
+	)
+	(label "USBC1_SBUS[1..2]"
+		(at 218.44 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "593a5e9b-1646-4ecb-a366-8c1432fe84b1")
+	)
+	(label "{USBC0_SSRX[1..2]}"
+		(at 218.44 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b1d41b6-2eb7-4592-ac0b-163c0cc2852a")
+	)
+	(label "{USBC1_SSTX[1..2]}"
+		(at 218.44 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f1e7cfe-f778-49e7-b096-b414de783200")
+	)
+	(label "USBC0_INT#"
+		(at 218.44 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60d581f3-a8e1-4c93-8294-c84f21b771b6")
+	)
+	(label "USBC1_INT#"
+		(at 218.44 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72c1e729-93f5-40ee-8790-2f7b6051ca61")
+	)
+	(label "{PCIe_REFCLK}"
+		(at 218.44 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "848f96fc-82ef-4d5c-aee3-fe7c0b41d49b")
+	)
+	(label "PCIe_CLKREQ#"
+		(at 218.44 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a84f78c5-a3da-465d-b3ec-876ce5b74f1a")
+	)
+	(label "{USBC0_SSTX[1..2]}"
+		(at 218.44 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8d14c38-d759-4edf-ace1-67503f455309")
+	)
+	(label "{USBC1_D}"
+		(at 218.44 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd7ab4d6-970c-44f7-acc2-93b8805566ea")
+	)
+	(label "{USBA1_D}"
+		(at 218.44 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5cee1af-ed46-44e0-85fa-ecfd8b139010")
+	)
+	(label "{PCIe_PET[0..3]}"
+		(at 218.44 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2af789c-1aa5-4bd5-a8b1-ea2f8cbd22bf")
+	)
+	(label "USBC0_SBUS[1..2]"
+		(at 218.44 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4797e59-a8f4-476a-a078-8b7adea187e1")
+	)
+	(label "{PCIe_PER[0..3]}"
+		(at 218.44 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d96364eb-c3f3-4fca-a603-02496a2d638e")
+	)
+	(label "{USBA0_D}"
+		(at 218.44 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb04e7d7-43f9-4c67-92ed-69df570ba69d")
+	)
+	(label "{USBC0_D}"
+		(at 218.44 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6bc0552-2840-4c37-a7f0-09bafa4d949b")
+	)
+	(sheet
+		(at 243.84 185.42)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "038ed0bb-e354-4d8a-9455-2e2616d06d47")
+		(property "Sheetname" "USB 2.0 Type-A1"
+			(at 243.84 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBA1.kicad_sch"
+			(at 243.84 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D" bidirectional
+			(at 243.84 187.96 180)
+			(uuid "b035ecca-3621-4924-8053-b94900f0b0ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 172.72)
+		(size 15.24 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bd72756-3330-4d64-827b-2c8a864843f4")
+		(property "Sheetname" "USB 2.0 Type-A0"
+			(at 243.84 172.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBA0.kicad_sch"
+			(at 243.84 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D" bidirectional
+			(at 243.84 175.26 180)
+			(uuid "209201e1-49c4-47b0-aa5e-10f49220f2c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 147.32)
+		(size 12.7 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "132bd780-af36-44f6-8bca-d15557a8752e")
+		(property "Sheetname" "USB 3.0 Type-C1"
+			(at 243.84 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC1.kicad_sch"
+			(at 243.84 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SSTX" input
+			(at 243.84 152.4 180)
+			(uuid "efbc114f-cc64-4f02-8f19-9d5b91adcdbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D" bidirectional
+			(at 243.84 149.86 180)
+			(uuid "f53712c1-b79b-4d6c-844b-90b3c7ffd3f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SSRX" bidirectional
+			(at 243.84 154.94 180)
+			(uuid "c1627fea-72e0-4890-bab7-74be58dfde80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SBUS" bidirectional
+			(at 243.84 157.48 180)
+			(uuid "b20c6ffa-d4f6-4216-9e61-edab0b00921d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 243.84 160.02 180)
+			(uuid "a1fc5db2-dad8-425c-910e-abca923778a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT#" output
+			(at 243.84 162.56 180)
+			(uuid "3f7a28a2-786c-4607-8396-b08d32d38b07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 99.06)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c276b6a-7c06-400f-9803-d0a60628be3d")
+		(property "Sheetname" "PCIe M.2 M-Key"
+			(at 243.84 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCIe.kicad_sch"
+			(at 243.84 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" bidirectional
+			(at 243.84 111.76 180)
+			(uuid "c31869f4-c3d5-4e52-b07d-7f00c9df0cac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLKREQ#" output
+			(at 243.84 109.22 180)
+			(uuid "8aaa53ab-04f4-4fa4-b19a-2419c907ee8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PET" input
+			(at 243.84 104.14 180)
+			(uuid "bfb632b0-d5bf-4491-9a6d-f8a2bf194ed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PER" output
+			(at 243.84 106.68 180)
+			(uuid "50134786-3a34-438f-844e-eb9e32e8b768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REFCLK" input
+			(at 243.84 101.6 180)
+			(uuid "810453f5-843f-41b5-919f-830b921c23ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 325.12 182.88)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c28e084-5c74-441f-b82d-d8fda7548508")
+		(property "Sheetname" "HDMI Port"
+			(at 325.12 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HDMI.kicad_sch"
+			(at 325.12 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 213.36)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d58fb16-8e7f-4e9d-9ec9-c3b2e278ca08")
+		(property "Sheetname" "micro SD Card"
+			(at 233.68 212.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microSD.kicad_sch"
+			(at 233.68 219.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 228.6)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bb371b6-f9bc-4f68-8f9c-289a385bb968")
+		(property "Sheetname" "Camera"
+			(at 238.76 227.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Camera.kicad_sch"
+			(at 238.76 234.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 93.98)
+		(size 30.48 124.46)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7299b18-4123-434b-8c69-0b9524fffa12")
+		(property "Sheetname" "CPU-RK3399"
+			(at 185.42 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU-RK3399.kicad_sch"
+			(at 185.42 219.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGMII" bidirectional
+			(at 215.9 203.2 0)
+			(uuid "6def285a-3a02-4599-91af-d6b2ddb2194e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4" bidirectional
+			(at 215.9 134.62 0)
+			(uuid "9c84f1cc-aa68-461a-b36e-816c7d2624e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" bidirectional
+			(at 185.42 154.94 180)
+			(uuid "5fda76ea-abc0-4dca-aeb7-fd0f9f98d9e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CSI" bidirectional
+			(at 215.9 215.9 0)
+			(uuid "a377d374-23d1-475a-a291-82b3d0a0159a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMC" bidirectional
+			(at 185.42 124.46 180)
+			(uuid "9f390968-6307-449d-b81d-4eb6b85cb94b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDR0" bidirectional
+			(at 185.42 129.54 180)
+			(uuid "8b65a97f-472a-4db0-b9ef-73074e2255be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC" bidirectional
+			(at 215.9 210.82 0)
+			(uuid "d62148c8-ebc7-40c8-8ac8-a3afd00426e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR1" bidirectional
+			(at 185.42 132.08 180)
+			(uuid "153d4b7a-c7df-4e49-836c-9bb0250e4739")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SARADC" bidirectional
+			(at 185.42 119.38 180)
+			(uuid "f3934bdd-d9b3-4b20-8e15-7d3a6f9b7098")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDIO0" bidirectional
+			(at 185.42 137.16 180)
+			(uuid "3e21869b-1aca-4031-82a6-681cdb45d4d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0" bidirectional
+			(at 185.42 114.3 180)
+			(uuid "286b9caf-7802-473b-a32f-aa8174995aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI" bidirectional
+			(at 215.9 208.28 0)
+			(uuid "441608c6-e3ff-48fd-9302-7b0e36864bd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM1" bidirectional
+			(at 185.42 144.78 180)
+			(uuid "9c04b359-cecd-450a-abd2-b73cf25c5376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0" bidirectional
+			(at 185.42 139.7 180)
+			(uuid "beca7c17-4bec-466c-ba81-5f8c4c883474")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2" bidirectional
+			(at 185.42 149.86 180)
+			(uuid "dac3c9c2-6ed1-4663-95f2-ae3bd522af87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_GPIO" bidirectional
+			(at 215.9 111.76 0)
+			(uuid "4b2ff902-42cc-4f5f-9eeb-7f1e0a9aee6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_CLKREQN" input
+			(at 215.9 109.22 0)
+			(uuid "fc4bc729-d42a-4092-91f3-fd97e85ae0f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX" input
+			(at 215.9 106.68 0)
+			(uuid "576a1b6e-e17b-4e46-96d0-25de0324d125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX" output
+			(at 215.9 104.14 0)
+			(uuid "dd5d82cd-ea4e-4442-9917-f2f3193b78a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RCLK_100M" output
+			(at 215.9 101.6 0)
+			(uuid "e0dcd111-85a6-457d-aa3f-77317d622d9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC0_AUX" bidirectional
+			(at 215.9 132.08 0)
+			(uuid "b6673f4e-30e4-47fc-8d15-d5d2d42ed12e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC0_GPIO" input
+			(at 215.9 137.16 0)
+			(uuid "7185ae22-b255-41eb-9dc3-c7bf80e0e094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC0_D" bidirectional
+			(at 215.9 124.46 0)
+			(uuid "82cc393a-db8f-47ea-85fc-a93697a3295b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC0_RX" bidirectional
+			(at 215.9 129.54 0)
+			(uuid "8c1fceaa-a5af-4408-9752-178094b43e55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC0_TX" output
+			(at 215.9 127 0)
+			(uuid "0a0d60e4-cf11-4c80-90d7-c344d48fb8c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC1_GPIO" input
+			(at 215.9 162.56 0)
+			(uuid "d05640c6-9031-4670-9d74-8d7f1b48590f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC1_RX" bidirectional
+			(at 215.9 154.94 0)
+			(uuid "1180f0c2-2dc4-4c47-8904-8fb5d889975e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC1_TX" output
+			(at 215.9 152.4 0)
+			(uuid "55850ce5-1b64-43b2-86d5-9d2b5b74aa3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC1_D" bidirectional
+			(at 215.9 149.86 0)
+			(uuid "becc3306-2c64-40ea-8b58-3fc565f96849")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC1_AUX" bidirectional
+			(at 215.9 157.48 0)
+			(uuid "5612e92b-5026-44b3-bdc0-3c05319f4d15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB0_D" bidirectional
+			(at 215.9 175.26 0)
+			(uuid "08f34f3d-145c-4113-a632-416802c29d2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB1_D" bidirectional
+			(at 215.9 187.96 0)
+			(uuid "c32dc6e4-f753-4909-922e-99a27d91b73d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 322.58 170.18)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adbdee58-dce0-4c48-8afe-c6064e566db1")
+		(property "Sheetname" "Ethernet PHY"
+			(at 322.58 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PHY.kicad_sch"
+			(at 322.58 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 121.92)
+		(size 12.7 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd3719df-fc2f-41e9-9503-cd83dd421c2a")
+		(property "Sheetname" "USB 3.0 Type-C0"
+			(at 243.84 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC0.kicad_sch"
+			(at 243.84 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SSTX" input
+			(at 243.84 127 180)
+			(uuid "09446952-d665-4c66-b490-d029d36195a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D" bidirectional
+			(at 243.84 124.46 180)
+			(uuid "4e19595a-3ae4-4fe3-8a51-90931b19c04d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SSRX" bidirectional
+			(at 243.84 129.54 180)
+			(uuid "eae57274-7bd8-431f-95b0-7a1533a93f2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SBUS" bidirectional
+			(at 243.84 132.08 180)
+			(uuid "69549c3c-68f5-44dc-9edb-12a4fc722025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 243.84 134.62 180)
+			(uuid "dac61861-4361-4761-b62e-584db68c019d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT#" output
+			(at 243.84 137.16 180)
+			(uuid "6ef43e3f-c02d-4ac6-98a5-e1078fda8c48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

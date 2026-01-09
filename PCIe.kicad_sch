@@ -1,0 +1,170 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "43c4c4ad-f5b8-4d3e-8714-5d0955b9fadf")
+	(paper "A4")
+	(title_block
+		(date "2026-01-09")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(bus_alias "PCIe_REFCLK"
+		(members "PCIe_REFCLK+" "PCIe_REFCLK-")
+	)
+	(bus
+		(pts
+			(xy 142.24 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0300f07a-b675-4aaa-a7af-c970182f06ee")
+	)
+	(bus
+		(pts
+			(xy 142.24 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e191f64-ec4d-42cb-a4ac-bc598c6fe1c3")
+	)
+	(bus
+		(pts
+			(xy 142.24 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f70d187-4025-4f76-994c-8c981f27e9f8")
+	)
+	(bus
+		(pts
+			(xy 142.24 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5ea1d8-e01a-4db4-98db-422879b2f5e6")
+	)
+	(bus
+		(pts
+			(xy 142.24 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc7511f-5457-4149-bcac-96b2d4c8a6b5")
+	)
+	(label "PCIe_CLKREQ#"
+		(at 124.46 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0784e77f-ecd6-4901-8626-efebcc4b83f4")
+	)
+	(label "{PCIe_PER[0..3]}"
+		(at 124.46 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c4b69d2-3169-48a5-ab38-7b2a9b9541e0")
+	)
+	(label "{PCIe_PET[0..3]}"
+		(at 124.46 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b8af837-52ae-4490-9155-1da77a346457")
+	)
+	(label "{PCIe_GPIO}"
+		(at 124.46 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0d275f5-96a6-4adf-8103-70b1553cc33c")
+	)
+	(label "{PCIe_REFCLK}"
+		(at 124.46 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7b1c4fd-432b-4bf6-a289-be2dff0279e4")
+	)
+	(hierarchical_label "CLKREQ#"
+		(shape output)
+		(at 121.92 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bc7840b-9993-4647-9478-636591bc1c7c")
+	)
+	(hierarchical_label "GPIO"
+		(shape bidirectional)
+		(at 121.92 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bde2382-b539-4bcf-a064-bc64b83963a5")
+	)
+	(hierarchical_label "PET"
+		(shape input)
+		(at 121.92 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d4b9bcc-b5a4-4d84-ad00-7ad8e61e2a0e")
+	)
+	(hierarchical_label "REFCLK"
+		(shape input)
+		(at 121.92 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbe1eeeb-9123-43db-a9c0-d5fe458764e4")
+	)
+	(hierarchical_label "PER"
+		(shape output)
+		(at 121.92 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf77946f-ded1-484e-bc4d-347836980155")
+	)
+)
