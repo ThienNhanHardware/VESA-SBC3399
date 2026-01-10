@@ -9,4 +9,410 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(bus_alias "PHY_MDI"
+		(members "MDI0+" "MDI0-" "MDI1+" "MDI1-" "MDI2+" "MDI2-" "MDI3+" "MDI3-")
+	)
+	(bus
+		(pts
+			(xy 116.84 106.68) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3cb622-f6c0-4cdd-a642-3eb85700fa42")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19664802-c082-4acd-9469-e137428f2faa")
+	)
+	(bus
+		(pts
+			(xy 154.94 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd9225a-5db1-412a-b798-30d202e04778")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410effc3-9e95-4c80-937b-103e3dcc2d7a")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 134.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a207b5-ab6b-42e6-8645-8e7e242540e9")
+	)
+	(wire
+		(pts
+			(xy 116.84 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd4e8d8-621d-46c8-8494-154975cc4334")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7a6509-69c1-45bd-b8b5-650e771c4286")
+	)
+	(bus
+		(pts
+			(xy 116.84 104.14) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810e791d-ad8a-466a-888c-80483be7fa83")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b331595-0839-4ca9-bf55-a0b76f9c2da0")
+	)
+	(bus
+		(pts
+			(xy 154.94 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a615b1a2-6fe8-45eb-a671-96b655883339")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e474f8-39b1-402f-bf99-3be818aafc1b")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85a8c95-08d3-435f-9437-d5ead2f314d6")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98fc5a1-e17c-4ab3-8035-4595f4b1503b")
+	)
+	(label "PHY_RXC"
+		(at 119.38 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08a0f27c-99e0-487c-bc2e-20752e9fa16e")
+	)
+	(label "PHY_TXD[0..3]"
+		(at 119.38 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a9db560-60cf-4e47-ab3d-1eb685e750c4")
+	)
+	(label "PHY_RXD[0..3]"
+		(at 119.38 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2067fbf8-19c3-4bfd-bec6-8455237ac8b7")
+	)
+	(label "PHY_TXCTL"
+		(at 119.38 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21fbb482-710c-4dfb-8ab4-87f747f08b36")
+	)
+	(label "PHY_MDIO"
+		(at 119.38 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72dcfefd-2ec2-4b91-b1dc-00627edd8abb")
+	)
+	(label "PHY_RXCTL"
+		(at 119.38 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d092066-59ec-4389-99c8-260afa59c75b")
+	)
+	(label "PHY_INTB{slash}PMEB"
+		(at 119.38 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ada07d3b-b541-4995-8b3d-224de8f9b2c0")
+	)
+	(label "PHY_TXC"
+		(at 119.38 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae7bc4c9-96bd-4e6b-b843-210cb8e57126")
+	)
+	(label "PHY_CLKOUT"
+		(at 119.38 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0c77b20-fbeb-42df-957e-7903df6b9215")
+	)
+	(label "{PHY_MDI}"
+		(at 170.18 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8046084-94fb-4ffc-98d9-43e52010b149")
+	)
+	(label "PHY_PHYRSTB"
+		(at 119.38 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b82f5666-20b7-43bf-8d99-958e6050e341")
+	)
+	(label "PHY_MDC"
+		(at 119.38 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecc9663a-7efa-4b5b-9744-dff48a57656b")
+	)
+	(label "PHY_LED[0..1]"
+		(at 170.18 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef66cedf-6f4a-48b5-bbe1-6656f1f8ab5e")
+	)
+	(hierarchical_label "PHY_RXD"
+		(shape output)
+		(at 116.84 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "033c2bf7-0540-45d7-9205-7ba025064c10")
+	)
+	(hierarchical_label "PHY_RXC"
+		(shape output)
+		(at 116.84 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f684d84-3819-4287-bd9f-ea23510dbeb1")
+	)
+	(hierarchical_label "PHY_MDC"
+		(shape input)
+		(at 116.84 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25a464a9-ced0-4760-9c16-38e32d5989b6")
+	)
+	(hierarchical_label "PHY_TXC"
+		(shape input)
+		(at 116.84 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36e7295f-355c-42e1-8631-cbeba8e78855")
+	)
+	(hierarchical_label "PHY_MDIO"
+		(shape bidirectional)
+		(at 116.84 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "382c4133-0733-4fd9-8cb5-dda5a508f98b")
+	)
+	(hierarchical_label "INTB{slash}PMEB"
+		(shape output)
+		(at 116.84 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50b5e4c4-1c10-4ab0-abef-b1283846e6f7")
+	)
+	(hierarchical_label "PHY_TXCTL"
+		(shape input)
+		(at 116.84 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "792344df-4c49-4582-9edc-bf07af100be1")
+	)
+	(hierarchical_label "MDI"
+		(shape bidirectional)
+		(at 172.72 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98df32ec-2cbf-448b-8ca1-3b473402daf9")
+	)
+	(hierarchical_label "PHY_TXD"
+		(shape input)
+		(at 116.84 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9974b809-034e-417d-b177-16a6338cc35d")
+	)
+	(hierarchical_label "PHYRSTB"
+		(shape input)
+		(at 116.84 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad91dcd9-5c5b-4fc6-97df-6b6f24872fc8")
+	)
+	(hierarchical_label "PHY_RXCTL"
+		(shape output)
+		(at 116.84 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2ebb965-7d88-44a8-83b6-8b2fd9dbccc4")
+	)
+	(hierarchical_label "PHY_CLKOUT"
+		(shape output)
+		(at 116.84 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea690622-daaf-4960-8d82-ca4d4ae34507")
+	)
+	(hierarchical_label "LED"
+		(shape output)
+		(at 172.72 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4f9389e-3a96-4e8a-baf8-2d0d6aa1fc68")
+	)
 )

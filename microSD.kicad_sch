@@ -9,4 +9,88 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(label "MSD_CLX"
+		(at 91.44 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "572a8fb0-53c7-4ea2-ba8d-ce4ee49f14b2")
+	)
+	(label "MSD_DAT[0..3]"
+		(at 91.44 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68a7c392-8554-476d-bac9-51cc11fd45b7")
+	)
+	(label "MSD_CMD"
+		(at 91.44 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76e171bc-2db6-4fcf-a1aa-c34dbf6e210c")
+	)
+	(label "MSD_CD"
+		(at 91.44 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c8c6ef-c907-432b-9aaf-60672fef2ed4")
+	)
+	(hierarchical_label "CLX"
+		(shape input)
+		(at 88.9 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d19cba7-157f-48f8-85b6-3b9a4d1320c6")
+	)
+	(hierarchical_label "CD"
+		(shape output)
+		(at 88.9 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "918a045f-a342-4ada-910e-b31d4bdaf620")
+	)
+	(hierarchical_label "CMD"
+		(shape output)
+		(at 88.9 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2024f36-8a9f-47de-8622-748110d64ee3")
+	)
+	(hierarchical_label "DAT"
+		(shape bidirectional)
+		(at 88.9 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7c1a7cc-a018-4c72-9b2b-bea1dd230fdf")
+	)
 )

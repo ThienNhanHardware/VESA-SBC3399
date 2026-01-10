@@ -62,6 +62,16 @@
 	)
 	(bus
 		(pts
+			(xy 238.76 109.22) (xy 220.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27483418-26a5-4b59-a6b6-33d3cde1817a")
+	)
+	(bus
+		(pts
 			(xy 218.44 35.56) (xy 238.76 35.56)
 		)
 		(stroke
@@ -102,6 +112,16 @@
 	)
 	(bus
 		(pts
+			(xy 238.76 129.54) (xy 218.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af35538-0a8c-4406-a6c4-488d4d164eeb")
+	)
+	(bus
+		(pts
 			(xy 215.9 58.42) (xy 238.76 58.42)
 		)
 		(stroke
@@ -109,6 +129,56 @@
 			(type default)
 		)
 		(uuid "44bfaee9-0884-4011-9c1b-64b48936b4cf")
+	)
+	(wire
+		(pts
+			(xy 238.76 101.6) (xy 220.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4565ed39-154d-4649-9e72-1936d2bb07b9")
+	)
+	(wire
+		(pts
+			(xy 238.76 106.68) (xy 220.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9ea020-c071-479a-8fca-b1cf60c386db")
+	)
+	(bus
+		(pts
+			(xy 238.76 137.16) (xy 218.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c69cfc-2a77-4bb9-8381-6fe397e67f71")
+	)
+	(wire
+		(pts
+			(xy 238.76 116.84) (xy 220.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9a5383-f10f-44b5-ac37-a74c013c4095")
+	)
+	(wire
+		(pts
+			(xy 220.98 121.92) (xy 238.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6071e5d9-7c27-4921-82ab-a8b3705ad56a")
 	)
 	(bus
 		(pts
@@ -122,6 +192,16 @@
 	)
 	(bus
 		(pts
+			(xy 238.76 111.76) (xy 220.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6442f0a6-0eba-42b9-ad45-56734f7dc37c")
+	)
+	(bus
+		(pts
 			(xy 223.52 91.44) (xy 238.76 91.44)
 		)
 		(stroke
@@ -129,6 +209,36 @@
 			(type default)
 		)
 		(uuid "6b2fb844-9624-4f49-9541-5226cf2d1b49")
+	)
+	(wire
+		(pts
+			(xy 238.76 114.3) (xy 220.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c3bf20-a105-427f-ba70-bd30f2e4ccce")
+	)
+	(wire
+		(pts
+			(xy 238.76 96.52) (xy 220.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ce823a-64f4-4ba7-8dc3-8ed34ee66bfa")
+	)
+	(bus
+		(pts
+			(xy 238.76 127) (xy 218.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f22adc-1d3c-47ff-990d-f44925760c6f")
 	)
 	(bus
 		(pts
@@ -149,6 +259,36 @@
 			(type default)
 		)
 		(uuid "89cf4a94-8834-4a02-822b-797917eadd82")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 220.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ce62a0-794e-4b39-9e95-7ee6cce3085e")
+	)
+	(wire
+		(pts
+			(xy 220.98 119.38) (xy 238.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955a8bf8-a0ae-4f36-b747-5f10f485deff")
+	)
+	(wire
+		(pts
+			(xy 238.76 134.62) (xy 218.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28a4fd0-f5d8-45d7-966d-a9f6e7e34b1a")
 	)
 	(bus
 		(pts
@@ -200,6 +340,16 @@
 		)
 		(uuid "cf8fd45c-18d3-4f7f-8bb7-854dc200312e")
 	)
+	(wire
+		(pts
+			(xy 238.76 132.08) (xy 218.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fa7728-a1c3-4e01-b40a-e37062a00614")
+	)
 	(bus
 		(pts
 			(xy 215.9 55.88) (xy 238.76 55.88)
@@ -229,6 +379,16 @@
 			(type default)
 		)
 		(uuid "ed5c66f1-c6c8-4cec-98b8-8109676e13be")
+	)
+	(wire
+		(pts
+			(xy 238.76 99.06) (xy 220.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb7a5cb-8355-429e-8f63-4bf81ede287a")
 	)
 	(bus
 		(pts
@@ -280,6 +440,16 @@
 		)
 		(uuid "259bbf34-b173-46a9-a12b-ee4146e75d69")
 	)
+	(label "PHY_PHYRSTB"
+		(at 236.22 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d03e4d1-ccb2-4547-920c-5c2afbc62136")
+	)
 	(label "PCIe_CLKREQ#"
 		(at 236.22 43.18 180)
 		(effects
@@ -289,6 +459,16 @@
 			(justify right bottom)
 		)
 		(uuid "3d629cc7-cab2-4013-ace6-712502d64106")
+	)
+	(label "{HDMI_TMDS_CLK}"
+		(at 236.22 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dc2bf48-b37e-4e4a-a913-10d140e10c9e")
 	)
 	(label "{USBC0_SSRX[1..2]}"
 		(at 236.22 55.88 180)
@@ -310,6 +490,16 @@
 		)
 		(uuid "42116199-094d-47c4-b660-c783d8a92034")
 	)
+	(label "PHY_CLKOUT"
+		(at 236.22 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4747d907-f9fd-4186-a091-3186e8ef42c5")
+	)
 	(label "{CPU_I2C4}"
 		(at 236.22 60.96 180)
 		(effects
@@ -319,6 +509,16 @@
 			(justify right bottom)
 		)
 		(uuid "531b1da0-2119-40c5-86e3-c7985f78f240")
+	)
+	(label "PHY_TXD[0..3]"
+		(at 236.22 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a81accb-0981-468b-b7f1-6826daaf302d")
 	)
 	(label "USBC1_INT#"
 		(at 236.22 81.28 180)
@@ -340,6 +540,26 @@
 		)
 		(uuid "6ce36b52-86dc-40ea-91ab-e55ebbc611f9")
 	)
+	(label "PHY_RXCTL"
+		(at 236.22 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7532fc68-d850-4551-ba15-125dfb67c6d6")
+	)
+	(label "HDMI_DET"
+		(at 236.22 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "781d11af-df97-4c92-8c5a-a6a3c898fd75")
+	)
 	(label "{PCIe_GPIO}"
 		(at 236.22 45.72 180)
 		(effects
@@ -349,6 +569,16 @@
 			(justify right bottom)
 		)
 		(uuid "82c35c7d-131e-4773-b4d7-2b80cdfe46fd")
+	)
+	(label "PHY_INTB{slash}PMEB"
+		(at 236.22 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "870f8317-5e3b-4c34-af30-d942e08a3bce")
 	)
 	(label "{USBA1_D}"
 		(at 236.22 91.44 180)
@@ -370,6 +600,16 @@
 		)
 		(uuid "93ee5e16-2fc4-4810-bb21-088484599c79")
 	)
+	(label "{HDMI_TMDS}"
+		(at 236.22 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a395c81-7312-47fb-976f-85d32552c75b")
+	)
 	(label "USBC1_SBUS[1..2]"
 		(at 236.22 76.2 180)
 		(effects
@@ -390,6 +630,16 @@
 		)
 		(uuid "a762b2af-cc32-4c21-8aaf-2f5d91df88f8")
 	)
+	(label "PHY_TXCTL"
+		(at 236.22 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa4f2487-3640-440c-a570-0c1accc77006")
+	)
 	(label "{USBC1_D}"
 		(at 236.22 68.58 180)
 		(effects
@@ -399,6 +649,56 @@
 			(justify right bottom)
 		)
 		(uuid "ab7af0fd-d190-4424-aa2f-f4cbf98afb8c")
+	)
+	(label "HDMI_CEC"
+		(at 236.22 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aefccd08-ee15-4c7f-b407-5ebb7a2bd7b7")
+	)
+	(label "PHY_RXD[0..3]"
+		(at 236.22 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3490184-0e81-4939-8097-0785e412bfc0")
+	)
+	(label "PHY_TXC"
+		(at 236.22 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbbb5ee5-d623-46a6-809e-20ee1bfbfd3a")
+	)
+	(label "PHY_RXC"
+		(at 236.22 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d78ba2c3-3dde-4379-b2ff-c61a9c706742")
+	)
+	(label "PHY_MDIO"
+		(at 236.22 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e03d8252-814c-4652-bcc6-ce07ad98f5df")
 	)
 	(label "{USBC0_SSTX[1..2]}"
 		(at 236.22 53.34 180)
@@ -410,6 +710,16 @@
 		)
 		(uuid "e304ef10-bd98-4be6-9902-23a8603be324")
 	)
+	(label "PHY_MDC"
+		(at 236.22 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e666dd98-2429-4f0e-9257-69c44ea6001f")
+	)
 	(label "USBC0_INT#"
 		(at 236.22 63.5 180)
 		(effects
@@ -419,6 +729,16 @@
 			(justify right bottom)
 		)
 		(uuid "e85d5fc5-df26-4061-b547-1b5691d7aa6a")
+	)
+	(label "{CPU_I2C3}"
+		(at 236.22 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9b86233-9ebe-441b-a8ee-c3cab964891f")
 	)
 	(label "{USBA0_D}"
 		(at 236.22 86.36 180)
@@ -451,6 +771,17 @@
 			(justify left)
 		)
 		(uuid "030236fb-fcb6-4d72-b71e-7f36772eceb5")
+	)
+	(hierarchical_label "MAC_TXCLK"
+		(shape output)
+		(at 238.76 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "088b5e73-e329-4104-b49b-63e85c03cd3f")
 	)
 	(hierarchical_label "PCIE_CLKREQN"
 		(shape input)
@@ -496,6 +827,17 @@
 		)
 		(uuid "12a5eb4b-7b53-4e27-a99a-c93d50cbb461")
 	)
+	(hierarchical_label "MAC_RXDV"
+		(shape input)
+		(at 238.76 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13154a0c-654a-44c5-be1e-32128170e421")
+	)
 	(hierarchical_label "TYPEC0_TX"
 		(shape output)
 		(at 238.76 53.34 0)
@@ -518,6 +860,39 @@
 		)
 		(uuid "1af49654-8fe5-4411-bcf0-849c9465bf1a")
 	)
+	(hierarchical_label "MAC_GPIO"
+		(shape input)
+		(at 238.76 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c4f3b80-a9a2-4872-a312-89d7321a3eac")
+	)
+	(hierarchical_label "MAC_TXD"
+		(shape output)
+		(at 238.76 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d215507-de3e-4ada-a615-e69432271e8b")
+	)
+	(hierarchical_label "MAC_RXCLK"
+		(shape input)
+		(at 238.76 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "246642fe-43d8-43ca-bbe7-9c1a0e49ca47")
+	)
 	(hierarchical_label "TYPEC1_D"
 		(shape bidirectional)
 		(at 238.76 68.58 0)
@@ -539,17 +914,6 @@
 			(justify left)
 		)
 		(uuid "3781b177-62e3-41ca-beba-d2bf1b367c43")
-	)
-	(hierarchical_label "HDMI"
-		(shape bidirectional)
-		(at 195.58 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b178415-1d77-4356-aa2a-c1ff6e098a13")
 	)
 	(hierarchical_label "GPIO"
 		(shape bidirectional)
@@ -595,6 +959,17 @@
 		)
 		(uuid "5b2eb5b6-e009-42b7-aad7-1f0f9255da8b")
 	)
+	(hierarchical_label "HDMI_TC"
+		(shape output)
+		(at 238.76 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bc01aee-57ed-43b5-bc36-08aa05aaff3a")
+	)
 	(hierarchical_label "PCIE_GPIO"
 		(shape bidirectional)
 		(at 238.76 45.72 0)
@@ -605,6 +980,17 @@
 			(justify left)
 		)
 		(uuid "60b73f26-2b2d-4a66-8f60-570b8d98f64b")
+	)
+	(hierarchical_label "HDMI_HPD"
+		(shape input)
+		(at 238.76 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "617c5f65-5ec4-4a99-b3f7-d199a89e1db8")
 	)
 	(hierarchical_label "SARADC"
 		(shape bidirectional)
@@ -639,6 +1025,17 @@
 		)
 		(uuid "712f13db-78a3-4c69-bc6b-95fb0dea0698")
 	)
+	(hierarchical_label "I2C3"
+		(shape bidirectional)
+		(at 238.76 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e1a38b3-b44d-47cb-ab22-6a25a7d11ec3")
+	)
 	(hierarchical_label "TYPEC1_AUX"
 		(shape bidirectional)
 		(at 238.76 76.2 0)
@@ -672,16 +1069,49 @@
 		)
 		(uuid "93de7942-02da-42d1-afd6-096e8be53750")
 	)
-	(hierarchical_label "RGMII"
-		(shape bidirectional)
-		(at 195.58 81.28 0)
+	(hierarchical_label "MAC_TXEN"
+		(shape output)
+		(at 238.76 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a48e4464-5962-47e5-9095-977c018426d1")
+		(uuid "9458d244-d585-4d6b-a81a-779751daea69")
+	)
+	(hierarchical_label "HDMI_CECINOUT"
+		(shape bidirectional)
+		(at 238.76 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94b4c3ac-3854-46f5-bfb6-a61b7c29142c")
+	)
+	(hierarchical_label "HDMI_TX"
+		(shape output)
+		(at 238.76 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac9f6c88-4106-4424-842b-e790edc13b2f")
+	)
+	(hierarchical_label "MAC_MDC"
+		(shape output)
+		(at 238.76 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b01f2775-e377-4a3a-9052-c8e4d2247627")
 	)
 	(hierarchical_label "PCIE_TX"
 		(shape output)
@@ -751,7 +1181,7 @@
 	)
 	(hierarchical_label "CSI"
 		(shape bidirectional)
-		(at 195.58 96.52 0)
+		(at 195.58 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -762,7 +1192,7 @@
 	)
 	(hierarchical_label "SDMMC"
 		(shape bidirectional)
-		(at 195.58 91.44 0)
+		(at 195.58 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -781,6 +1211,28 @@
 			(justify right)
 		)
 		(uuid "e1a672f8-e5a5-4b4a-aa41-18bac2669b7a")
+	)
+	(hierarchical_label "MAC_MDIO"
+		(shape bidirectional)
+		(at 238.76 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e387c688-ff7a-4aa9-8f3c-fc155f2370fb")
+	)
+	(hierarchical_label "MAC_CLK"
+		(shape input)
+		(at 238.76 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e49d3759-7370-4d3f-b339-c106ba2832db")
 	)
 	(hierarchical_label "TYPEC0_RX"
 		(shape bidirectional)
@@ -803,5 +1255,27 @@
 			(justify right)
 		)
 		(uuid "ec0302a4-1090-4acd-b8f7-e3b7db8790a8")
+	)
+	(hierarchical_label "MAC_RXD"
+		(shape input)
+		(at 238.76 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eeeb9ebe-a1d2-47d3-8b70-ea4672338eed")
+	)
+	(hierarchical_label "MAC_CRS"
+		(shape output)
+		(at 238.76 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5fb5022-e3f4-4a44-b605-0791c9678cee")
 	)
 )

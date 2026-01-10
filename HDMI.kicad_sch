@@ -9,4 +9,170 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(bus_alias "CPU_I2C3"
+		(members "CPU_I2C3_SDA" "CPU_I2C3_SCL")
+	)
+	(bus_alias "HDMI_TMDS"
+		(members "HDMI_TMDS0+" "HDMI_TMDS0-" "HDMI_TMDS1+" "HDMI_TMDS1-" "HDMI_TMDS2+"
+			"HDMI_TMDS2-"
+		)
+	)
+	(bus_alias "HDMI_TMDS_CLK"
+		(members "HDMI_TMDS_CLK+" "HDMI_TMDS_CLK-")
+	)
+	(bus
+		(pts
+			(xy 116.84 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9638f778-f649-4410-bd70-cbb6b227ec71")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9a2e3a-3b6b-43d5-b3ba-6fad70e3c93e")
+	)
+	(bus
+		(pts
+			(xy 116.84 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de710f1e-f71c-4a41-86ed-0fcfb9662254")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cba1fb-b963-4010-a16e-c61774560cf7")
+	)
+	(bus
+		(pts
+			(xy 116.84 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb08ced3-525a-4df1-ac05-9b0ac822577a")
+	)
+	(label "HDMI_DET"
+		(at 119.38 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0db383d6-ffd6-43e8-b096-c710c7c69cc2")
+	)
+	(label "{HDMI_TMDS_CLK}"
+		(at 119.38 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2115675a-8678-4ef8-84e4-3155d4400b6a")
+	)
+	(label "HDMI_CEC"
+		(at 119.38 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34523f61-0880-4351-bb8b-c1f55bbc0271")
+	)
+	(label "{HDMI_TMDS}"
+		(at 119.38 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43c7b6d6-cdfe-474f-b571-83e4166c0890")
+	)
+	(label "{CPU_I2C3}"
+		(at 119.38 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0424209-d915-4842-9102-a92101601669")
+	)
+	(hierarchical_label "TMDS"
+		(shape input)
+		(at 116.84 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48e0e2b5-90b5-4e5f-ad26-cec4fd8a71a0")
+	)
+	(hierarchical_label "CEC"
+		(shape bidirectional)
+		(at 116.84 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50bce773-88b2-4274-9975-c7a8c49824fa")
+	)
+	(hierarchical_label "TMDS_CLK"
+		(shape input)
+		(at 116.84 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63fa2840-ce72-41f9-93e1-b4fadaa35d1b")
+	)
+	(hierarchical_label "DET"
+		(shape output)
+		(at 116.84 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9688397b-202e-4af6-8dc2-0b8d71bd85d4")
+	)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 116.84 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0022e1b-1b3f-452e-8844-f6645f3d8810")
+	)
 )
