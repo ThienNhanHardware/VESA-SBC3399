@@ -10,7 +10,9 @@
 	)
 	(lib_symbols)
 	(bus_alias "PHY_MDI"
-		(members "MDI0+" "MDI0-" "MDI1+" "MDI1-" "MDI2+" "MDI2-" "MDI3+" "MDI3-")
+		(members "PHY_MDI0+" "PHY_MDI0-" "PHY_MDI1+" "PHY_MDI1-" "PHY_MDI2+" "PHY_MDI2-"
+			"PHY_MDI3+" "PHY_MDI3-"
+		)
 	)
 	(bus
 		(pts

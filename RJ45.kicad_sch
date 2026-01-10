@@ -89,7 +89,7 @@
 		)
 		(uuid "3f27d8f9-6cf8-499f-b0f5-1a007d355f49")
 	)
-	(label "MDI0+"
+	(label "PHY_MDI0+"
 		(at 134.62 86.36 0)
 		(effects
 			(font
@@ -99,7 +99,7 @@
 		)
 		(uuid "55e28410-f9a7-4f5c-9255-342ed8425afe")
 	)
-	(label "MDI0-"
+	(label "PHY_MDI0-"
 		(at 134.62 88.9 0)
 		(effects
 			(font
@@ -109,7 +109,7 @@
 		)
 		(uuid "7e8ba464-b69a-4e5f-a04c-f8ac6a138b86")
 	)
-	(label "MDI1-"
+	(label "PHY_MDI1-"
 		(at 134.62 93.98 0)
 		(effects
 			(font
@@ -119,7 +119,7 @@
 		)
 		(uuid "a068e8fc-a969-4cbd-b50b-127a12a92141")
 	)
-	(label "MDI1+"
+	(label "PHY_MDI1+"
 		(at 134.62 91.44 0)
 		(effects
 			(font
