@@ -9,4 +9,201 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(bus_alias "CAM_CSI1_D"
+		(members "CAM_CSI1_D0+" "CAM_CSI1_D0-" "CAM_CSI1_D1+" "CAM_CSI1_D1-" "CAM_CSI1_D2+"
+			"CAM_CSI1_D2-" "CAM_CSI1_D3+" "CAM_CSI1_D3-"
+		)
+	)
+	(bus_alias "CAM_DSI_C"
+		(members "CAM_DSI_C+" "CAM_DSI_C-")
+	)
+	(bus_alias "CPU_I2C1"
+		(members "CPU_I2C1_SDA" "CPU_I2C1_SCL")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 129.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a85607c-1242-456d-93d4-a9ddd0012206")
+	)
+	(wire
+		(pts
+			(xy 111.76 116.84) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226d9488-86d2-466e-9008-814b6b8d1cdf")
+	)
+	(bus
+		(pts
+			(xy 111.76 114.3) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4b9631-edfe-4ec8-9afe-bc4144831cf8")
+	)
+	(bus
+		(pts
+			(xy 111.76 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd2757b-30a8-4055-9db3-30c93bb9c3b1")
+	)
+	(bus
+		(pts
+			(xy 111.76 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a20c2e-4e1d-4423-8943-b81c3d570dcb")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd532e3f-c6ce-4e84-a8d1-84be41f0b177")
+	)
+	(label "{CPU_I2C1}"
+		(at 114.3 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ca005f7-f3eb-46a0-b741-5c5f8109d681")
+	)
+	(label "{CAM_CSI1_D}"
+		(at 114.3 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68caa4a9-4283-4d3f-abc4-1605fa6fd347")
+	)
+	(label "CAM_PDN"
+		(at 114.3 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3711024-3ce6-4475-b910-d4e0d0e51863")
+	)
+	(label "CAM_MCLK"
+		(at 114.3 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf0d8036-c419-4a59-aead-9cc77f834667")
+	)
+	(label "CAM_RST"
+		(at 114.3 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d200d9d0-e2b0-4b79-87e7-d85a562f1032")
+	)
+	(label "{CAM_DSI_C}"
+		(at 114.3 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e46e8080-df5b-4d62-81d0-c9e7739dc795")
+	)
+	(hierarchical_label "CSI1_D"
+		(shape output)
+		(at 111.76 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "043ebd2d-70dc-467e-8a25-d6329237a728")
+	)
+	(hierarchical_label "DSI_C"
+		(shape output)
+		(at 111.76 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bb9e31e-bd69-4128-8df3-9ad83bca962c")
+	)
+	(hierarchical_label "RST"
+		(shape input)
+		(at 111.76 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1669bdab-54c6-4a6a-8e34-cff5bf5defc7")
+	)
+	(hierarchical_label "MCLK"
+		(shape input)
+		(at 111.76 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17efd612-3e19-4183-82bf-24c520f8fc98")
+	)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 111.76 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39e55122-50b9-4f43-9c9a-fd8d0852fe33")
+	)
+	(hierarchical_label "PDN"
+		(shape input)
+		(at 111.76 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60202c68-ba95-4761-a88f-355fb503c6c1")
+	)
 )

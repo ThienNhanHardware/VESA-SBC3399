@@ -1,0 +1,229 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1786e39d-65a5-42d8-b522-5764ae04d20b")
+	(paper "A4")
+	(title_block
+		(date "2026-01-09")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233c466c-225f-4bc2-8923-94e8c7d285b6")
+	)
+	(bus
+		(pts
+			(xy 142.24 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb9f46c-98ff-403c-9b6f-3c2efb29d6ba")
+	)
+	(wire
+		(pts
+			(xy 157.48 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960714c4-fa2d-49e4-a1d5-321affcdb73f")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d02821d-6fd2-4cb3-ba84-c3992e744889")
+	)
+	(bus
+		(pts
+			(xy 142.24 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf57ba0e-7abc-41ac-97dc-20157e487049")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4474ce8-408b-4f5d-90a7-62754e4e064f")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc20af5e-736e-43ed-804c-558cb79e7d5d")
+	)
+	(label "{CPU_SDIO0}"
+		(at 172.72 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43d93434-74ab-40cb-b84b-fe01c384b6c2")
+	)
+	(label "BT_REG_ON"
+		(at 172.72 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d970218-d141-4196-b341-2067c92b1994")
+	)
+	(label "WL_REG_ON"
+		(at 172.72 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6961e108-16d9-4215-bc07-3294cd442242")
+	)
+	(label "BT_HOST_WAKE"
+		(at 172.72 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e2a2cf0-8ab8-4d24-bdf1-04cdae8739f4")
+	)
+	(label "{CPU_UART0}"
+		(at 172.72 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b51e62-e90e-4850-a021-8f9580f34a8a")
+	)
+	(label "WL_HOST_WAKE"
+		(at 172.72 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d473936f-8062-4c6f-ad90-f26044653464")
+	)
+	(label "BT_WAKE"
+		(at 172.72 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2f92eeb-36ea-4be4-b62e-3a93c4e4a1e4")
+	)
+	(hierarchical_label "BT_WAKE"
+		(shape input)
+		(at 175.26 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50e21c67-ec39-495a-903e-53b65f4b678d")
+	)
+	(hierarchical_label "WL_REG_ON"
+		(shape input)
+		(at 175.26 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5462f1cd-19e4-4566-922a-a16a2fdeaf63")
+	)
+	(hierarchical_label "UART"
+		(shape bidirectional)
+		(at 175.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65f83c7c-bca6-4b82-bd6c-2c377f1dba4d")
+	)
+	(hierarchical_label "SDIO"
+		(shape bidirectional)
+		(at 175.26 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9e35f30-4d9d-4b4f-8985-a291dc6e5a37")
+	)
+	(hierarchical_label "BT_REG_ON"
+		(shape input)
+		(at 175.26 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b35b69d2-7f8f-43ed-91cd-dbbfc30de603")
+	)
+	(hierarchical_label "BT_HOST_WAKE"
+		(shape output)
+		(at 175.26 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d367129e-fd80-4f21-b0a2-4cc743117761")
+	)
+	(hierarchical_label "WL_HOST_WAKE"
+		(shape output)
+		(at 175.26 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dadc69d3-a2f9-4f88-a70b-a60759221f3b")
+	)
+)

@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "25835c19-96bd-44c1-9e6f-044aa1c8b181")
+	(paper "A4")
+	(title_block
+		(date "2026-01-09")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e01202-6fe0-43f5-89ca-b4f02072e3c8")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9aea63f-cd68-4476-8670-94458628e735")
+	)
+	(label "FAN_TAC"
+		(at 116.84 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "788ced4a-c1ab-4570-aed6-826c59b3602c")
+	)
+	(label "FAN_PWM"
+		(at 116.84 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f430fd0d-6b10-4770-a3c2-14a4f7173c98")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 114.3 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "460a181c-b5d0-4555-99be-a05f7dc6b870")
+	)
+	(hierarchical_label "TAC"
+		(shape output)
+		(at 114.3 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af265d5c-6cd4-4a1c-ab54-fc972f47ae18")
+	)
+)

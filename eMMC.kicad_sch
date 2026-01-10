@@ -1,0 +1,167 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dadbfca4-24b7-4eb6-8795-3e2d41b05bbf")
+	(paper "A4")
+	(title_block
+		(date "2026-01-09")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 160.02 119.38) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101a99a3-34d5-47d6-aeb7-c7e53970551c")
+	)
+	(bus
+		(pts
+			(xy 160.02 111.76) (xy 180.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee99bee-d6e8-4803-8fcc-abbfc71bbcfc")
+	)
+	(wire
+		(pts
+			(xy 160.02 121.92) (xy 180.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f182a0-0e0a-417b-81d1-0c4d8f58f92a")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 180.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e9b11b-d52f-4641-b90a-b2800e9a3074")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 180.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9949e4bb-60b9-41fa-8b33-754b6f26cfe0")
+	)
+	(label "eMMC_DAT[0..7]"
+		(at 177.8 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d94bdb7-a29e-45f4-b2c2-8ef52cc627fe")
+	)
+	(label "eMMC_STRB"
+		(at 177.8 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "236f239d-f9b8-493a-a377-185b5b34fd7a")
+	)
+	(label "eMMC_CLK"
+		(at 177.8 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bdc0ccf-91b0-4add-82cf-b749c4de407d")
+	)
+	(label "eMMC_RST#"
+		(at 177.8 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "977fcd80-9f87-4745-8e64-395323b36bab")
+	)
+	(label "eMMC_CMD"
+		(at 177.8 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4657d38-af1a-4c4e-935f-09766e40a4b1")
+	)
+	(hierarchical_label "DAT"
+		(shape bidirectional)
+		(at 180.34 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37e33d98-d776-436a-b03d-1d19bb557f3c")
+	)
+	(hierarchical_label "CMD"
+		(shape bidirectional)
+		(at 180.34 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "561b6402-4572-430f-a402-d0daf370e463")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 180.34 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98704e1e-3c53-4054-8106-0c0c53a2e359")
+	)
+	(hierarchical_label "RSTN"
+		(shape input)
+		(at 180.34 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0528ffd-9779-4101-b7b6-98209d5e7ff6")
+	)
+	(hierarchical_label "STRB"
+		(shape bidirectional)
+		(at 180.34 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1f18ce7-15ef-4435-91c7-f87e038d9bce")
+	)
+)

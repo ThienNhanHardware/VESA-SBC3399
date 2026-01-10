@@ -9,6 +9,46 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 144.78) (xy 106.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da771ec-5f0b-45b7-9d74-a3685286db4d")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568ad36f-ae0a-4874-865a-d9ae10715be2")
+	)
+	(wire
+		(pts
+			(xy 88.9 142.24) (xy 106.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656bcd5a-e548-40b5-b46a-8266c462f565")
+	)
+	(bus
+		(pts
+			(xy 88.9 147.32) (xy 106.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b16d19-9ce0-4abe-8633-a647d3b3cb2b")
+	)
 	(label "MSD_CLX"
 		(at 91.44 142.24 0)
 		(effects
@@ -72,7 +112,7 @@
 		(uuid "918a045f-a342-4ada-910e-b31d4bdaf620")
 	)
 	(hierarchical_label "CMD"
-		(shape output)
+		(shape bidirectional)
 		(at 88.9 144.78 180)
 		(effects
 			(font

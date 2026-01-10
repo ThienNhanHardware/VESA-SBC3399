@@ -657,6 +657,30 @@
     [
       "6bb371b6-f9bc-4f68-8f9c-289a385bb968",
       "Camera"
+    ],
+    [
+      "6a669102-a19a-49d5-b9d0-7ee0396bb179",
+      "Cooling Fan"
+    ],
+    [
+      "9756dcbf-483b-4b11-b154-5a881af4cf3d",
+      "WiFi_BLE"
+    ],
+    [
+      "39d2ee54-631b-43b0-93bf-92953d22f7e0",
+      "DDR3L RAM0"
+    ],
+    [
+      "63fd87a5-c06b-46d7-a4c2-b9f30cb20655",
+      "DDR3L RAM1"
+    ],
+    [
+      "33aaa512-a034-49ad-9f92-716b816c4da6",
+      "eMMC Flash"
+    ],
+    [
+      "b4295e3d-89af-4ec3-a4c2-88697a7d3c22",
+      "Power"
     ]
   ],
   "text_variables": {}
