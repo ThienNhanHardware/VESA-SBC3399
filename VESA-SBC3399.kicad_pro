@@ -478,91 +478,107 @@
         "line_style": 0,
         "name": "CAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "FAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgb(132, 132, 132)"
+      },
+      {
+        "line_style": 0,
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(72, 72, 72)",
+        "wire_width": 50
       },
       {
         "line_style": 0,
         "name": "MSD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "PHY",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgb(0, 0, 255)"
+      },
+      {
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 50
       },
       {
         "line_style": 0,
         "name": "RAM0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "RAM1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "USBA0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 13,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "USBA1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 14,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "USBC0",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 9,
+        "priority": 11,
         "schematic_color": "rgb(255, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "USBC1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 12,
         "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "WLBT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(255, 153, 0)"
       },
       {
         "line_style": 0,
         "name": "eMMC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 255)"
       }
     ],
@@ -631,6 +647,14 @@
       {
         "netclass": "eMMC",
         "pattern": "/*eMMC_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "*GND*"
       }
     ]
   },
@@ -833,6 +857,14 @@
     [
       "b4295e3d-89af-4ec3-a4c2-88697a7d3c22",
       "Power"
+    ],
+    [
+      "20ef5ba0-7d6c-48a6-8ce1-0c26828ee2fa",
+      "CPU-RK3399 Power"
+    ],
+    [
+      "8f828ad1-c2b0-4246-8b6b-a40b1b5d18bf",
+      "CPU-RK3399 PMU Controller"
     ]
   ],
   "text_variables": {}

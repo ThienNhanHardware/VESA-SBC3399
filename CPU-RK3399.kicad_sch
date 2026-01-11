@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "275575f9-285f-4a27-8568-16bfa6f979fa")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "CPU-RK3399")
 		(date "2026-01-09")
@@ -920,6 +920,16 @@
 		)
 		(uuid "33a69893-c7f6-4598-9c8d-fdfa63fee3c9")
 	)
+	(wire
+		(pts
+			(xy 314.96 53.34) (xy 317.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a2ea5a-339f-486c-878f-ff13cfdedacf")
+	)
 	(bus
 		(pts
 			(xy 210.82 50.8) (xy 233.68 50.8)
@@ -1549,6 +1559,16 @@
 			(type default)
 		)
 		(uuid "9662e3fe-572c-4be9-8aa8-067cca113b6f")
+	)
+	(wire
+		(pts
+			(xy 314.96 50.8) (xy 317.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9675779d-53f0-4229-af00-b7f42281bf11")
 	)
 	(bus
 		(pts
@@ -3554,6 +3574,17 @@
 		)
 		(uuid "62c500cd-0eea-46f1-8036-ad856cbe079d")
 	)
+	(hierarchical_label "VDD_CPU_B_FB"
+		(shape output)
+		(at 314.96 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64460c02-4b9b-48b9-b5a6-f9ca53f4b985")
+	)
 	(hierarchical_label "EMMC_DATA"
 		(shape bidirectional)
 		(at 157.48 104.14 180)
@@ -4049,6 +4080,17 @@
 		)
 		(uuid "eeeb9ebe-a1d2-47d3-8b70-ea4672338eed")
 	)
+	(hierarchical_label "VDD_GPU_FB"
+		(shape output)
+		(at 314.96 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2004a67-c49d-4b70-b902-e0949e2838a4")
+	)
 	(hierarchical_label "MIPI_RX0_D"
 		(shape input)
 		(at 233.68 144.78 0)
@@ -4092,5 +4134,109 @@
 			(justify left)
 		)
 		(uuid "fa16af0b-1430-4790-8b09-409af8213226")
+	)
+	(sheet
+		(at 317.5 48.26)
+		(size 17.78 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20ef5ba0-7d6c-48a6-8ce1-0c26828ee2fa")
+		(property "Sheetname" "CPU-RK3399 Power"
+			(at 317.5 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU-RK3399_Power.kicad_sch"
+			(at 317.5 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD_CPU_B_FB" output
+			(at 317.5 50.8 180)
+			(uuid "107c7089-3f62-46cd-86e2-84a215073ba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_GPU_FB" output
+			(at 317.5 53.34 180)
+			(uuid "8864f1a2-453c-4466-9ad7-4fe103a57bf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 63.5)
+		(size 17.78 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f828ad1-c2b0-4246-8b6b-a40b1b5d18bf")
+		(property "Sheetname" "CPU-RK3399 PMU Controller"
+			(at 317.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU-RK3399_PMU_Controller.kicad_sch"
+			(at 317.5 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12"
+					(page "20")
+				)
+			)
+		)
 	)
 )

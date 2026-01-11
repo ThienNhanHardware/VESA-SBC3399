@@ -287,6 +287,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 33.02) (xy 175.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125ca6f4-39f7-4802-99d2-67a53d1f2b00")
+	)
+	(wire
+		(pts
 			(xy 279.4 139.7) (xy 292.1 139.7)
 		)
 		(stroke
@@ -1014,6 +1024,16 @@
 			(type default)
 		)
 		(uuid "af41407a-f13f-4342-9e68-ca89e9199930")
+	)
+	(wire
+		(pts
+			(xy 172.72 30.48) (xy 175.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2489889-07f0-42cc-8440-14e6335c5c9d")
 	)
 	(bus
 		(pts
@@ -1965,6 +1985,16 @@
 		)
 		(uuid "96a10695-b806-4cbb-8c3d-c40170c4ae71")
 	)
+	(label "VDD_GPU_FB"
+		(at 172.72 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97414380-c1ce-4040-bf57-d32af3399762")
+	)
 	(label "RAM0_CS#[0..3]"
 		(at 172.72 165.1 180)
 		(effects
@@ -2004,6 +2034,16 @@
 			(justify left bottom)
 		)
 		(uuid "9d660936-7015-4926-b912-55017f24fc7e")
+	)
+	(label "VDD_CPU_B_FB"
+		(at 172.72 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e1f1fba-886a-4062-9841-faf2ce1a8e33")
 	)
 	(label "MSD_CMD"
 		(at 210.82 198.12 0)
@@ -4558,6 +4598,26 @@
 		(pin "EMMC_CLK" output
 			(at 175.26 137.16 180)
 			(uuid "2ff8198a-8c99-4324-996e-4a7c3b787446")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_CPU_B_FB" output
+			(at 175.26 30.48 180)
+			(uuid "1d367987-4647-4bbf-9b91-a5534f3a6d07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_GPU_FB" output
+			(at 175.26 33.02 180)
+			(uuid "6bac4f34-0c10-477e-b72b-8365066ae2ef")
 			(effects
 				(font
 					(size 1.27 1.27)
