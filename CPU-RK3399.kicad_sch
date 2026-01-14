@@ -6,8 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "CPU-RK3399")
-		(date "2026-01-09")
+		(date "2026-01-14")
 		(rev "1.0.0")
+		(company "TickLab")
 	)
 	(lib_symbols)
 	(bus_alias "CAM_GPIO"
@@ -3440,7 +3441,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "96be71fe-71b4-43ba-b7cc-b259b072f6c2")
-		(property "Sheetname" "CPI-RK3399 eMMC"
+		(property "Sheetname" "CPU-RK3399 eMMC"
 			(at 248.92 194.8684 0)
 			(effects
 				(font
@@ -3449,7 +3450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CPI-RK3399_eMMC.kicad_sch"
+		(property "Sheetfile" "CPU-RK3399_eMMC.kicad_sch"
 			(at 248.92 211.4046 0)
 			(effects
 				(font

@@ -6,8 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "VESA-SBC3399")
-		(date "2026-01-09")
+		(date "2026-01-14")
 		(rev "1.0.0")
+		(company "TickLab")
 	)
 	(lib_symbols)
 	(bus_alias "FAN_GPIO"

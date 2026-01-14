@@ -6,8 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "CPU-RK3399 Power")
-		(date "2026-01-09")
+		(date "2026-01-14")
 		(rev "1.0.0")
+		(company "TickLab")
 	)
 	(lib_symbols
 		(symbol "System On Chip (SoC)/RK3399_1"

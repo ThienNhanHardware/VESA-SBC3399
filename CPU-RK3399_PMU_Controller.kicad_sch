@@ -5,8 +5,10 @@
 	(uuid "e43a2926-f185-48ce-be1a-bfa116ab066e")
 	(paper "A4")
 	(title_block
-		(date "2026-01-09")
+		(title "CPU-RK3399 PMU")
+		(date "2026-01-14")
 		(rev "1.0.0")
+		(company "TickLab")
 	)
 	(lib_symbols
 		(symbol "component_library:Capacitors/0402CG180J500NT"

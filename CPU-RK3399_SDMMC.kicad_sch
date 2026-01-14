@@ -5,8 +5,9 @@
 	(uuid "f7e038ac-b294-45bf-ab9d-485539e328e9")
 	(paper "A4")
 	(title_block
-		(date "2026-01-09")
+		(date "2026-01-14")
 		(rev "1.0.0")
+		(company "TickLab")
 	)
 	(lib_symbols
 		(symbol "component_library:System On Chip (SoC)/RK3399"

@@ -5,8 +5,9 @@
 	(uuid "25835c19-96bd-44c1-9e6f-044aa1c8b181")
 	(paper "A4")
 	(title_block
-		(date "2026-01-09")
+		(date "2026-01-14")
 		(rev "1.0.0")
+		(company "TickLab")
 	)
 	(lib_symbols)
 	(wire
