@@ -9,8 +9,8 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
-	(bus_alias "RAM1_CK"
-		(members "RAM1_CK0+" "RAM1_CK0-" "RAM1_CK1+" "RAM1_CK1-")
+	(bus_alias "RAM1_CLK"
+		(members "RAM1_CLK0+" "RAM1_CLK0-" "RAM1_CLK1+" "RAM1_CLK1-")
 	)
 	(bus
 		(pts
@@ -262,7 +262,7 @@
 		)
 		(uuid "b8d559dc-84ae-4791-8629-1fd23f62618a")
 	)
-	(label "RAM0_DQ[15..0]"
+	(label "RAM0_DQ[31..0]"
 		(at 172.72 109.22 180)
 		(effects
 			(font
