@@ -64,7 +64,7 @@
 		(uuid "27031cff-e4ec-4369-aa74-00b8dc8f48b6")
 	)
 	(bus_entry
-		(at 223.52 228.6)
+		(at 223.52 226.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -145,7 +145,7 @@
 		(uuid "b18ab892-b84a-4bad-a405-92e07156ef94")
 	)
 	(bus_entry
-		(at 223.52 233.68)
+		(at 223.52 231.14)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -154,7 +154,7 @@
 		(uuid "b5333576-28b6-4ee3-8fb0-f8d62d324aed")
 	)
 	(bus_entry
-		(at 223.52 231.14)
+		(at 223.52 228.6)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -163,7 +163,7 @@
 		(uuid "ba913ce7-5fc8-4a47-a2d2-26f702f6ea04")
 	)
 	(bus_entry
-		(at 223.52 248.92)
+		(at 223.52 246.38)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -199,7 +199,7 @@
 		(uuid "eb51edd2-cafd-4727-82c4-569aa5afad9e")
 	)
 	(bus_entry
-		(at 223.52 246.38)
+		(at 223.52 243.84)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -218,7 +218,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 223.52) (xy 236.22 223.52)
+			(xy 208.28 220.98) (xy 236.22 220.98)
 		)
 		(stroke
 			(width 0)
@@ -358,7 +358,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 243.84) (xy 220.98 243.84)
+			(xy 208.28 241.3) (xy 220.98 241.3)
 		)
 		(stroke
 			(width 0)
@@ -428,7 +428,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 220.98) (xy 236.22 220.98)
+			(xy 208.28 218.44) (xy 236.22 218.44)
 		)
 		(stroke
 			(width 0)
@@ -438,7 +438,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 248.92) (xy 236.22 248.92)
+			(xy 226.06 246.38) (xy 236.22 246.38)
 		)
 		(stroke
 			(width 0)
@@ -478,7 +478,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 226.06) (xy 223.52 228.6)
+			(xy 220.98 223.52) (xy 223.52 226.06)
 		)
 		(stroke
 			(width 0)
@@ -508,7 +508,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 233.68) (xy 236.22 233.68)
+			(xy 226.06 231.14) (xy 236.22 231.14)
 		)
 		(stroke
 			(width 0)
@@ -568,7 +568,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 251.46) (xy 236.22 251.46)
+			(xy 226.06 248.92) (xy 236.22 248.92)
 		)
 		(stroke
 			(width 0)
@@ -738,7 +738,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 218.44) (xy 236.22 218.44)
+			(xy 208.28 215.9) (xy 236.22 215.9)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +768,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 246.38) (xy 223.52 248.92)
+			(xy 223.52 243.84) (xy 223.52 246.38)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1008,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 228.6) (xy 223.52 231.14)
+			(xy 223.52 226.06) (xy 223.52 228.6)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 236.22) (xy 236.22 236.22)
+			(xy 226.06 233.68) (xy 236.22 233.68)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1128,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 243.84) (xy 223.52 246.38)
+			(xy 220.98 241.3) (xy 223.52 243.84)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1138,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 231.14) (xy 223.52 233.68)
+			(xy 223.52 228.6) (xy 223.52 231.14)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1208,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 226.06) (xy 220.98 226.06)
+			(xy 208.28 223.52) (xy 220.98 223.52)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 231.14) (xy 236.22 231.14)
+			(xy 226.06 228.6) (xy 236.22 228.6)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +1557,7 @@
 		(uuid "09eaf94d-c743-4a2a-adf1-05ac946df2b7")
 	)
 	(label "CAM_MCLK"
-		(at 226.06 236.22 0)
+		(at 226.06 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 		(uuid "288b7d8c-181a-4adf-a6a4-cb8c487afde2")
 	)
 	(label "{CAM_DSI_C}"
-		(at 210.82 220.98 0)
+		(at 210.82 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,7 +1737,7 @@
 		(uuid "3b09591e-1fb6-423c-8c46-0d48add91cbb")
 	)
 	(label "{CAM_GPIO}"
-		(at 210.82 226.06 0)
+		(at 210.82 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 		(uuid "4144a574-4c13-4300-947f-98c3b106bbc5")
 	)
 	(label "CAM_RST"
-		(at 226.06 231.14 0)
+		(at 226.06 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1817,7 +1817,7 @@
 		(uuid "5359cf0f-3a1a-4b46-9af5-53d39cfffb4e")
 	)
 	(label "FAN_TAC"
-		(at 226.06 251.46 0)
+		(at 226.06 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1857,7 +1857,7 @@
 		(uuid "5b1d41b6-2eb7-4592-ac0b-163c0cc2852a")
 	)
 	(label "FAN_PWM"
-		(at 226.06 248.92 0)
+		(at 226.06 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2007,7 +2007,7 @@
 		(uuid "81925604-db66-4be6-ad19-8bf49c995a2c")
 	)
 	(label "{FAN_GPIO}"
-		(at 210.82 243.84 0)
+		(at 210.82 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 		(uuid "848f96fc-82ef-4d5c-aee3-fe7c0b41d49b")
 	)
 	(label "{CAM_CSI1_D}"
-		(at 210.82 218.44 0)
+		(at 210.82 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2187,7 +2187,7 @@
 		(uuid "b366faab-e29d-4ec0-8d6d-90520447bf29")
 	)
 	(label "{CPU_I2C1}"
-		(at 210.82 223.52 0)
+		(at 210.82 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2417,7 +2417,7 @@
 		(uuid "d96364eb-c3f3-4fca-a603-02496a2d638e")
 	)
 	(label "CAM_PDN"
-		(at 226.06 233.68 0)
+		(at 226.06 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3222,7 +3222,7 @@
 	)
 	(sheet
 		(at 236.22 193.04)
-		(size 12.7 15.24)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3246,7 +3246,7 @@
 			)
 		)
 		(property "Sheetfile" "microSD.kicad_sch"
-			(at 236.22 208.8646 0)
+			(at 236.22 206.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3475,7 @@
 		)
 	)
 	(sheet
-		(at 236.22 246.38)
+		(at 236.22 243.84)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3491,7 +3491,7 @@
 		)
 		(uuid "6a669102-a19a-49d5-b9d0-7ee0396bb179")
 		(property "Sheetname" "Cooling Fan"
-			(at 236.22 245.6684 0)
+			(at 236.22 243.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 			)
 		)
 		(property "Sheetfile" "FAN.kicad_sch"
-			(at 236.22 254.5846 0)
+			(at 236.22 252.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3509,7 @@
 			)
 		)
 		(pin "PWM" input
-			(at 236.22 248.92 180)
+			(at 236.22 246.38 180)
 			(uuid "d059c9c4-9d8f-4429-9254-b67a27feef18")
 			(effects
 				(font
@@ -3519,7 +3519,7 @@
 			)
 		)
 		(pin "TAC" output
-			(at 236.22 251.46 180)
+			(at 236.22 248.92 180)
 			(uuid "688e8ee3-ac25-4184-94e1-4d7114b5bd4e")
 			(effects
 				(font
@@ -3537,7 +3537,7 @@
 		)
 	)
 	(sheet
-		(at 236.22 215.9)
+		(at 236.22 213.36)
 		(size 12.7 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3553,7 +3553,7 @@
 		)
 		(uuid "6bb371b6-f9bc-4f68-8f9c-289a385bb968")
 		(property "Sheetname" "Camera"
-			(at 236.22 215.1884 0)
+			(at 236.22 212.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3562,7 @@
 			)
 		)
 		(property "Sheetfile" "Camera.kicad_sch"
-			(at 236.22 239.3446 0)
+			(at 236.22 236.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3571,7 @@
 			)
 		)
 		(pin "DSI_C" output
-			(at 236.22 220.98 180)
+			(at 236.22 218.44 180)
 			(uuid "451b9d67-8550-4a18-8ddb-8fac371f7c78")
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 			)
 		)
 		(pin "PDN" input
-			(at 236.22 233.68 180)
+			(at 236.22 231.14 180)
 			(uuid "9a31c954-e82f-45f7-b712-3c8f505c062d")
 			(effects
 				(font
@@ -3591,7 +3591,7 @@
 			)
 		)
 		(pin "CSI1_D" output
-			(at 236.22 218.44 180)
+			(at 236.22 215.9 180)
 			(uuid "82d4c001-67b6-4454-b8fb-5db41df72860")
 			(effects
 				(font
@@ -3601,7 +3601,7 @@
 			)
 		)
 		(pin "RST" input
-			(at 236.22 231.14 180)
+			(at 236.22 228.6 180)
 			(uuid "21c64682-4834-4bc0-81f7-351851b42ca5")
 			(effects
 				(font
@@ -3611,7 +3611,7 @@
 			)
 		)
 		(pin "I2C" bidirectional
-			(at 236.22 223.52 180)
+			(at 236.22 220.98 180)
 			(uuid "584e6837-19ea-4889-84e2-c66285fafa7f")
 			(effects
 				(font
@@ -3621,7 +3621,7 @@
 			)
 		)
 		(pin "MCLK" input
-			(at 236.22 236.22 180)
+			(at 236.22 233.68 180)
 			(uuid "cda551a3-2957-4528-aafd-d74353fc9dbe")
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 			)
 		)
 		(pin "I2C1" bidirectional
-			(at 208.28 223.52 0)
+			(at 208.28 220.98 0)
 			(uuid "10a4553c-7ea6-4e3d-8593-87e7761717bf")
 			(effects
 				(font
@@ -4337,7 +4337,7 @@
 			)
 		)
 		(pin "MIPI_RX0_D" input
-			(at 208.28 218.44 0)
+			(at 208.28 215.9 0)
 			(uuid "13316262-1066-4b9d-a90a-75bb1c791732")
 			(effects
 				(font
@@ -4347,7 +4347,7 @@
 			)
 		)
 		(pin "MIPI_RX0_CLK" input
-			(at 208.28 220.98 0)
+			(at 208.28 218.44 0)
 			(uuid "cf1b3776-1f6f-4d30-a0b0-3d9aaa919acc")
 			(effects
 				(font
@@ -4357,7 +4357,7 @@
 			)
 		)
 		(pin "CAM_GPIO" output
-			(at 208.28 226.06 0)
+			(at 208.28 223.52 0)
 			(uuid "b0192a05-3d63-4f74-b88b-0c2b4185970a")
 			(effects
 				(font
@@ -4367,7 +4367,7 @@
 			)
 		)
 		(pin "FAN_GPIO" bidirectional
-			(at 208.28 243.84 0)
+			(at 208.28 241.3 0)
 			(uuid "19913994-08cc-4e20-b72e-38f5e7c47c9e")
 			(effects
 				(font

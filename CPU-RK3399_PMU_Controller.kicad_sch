@@ -17954,8 +17954,24 @@
 		(uuid "1c095506-806a-44eb-86da-28edb8057483")
 	)
 	(no_connect
+		(at 104.14 99.06)
+		(uuid "21a40281-c20a-41af-be36-303b6af70525")
+	)
+	(no_connect
+		(at 104.14 96.52)
+		(uuid "5e581f62-79ac-45e9-a3c9-ad4978245840")
+	)
+	(no_connect
 		(at 175.26 60.96)
 		(uuid "764d410e-2520-4be5-b7ea-d40843e3d404")
+	)
+	(no_connect
+		(at 104.14 91.44)
+		(uuid "a3c15ce3-a965-4612-a07e-29ee86ad44e5")
+	)
+	(no_connect
+		(at 104.14 93.98)
+		(uuid "e4e13bcd-3e19-45d7-ab23-8605c8de953b")
 	)
 	(no_connect
 		(at 175.26 78.74)
