@@ -8,6 +8,7 @@
 		(date "2026-01-14")
 		(rev "1.0.0")
 		(company "TickLab")
+		(comment 1 "Project: VESA-SBC3399")
 	)
 	(lib_symbols)
 	(bus_alias "PHY_MDI"
@@ -94,6 +95,16 @@
 			(type default)
 		)
 		(uuid "810e791d-ad8a-466a-888c-80483be7fa83")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85191ba9-ce2b-4b6f-b959-390a694334a0")
 	)
 	(wire
 		(pts
@@ -185,6 +196,16 @@
 		)
 		(uuid "21fbb482-710c-4dfb-8ab4-87f747f08b36")
 	)
+	(label "PHY_PMEB"
+		(at 119.38 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "590799b4-7d37-4703-9f2b-ea63b9eddc47")
+	)
 	(label "PHY_MDIO"
 		(at 119.38 101.6 0)
 		(effects
@@ -205,7 +226,7 @@
 		)
 		(uuid "7d092066-59ec-4389-99c8-260afa59c75b")
 	)
-	(label "PHY_INTB{slash}PMEB"
+	(label "PHY_INT"
 		(at 119.38 116.84 0)
 		(effects
 			(font
@@ -330,7 +351,7 @@
 		)
 		(uuid "382c4133-0733-4fd9-8cb5-dda5a508f98b")
 	)
-	(hierarchical_label "INTB{slash}PMEB"
+	(hierarchical_label "INT"
 		(shape output)
 		(at 116.84 116.84 180)
 		(effects
@@ -384,6 +405,17 @@
 			(justify right)
 		)
 		(uuid "ad91dcd9-5c5b-4fc6-97df-6b6f24872fc8")
+	)
+	(hierarchical_label "PMEB"
+		(shape input)
+		(at 116.84 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5741a28-204c-413d-a01d-3290bf3af419")
 	)
 	(hierarchical_label "PHY_RXCTL"
 		(shape output)

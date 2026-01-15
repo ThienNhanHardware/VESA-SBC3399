@@ -8,6 +8,7 @@
 		(date "2026-01-14")
 		(rev "1.0.0")
 		(company "TickLab")
+		(comment 1 "Project: VESA-SBC3399")
 	)
 	(lib_symbols)
 	(bus_alias "CPU_I2C3"

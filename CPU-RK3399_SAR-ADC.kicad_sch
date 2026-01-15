@@ -2,17 +2,209 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "367a8ed7-8476-4beb-842f-2c7310a073df")
+	(uuid "8936535c-8e48-4ffb-b085-be0c08a07987")
 	(paper "A4")
 	(title_block
-		(title "CPU-RK3399 SDIO Controller")
+		(title "CPU-RK3399 SAR-ADC Controller")
 		(date "2026-01-14")
 		(rev "1.0.0")
 		(company "TickLab")
 		(comment 1 "Project: VESA-SBC3399")
 	)
 	(lib_symbols
-		(symbol "component_library:Resistors/0402WGF220JTCE"
+		(symbol "component_library:Capacitors/CL05B104KO5NNNC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X50N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage - Rated" "16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC_Part" "C1525"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "JLCPCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "footprints:CAPC1005X50N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitors/CL05B104KO5NNNC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -3.175) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -4.445) (xy 2.54 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitors/CL05B104KO5NNNC_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "component_library:Resistors/0402WGF1003TCE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -51,7 +243,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +252,7 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "22Ω"
+			(property "Resistance" "100kΩ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -94,7 +286,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC_Part" "C25092"
+			(property "LCSC_Part" "C25741"
 				(at 0 0 0)
 				(effects
 					(font
@@ -121,7 +313,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Resistors/0402WGF220JTCE_0_1"
+			(symbol "Resistors/0402WGF1003TCE_0_1"
 				(polyline
 					(pts
 						(xy 1.143 0) (xy 1.5875 0.889) (xy 2.4765 -0.889) (xy 3.3655 0.889) (xy 4.2545 -0.889) (xy 5.1435 0.889)
@@ -136,7 +328,171 @@
 					)
 				)
 			)
-			(symbol "Resistors/0402WGF220JTCE_1_1"
+			(symbol "Resistors/0402WGF1003TCE_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 1.143)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.143)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "component_library:Resistors/0402WGF2003TCE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "footprints:RESC1005X35N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 200kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "200kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC_Part" "C25764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "JLCPCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "footprints:RESC1005X35N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors/0402WGF2003TCE_0_1"
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 1.5875 0.889) (xy 2.4765 -0.889) (xy 3.3655 0.889) (xy 4.2545 -0.889) (xy 5.1435 0.889)
+						(xy 6.0325 -0.889) (xy 6.4769 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistors/0402WGF2003TCE_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.143)
@@ -184,7 +540,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -20.32 119.38 0)
+				(at -22.86 119.38 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -193,7 +549,7 @@
 				)
 			)
 			(property "Value" "RK3399"
-				(at -15.9283 -124.354 0)
+				(at -18.4683 -124.354 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -202,7 +558,7 @@
 				)
 			)
 			(property "Footprint" "footprints:BGA828C65P31X31_2100X2100X161"
-				(at 2.54 -5.08 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -212,7 +568,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 5.08 -5.08 0)
+				(at 2.54 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -221,7 +577,7 @@
 				)
 			)
 			(property "Description" "FCBGA-828(21x21) Microcontrollers (MCU/MPU/SOC) ROHS"
-				(at 5.08 -5.08 0)
+				(at 2.54 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -230,7 +586,7 @@
 				)
 			)
 			(property "MF" "Rockchip"
-				(at 2.54 -5.08 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -240,7 +596,7 @@
 				)
 			)
 			(property "Description_1" "RK3399 ROCK Pi 4 Model A 2GB - ARM® Cortex®-A53, Cortex®-A72 MPU Embedded Evaluation Board"
-				(at 10.16 -5.08 0)
+				(at 7.62 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -250,7 +606,7 @@
 				)
 			)
 			(property "Package" "FCBGA-828(21x21)"
-				(at 2.54 -5.08 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -260,7 +616,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 2.54 -12.7 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -270,7 +626,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RK3399/Fuzhou+Rockchip+Electronics+Co/view-part/?ref=snap"
-				(at 10.16 -2.54 0)
+				(at 7.62 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -280,7 +636,7 @@
 				)
 			)
 			(property "MP" "RK3399"
-				(at 2.54 -7.62 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -290,7 +646,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 2.54 -5.08 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -300,7 +656,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/RK3399/Fuzhou+Rockchip+Electronics+Co/view-part/?ref=eda"
-				(at 10.16 -2.54 0)
+				(at 7.62 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14007,8 +14363,8 @@
 			)
 			(symbol "System On Chip (SoC)/RK3399_22_0"
 				(rectangle
-					(start -40.64 -7.62)
-					(end 40.64 7.62)
+					(start -25.4 7.62)
+					(end 35.56 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -14018,7 +14374,7 @@
 					)
 				)
 				(text "ISP"
-					(at -40.7701 7.6704 0)
+					(at -25.5301 7.6704 0)
 					(effects
 						(font
 							(size 1.7836 1.7836)
@@ -14027,7 +14383,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -45.72 5.08 0)
+					(at -30.48 5.08 0)
 					(length 5.08)
 					(name "GPIO1_A0/ISP0_SHUTTER_EN/ISP1_SHUTTER_EN/TCPD_VBUS_SINK_EN"
 						(effects
@@ -14045,7 +14401,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -45.72 2.54 0)
+					(at -30.48 2.54 0)
 					(length 5.08)
 					(name "GPIO1_A1/ISP0_SHUTTER_TRIG/ISP1_SHUTTER_TRIG/TCPD_CC0_VCONN_EN"
 						(effects
@@ -14063,7 +14419,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -45.72 0 0)
+					(at -30.48 0 0)
 					(length 5.08)
 					(name "GPIO1_A2/ISP0_FLASHTRIGIN/ISP1_FLASHTRIGIN/TCPD_CC1_VCONN_EN"
 						(effects
@@ -14081,7 +14437,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -45.72 -2.54 0)
+					(at -30.48 -2.54 0)
 					(length 5.08)
 					(name "GPIO1_A3/ISP0_FLASHTRIGOUT/ISP1_FLASHTRIGOUT"
 						(effects
@@ -14099,7 +14455,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -45.72 -5.08 0)
+					(at -30.48 -5.08 0)
 					(length 5.08)
 					(name "GPIO1_A4/ISP0_PRELIGHT_TRIG/ISP1_PRELIGHT_TRIG"
 						(effects
@@ -14228,26 +14584,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "ADC_AVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AC24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 20.32 0 180)
+					(at 20.32 5.08 180)
 					(length 5.08)
 					(name "GPIO1_A6/TSADC_INT"
 						(effects
@@ -14257,6 +14595,24 @@
 						)
 					)
 					(number "P26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "ADC_AVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AC24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -14779,8 +15135,8 @@
 			)
 			(symbol "System On Chip (SoC)/RK3399_26_0"
 				(rectangle
-					(start -22.86 -10.16)
-					(end 22.86 7.62)
+					(start -10.16 7.62)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -14790,7 +15146,7 @@
 					)
 				)
 				(text "I2C"
-					(at -22.9618 7.6726 0)
+					(at -10.2618 7.6726 0)
 					(effects
 						(font
 							(size 1.7841 1.7841)
@@ -14799,7 +15155,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 5.08 0)
+					(at -15.24 5.08 0)
 					(length 5.08)
 					(name "GPIO4_A1/I2C1_SDA"
 						(effects
@@ -14817,7 +15173,7 @@
 					)
 				)
 				(pin bidirectional clock
-					(at -27.94 2.54 0)
+					(at -15.24 2.54 0)
 					(length 5.08)
 					(name "GPIO4_A2/I2C1_SCL"
 						(effects
@@ -14835,7 +15191,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 0 0)
+					(at -15.24 0 0)
 					(length 5.08)
 					(name "GPIO1_B3/I2C4_SDA"
 						(effects
@@ -14853,7 +15209,7 @@
 					)
 				)
 				(pin bidirectional clock
-					(at -27.94 -2.54 0)
+					(at -15.24 -2.54 0)
 					(length 5.08)
 					(name "GPIO1_B4/I2C4_SCL"
 						(effects
@@ -14871,7 +15227,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -5.08 0)
+					(at -15.24 -5.08 0)
 					(length 5.08)
 					(name "GPIO1_C4/I2C8_SDA"
 						(effects
@@ -14889,7 +15245,7 @@
 					)
 				)
 				(pin bidirectional clock
-					(at -27.94 -7.62 0)
+					(at -15.24 -7.62 0)
 					(length 5.08)
 					(name "GPIO1_C5/I2C8_SCL"
 						(effects
@@ -16049,11 +16405,273 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V0"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text_box "SDIO design rules:\n1. Data[0:3] and CMD lines routing parallel as a group, and be isolated with other signals by GND line，the skew between group is less than 200mils;\n2. Clk should be isolated with other signals by GND line; The skew between data signals is less than 20ps;\n3. Max trace length < 3.93 inchs;\n4. Trace impedance 50ohm+/-10%;\n5. The distance between other signals follows the 3W rule;"
+	(text_box "Note:All the Power filter capacitors should be placed close to the power pins of RK3399."
 		(exclude_from_sim no)
-		(at 73.66 55.88 0)
-		(size 60.96 20.32)
+		(at 187.96 96.52 0)
+		(size 25.4 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -16068,628 +16686,570 @@
 			)
 			(justify left top)
 		)
-		(uuid "780336c9-4a47-4704-8097-dfadd7b02881")
+		(uuid "5de3ad70-1153-44fa-af49-7a7150751545")
+	)
+	(junction
+		(at 91.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac3bbbd-14e1-482e-9cba-5fb7615db5ed")
+	)
+	(junction
+		(at 104.14 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49d09abd-9654-4b67-99c1-40486c8b3977")
+	)
+	(junction
+		(at 175.26 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0a667b-1f43-491c-b160-442dd84cf1e2")
+	)
+	(junction
+		(at 91.44 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf8ee4d-f932-4f93-8316-700aa9e0d9d1")
 	)
 	(no_connect
-		(at 127 119.38)
-		(uuid "15ab0d35-ac49-4a3b-baeb-adfd52b2c538")
+		(at 134.62 91.44)
+		(uuid "108d7423-b899-48c8-ac59-7b09d25a9798")
 	)
 	(no_connect
-		(at 127 124.46)
-		(uuid "237fae9d-e3f6-4f1b-8b1d-ac9bb1233a41")
+		(at 134.62 86.36)
+		(uuid "2be277e6-0d6c-437c-893a-68cf92048170")
 	)
 	(no_connect
-		(at 127 129.54)
-		(uuid "41fd9e34-37d2-4b4c-94f9-9df57b0a82c0")
-	)
-	(no_connect
-		(at 127 127)
-		(uuid "76e6f678-1602-4f11-a55b-ce6e2c3107c8")
-	)
-	(no_connect
-		(at 127 121.92)
-		(uuid "8eb426ac-321f-4a67-80d1-d16e43d43681")
-	)
-	(bus_entry
-		(at 76.2 81.28)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b4aa61-3c21-4d5b-9696-90448935176a")
-	)
-	(bus_entry
-		(at 76.2 86.36)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a71fca7-7153-4f29-94eb-7dc74c9b0552")
-	)
-	(bus_entry
-		(at 76.2 88.9)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44eafcf2-77d9-4b6c-9da3-08ae45284f04")
-	)
-	(bus_entry
-		(at 76.2 91.44)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d4a2f2-6557-412c-9bdd-7ba5e4579335")
-	)
-	(bus_entry
-		(at 76.2 93.98)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c009480c-70f6-4b93-9699-25d80c4a604f")
-	)
-	(bus_entry
-		(at 76.2 83.82)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb33c4c-1881-4d49-ae6c-1ce99dd02aae")
+		(at 134.62 96.52)
+		(uuid "5992c55e-898b-47b4-9262-ba5b5cd2e2c6")
 	)
 	(wire
 		(pts
-			(xy 111.76 88.9) (xy 116.84 88.9)
+			(xy 175.26 106.68) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00749a5a-d393-4bec-a89c-e65b5643d07b")
+		(uuid "1cbea92f-0221-4f93-b6c5-a62c09639a6b")
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 127 127)
+			(xy 104.14 106.68) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "030ef0ab-2798-4add-9cbc-3ecedd6bbc85")
+		(uuid "2ad52833-9e47-4459-8b0c-f8af38c8fe75")
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 127 124.46)
+			(xy 91.44 104.14) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "058b87aa-8dcd-462f-a3b4-a0f121972c02")
+		(uuid "4be2f631-1ff7-4e02-bb02-dfac61544571")
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 116.84 91.44)
+			(xy 172.72 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a03d5d1-800c-4e7d-a1cb-397af83fc5c8")
+		(uuid "4f06c48c-3f42-41fa-9082-116520b6249c")
 	)
 	(wire
 		(pts
-			(xy 182.88 93.98) (xy 203.2 93.98)
+			(xy 91.44 91.44) (xy 91.44 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "116f2ac9-9944-4736-bf7d-27eb49b28bff")
-	)
-	(bus
-		(pts
-			(xy 76.2 88.9) (xy 76.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f53580-9f7b-47f3-85bc-4edd647efeff")
+		(uuid "58337f2d-0aa9-44ae-a70d-5b4bec06af54")
 	)
 	(wire
 		(pts
-			(xy 78.74 86.36) (xy 104.14 86.36)
+			(xy 91.44 93.98) (xy 91.44 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "294e9546-5839-4007-8c1d-2028b3f89ec3")
-	)
-	(bus
-		(pts
-			(xy 73.66 78.74) (xy 76.2 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3119208c-814d-4b2d-9cbd-580eb974fce6")
+		(uuid "5cebc3b9-ae15-418d-b445-b8ef2ae44455")
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 203.2 88.9)
+			(xy 175.26 99.06) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ef20883-ff41-4111-aaef-02a928b99fb6")
-	)
-	(bus
-		(pts
-			(xy 76.2 91.44) (xy 76.2 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4422991b-6172-4aa0-a0a6-e20bd4854be0")
+		(uuid "5ea92bdd-8311-4181-a1b7-8ba8e399c972")
 	)
 	(wire
 		(pts
-			(xy 147.32 119.38) (xy 127 119.38)
+			(xy 111.76 88.9) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bf40cf4-cdb1-4763-b1d7-4d31642dc744")
+		(uuid "69e0eb6d-2066-46b3-8726-187d00d9274f")
 	)
 	(wire
 		(pts
-			(xy 111.76 96.52) (xy 116.84 96.52)
+			(xy 104.14 93.98) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f2b9c04-4a4f-43c6-b565-48d9b637478f")
+		(uuid "91f64df5-0ec6-41dd-b4c7-3ad1d53e91b7")
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 203.2 83.82)
+			(xy 91.44 81.28) (xy 91.44 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69165df7-986a-4898-9d10-4f5960f443eb")
+		(uuid "987c54ea-3a3c-48da-b16b-26b34dfe809a")
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 116.84 101.6)
+			(xy 104.14 93.98) (xy 91.44 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71ad337f-7d83-4d8a-b552-9f216d3d3721")
+		(uuid "a1a16822-7e10-4477-9b6b-110ded91bc6a")
 	)
 	(wire
 		(pts
-			(xy 147.32 121.92) (xy 127 121.92)
+			(xy 104.14 104.14) (xy 104.14 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7af593ba-aa86-42da-8e13-9ac1de2560a3")
-	)
-	(bus
-		(pts
-			(xy 55.88 78.74) (xy 73.66 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ae913f-cc03-4159-9329-bad1ed523fd3")
+		(uuid "b174eca0-beb6-4095-b823-e15a55b90feb")
 	)
 	(wire
 		(pts
-			(xy 111.76 86.36) (xy 116.84 86.36)
+			(xy 104.14 96.52) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f18ab57-e9ae-4172-a70c-88fbc0c5293b")
+		(uuid "cd7e2895-7c39-48fd-8aac-8e3fb85e341e")
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 104.14 88.9)
+			(xy 172.72 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9811f665-6d90-47b0-a38b-073793d11e43")
+		(uuid "cdd36067-54d1-4bcc-8826-f18f0b1d34e6")
 	)
 	(wire
 		(pts
-			(xy 78.74 96.52) (xy 104.14 96.52)
+			(xy 91.44 106.68) (xy 91.44 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0e40aa8-e0ee-4232-a5ca-ca216f689a9a")
+		(uuid "dcd4beda-9ff0-42c2-980f-4d28d6894936")
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 116.84 83.82)
+			(xy 175.26 93.98) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1e86fd4-5f1d-492e-83d3-760062758b56")
+		(uuid "f9203908-31de-4ae3-9f43-926d3738f764")
 	)
-	(wire
-		(pts
-			(xy 111.76 93.98) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d2c53c-ff56-4346-b910-00c3e2d9384e")
-	)
-	(wire
-		(pts
-			(xy 78.74 83.82) (xy 104.14 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a95364-53f7-4767-b36a-f0800bdfffd8")
-	)
-	(bus
-		(pts
-			(xy 76.2 86.36) (xy 76.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01c74dd-801d-4374-a4ea-b2e92318e04c")
-	)
-	(wire
-		(pts
-			(xy 182.88 99.06) (xy 203.2 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1acd41c-558e-41d6-a6dc-949dd0307a6f")
-	)
-	(wire
-		(pts
-			(xy 78.74 93.98) (xy 104.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b81f1553-f3b7-403e-a3b3-ecfc4963f5b9")
-	)
-	(wire
-		(pts
-			(xy 147.32 129.54) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdcccef1-1c80-423c-9d7f-5ef26336a931")
-	)
-	(wire
-		(pts
-			(xy 78.74 91.44) (xy 104.14 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2b032a1-0aab-458f-979f-c9060d372000")
-	)
-	(bus
-		(pts
-			(xy 76.2 81.28) (xy 76.2 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5df3716-2cba-43f7-ad63-58be46560291")
-	)
-	(bus
-		(pts
-			(xy 76.2 83.82) (xy 76.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff13683a-eeff-41f1-ae29-2ddfb02946af")
-	)
-	(label "CPU_SDIO0_D1"
-		(at 78.74 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
 			)
-			(justify left bottom)
 		)
-		(uuid "019aaa75-87fc-4b35-bcf5-1ea444554288")
-	)
-	(label "CPU_SDIO0_BKPWR"
-		(at 147.32 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
 			)
-			(justify right bottom)
 		)
-		(uuid "0e78661a-c75e-4e5d-b805-ea31e6c388c7")
-	)
-	(label "{CPU_SDIO0}"
-		(at 58.42 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(column_widths 20.32 20.32 20.32 20.32)
+		(row_heights 5.08 5.08 5.08 5.08)
+		(cells
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 96.52 119.38 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3baf5d1f-525e-4716-af83-e8fcd29a1b4f")
 			)
-			(justify left bottom)
-		)
-		(uuid "113226ee-85e0-477b-b931-8552decb863b")
-	)
-	(label "CPU_SDIO0_INTN"
-		(at 147.32 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "RAM ID"
+				(exclude_from_sim no)
+				(at 116.84 119.38 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+				(uuid "a08ad5cb-3404-42f5-89be-84ddf68a5e50")
 			)
-			(justify right bottom)
-		)
-		(uuid "2944410c-e744-4489-afd8-37636abedd6e")
-	)
-	(label "CPU_SDIO0_WRPT"
-		(at 147.32 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "${/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09/f52f8cb4-197f-42df-916d-4bc579031122:REFERENCE} PU"
+				(exclude_from_sim no)
+				(at 137.16 119.38 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+				(uuid "3b13aa0d-b5da-460d-b319-5843f2802149")
 			)
-			(justify right bottom)
-		)
-		(uuid "3190febf-948a-496d-9dee-9c46ee84532a")
-	)
-	(label "BT_HOST_WAKE#"
-		(at 185.42 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "${/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09/96b868a9-f134-4333-a975-b26cc5f4b384:REFERENCE} PD"
+				(exclude_from_sim no)
+				(at 157.48 119.38 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+				(uuid "bdb48c3f-67a4-4cde-81df-8a5a103f2544")
 			)
-			(justify left bottom)
-		)
-		(uuid "3398416b-9a47-4289-a1d2-3136deeefa00")
-	)
-	(label "CPU_SDIO0_CMD"
-		(at 78.74 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "DDR3/DDR3L"
+				(exclude_from_sim no)
+				(at 96.52 124.46 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "33294fb6-6273-48bb-ae37-6196edc58790")
 			)
-			(justify left bottom)
-		)
-		(uuid "3b0e6240-3741-4b4d-a029-c575c719a03a")
-	)
-	(label "WL_HOST_WAKE#"
-		(at 200.66 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "0.6V"
+				(exclude_from_sim no)
+				(at 116.84 124.46 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "cf7ef6c3-4125-4aa9-a1cd-0493bac54b16")
 			)
-			(justify right bottom)
-		)
-		(uuid "4f802967-fae9-4c16-9386-b853ac4dc8b3")
-	)
-	(label "PCIe_PERST#"
-		(at 200.66 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "200kΩ"
+				(exclude_from_sim no)
+				(at 137.16 124.46 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "4cc31905-4bf8-4c03-995c-216a637ab013")
 			)
-			(justify right bottom)
-		)
-		(uuid "5b630216-2d1d-4129-8ac2-2edf18722eca")
-	)
-	(label "PCIe_CLKREQ#"
-		(at 99.06 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "100kΩ"
+				(exclude_from_sim no)
+				(at 157.48 124.46 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "fe894159-9b97-411f-bee3-86dae2c16eea")
 			)
-			(justify left bottom)
-		)
-		(uuid "6e3bea3d-62e5-41ec-9bf4-c98010da39a0")
-	)
-	(label "CPU_SDIO0_D3"
-		(at 78.74 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(table_cell "LPDDR3"
+				(exclude_from_sim no)
+				(at 96.52 129.54 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "5f4c9452-00c0-405c-bc40-9f7552ff112c")
 			)
-			(justify left bottom)
+			(table_cell "0.112V"
+				(exclude_from_sim no)
+				(at 116.84 129.54 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "7e8d4abe-2590-400d-b1ca-08ff542102be")
+			)
+			(table_cell "150kΩ"
+				(exclude_from_sim no)
+				(at 137.16 129.54 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "08d9cc1c-1dd0-4b9e-a6e9-0171c64a917f")
+			)
+			(table_cell "10kΩ"
+				(exclude_from_sim no)
+				(at 157.48 129.54 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "d6c45596-fade-4d8b-aad0-64105b70ff36")
+			)
+			(table_cell "LPDDR4"
+				(exclude_from_sim no)
+				(at 96.52 134.62 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "80260084-8544-4458-9e4a-fe7872de90d2")
+			)
+			(table_cell "1.5V"
+				(exclude_from_sim no)
+				(at 116.84 134.62 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3bc3a27f-9f5d-4efc-bf1c-b7243dad1487")
+			)
+			(table_cell "100kΩ"
+				(exclude_from_sim no)
+				(at 137.16 134.62 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "02e9ecaa-177c-4d09-8856-80d0072b9052")
+			)
+			(table_cell "499kΩ"
+				(exclude_from_sim no)
+				(at 157.48 134.62 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "ffa9420b-31f1-4a95-a678-5676e899334d")
+			)
 		)
-		(uuid "7900bd22-0e47-494f-8481-bcab5545c598")
 	)
-	(label "BT_WAKE"
-		(at 200.66 88.9 180)
+	(label "CPU_SYS_OTP_OUT"
+		(at 193.04 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "81c587b4-b0f8-4578-bdd3-e809d1daee7a")
+		(uuid "07404c86-709a-4ec1-a3fb-82b197a56278")
 	)
-	(label "CPU_SDIO0_CLKOUT"
-		(at 78.74 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e81f2c6-bfba-4ff9-a493-49b1a5df8ccf")
-	)
-	(label "CPU_SDIO0_D2"
-		(at 78.74 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfce0514-e3e2-4690-b9c2-d8be1a2e42e6")
-	)
-	(label "CPU_SDIO0_PWREN"
-		(at 147.32 124.46 180)
+	(label "CPU_SYS_RECOVERY"
+		(at 132.08 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d71ea282-0d6e-424f-868a-b5ab1f8b8214")
+		(uuid "4f74dcd6-0473-455f-a920-bdf62305e3e3")
 	)
-	(label "CPU_SDIO0_D0"
-		(at 78.74 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d917d108-6ca8-48a9-b464-8bc066927aa2")
-	)
-	(label "CPU_SDIO0_DETN"
-		(at 147.32 119.38 180)
+	(label "CPU_SYS_RAM_ID"
+		(at 132.08 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e6036784-5c0b-4dde-a57e-40cffb09da51")
+		(uuid "5678a655-a120-4d20-97fa-fb2f2b63036c")
 	)
-	(hierarchical_label "SDIO0"
-		(shape bidirectional)
-		(at 55.88 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "035bad6a-6167-42a8-a73a-49f7c836c2ef")
-	)
-	(hierarchical_label "GPIO2_D4"
-		(shape input)
-		(at 203.2 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2524c827-a30a-4c01-8aa4-4992823bca3b")
-	)
-	(hierarchical_label "GPIO0_A3"
-		(shape input)
-		(at 203.2 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "949b9f87-f9d2-410a-b1a8-076d554b293a")
-	)
-	(hierarchical_label "GPIO0_A4"
-		(shape input)
-		(at 203.2 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae0f0fc7-6a71-4f50-99fa-f0602c32b905")
-	)
-	(hierarchical_label "PCIE_CLKREQN"
-		(shape input)
-		(at 96.52 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c4de023e-39f9-4b46-83c1-5e48c504f9a0")
-	)
-	(hierarchical_label "GPIO2_D3"
+	(hierarchical_label "TSADC_INT"
 		(shape output)
-		(at 203.2 88.9 0)
+		(at 195.58 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ef501ef3-70cf-4fc2-90f8-2dab1022e6ee")
+		(uuid "dcb93827-f948-4724-aafa-2d67b531729b")
+	)
+	(hierarchical_label "ADC_IN1"
+		(shape input)
+		(at 111.76 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f58e4b21-724f-4796-a484-015bfab8ad15")
 	)
 	(symbol
-		(lib_id "component_library:Resistors/0402WGF220JTCE")
-		(at 111.76 93.98 0)
-		(mirror y)
+		(lib_id "component_library:Capacitors/CL05B104KO5NNNC")
+		(at 175.26 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f4479a6-3bf0-4803-a114-5aefef46b020")
-		(property "Reference" "R55"
-			(at 114.3 92.71 0)
+		(uuid "0b7488e5-641a-4b2b-861f-29c2f59fc259")
+		(property "Reference" "C101"
+			(at 179.07 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 93.98 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16697,8 +17257,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1005X35N"
-			(at 111.76 93.98 0)
+		(property "Footprint" "footprints:CAPC1005X50N"
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16707,7 +17267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 93.98 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16715,8 +17275,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 111.76 93.98 0)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16724,16 +17284,35 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "22Ω"
-			(at 101.6 92.71 0)
+		(property "Capacitance" "100nF"
+			(at 179.07 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Tolerance" "±1%"
-			(at 107.95 90.17 0)
+		(property "Voltage - Rated" "16V"
+			(at 179.07 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 179.07 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16742,7 +17321,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 111.76 93.98 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16750,8 +17329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.76 93.98 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16759,8 +17338,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part" "C25092"
-			(at 111.76 93.98 0)
+		(property "LCSC_Part" "C1525"
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16769,7 +17348,7 @@
 			)
 		)
 		(property "Supplier" "JLCPCB"
-			(at 111.76 93.98 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16778,40 +17357,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a9723f5-5cc8-4a75-8b30-f196cfc2d90a")
+			(uuid "c2e5ca0a-5a1f-4fa4-92eb-662a9a769b36")
 		)
 		(pin "2"
-			(uuid "4d470afa-c8ee-4905-bbc2-020c08fb79af")
+			(uuid "ffdf684c-e708-40ca-8754-074ed28fe319")
 		)
 		(instances
 			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/72ea5c00-7e69-4de6-bdd7-dbdcea913c16"
-					(reference "R55")
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "C101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "component_library:Resistors/0402WGF220JTCE")
-		(at 111.76 88.9 0)
-		(mirror y)
+		(lib_id "power:GNDREF")
+		(at 91.44 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "577e3abb-dadd-421f-8e46-13c982ef0fd6")
-		(property "Reference" "R53"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 111.76 88.9 0)
+		(fields_autoplaced yes)
+		(uuid "3776f3a2-50a6-40fc-b1ca-3eb50086db3a")
+		(property "Reference" "#PWR0103"
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16819,8 +17390,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1005X35N"
-			(at 111.76 88.9 0)
+		(property "Value" "GND"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16829,7 +17408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 88.9 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16837,61 +17416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 111.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "22Ω"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 107.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 111.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Part" "C25092"
-			(at 111.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "JLCPCB"
-			(at 111.76 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16900,40 +17426,37 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8a649a3-b7c1-4649-ad00-8fb086f7cd46")
-		)
-		(pin "2"
-			(uuid "687365e7-e911-4482-9065-7d7df23d0592")
+			(uuid "c9bdf035-b448-4747-a429-91d118f0d25a")
 		)
 		(instances
 			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/72ea5c00-7e69-4de6-bdd7-dbdcea913c16"
-					(reference "R53")
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "component_library:Resistors/0402WGF220JTCE")
-		(at 111.76 83.82 0)
-		(mirror y)
+		(lib_id "component_library:Capacitors/CL05B104KO5NNNC")
+		(at 104.14 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "637a8e61-491f-471d-a589-b3f65956f45e")
-		(property "Reference" "R51"
-			(at 114.3 82.55 0)
+		(uuid "4f0883e4-09da-4840-bd91-39251dc3eb0a")
+		(property "Reference" "C102"
+			(at 107.95 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 83.82 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16941,8 +17464,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1005X35N"
-			(at 111.76 83.82 0)
+		(property "Footprint" "footprints:CAPC1005X50N"
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16951,7 +17474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 83.82 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16959,8 +17482,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 111.76 83.82 0)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16968,16 +17491,35 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "22Ω"
-			(at 101.6 82.55 0)
+		(property "Capacitance" "100nF"
+			(at 107.95 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Tolerance" "±1%"
-			(at 107.95 80.01 0)
+		(property "Voltage - Rated" "16V"
+			(at 107.95 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 107.95 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +17528,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 111.76 83.82 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,8 +17536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.76 83.82 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,8 +17545,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part" "C25092"
-			(at 111.76 83.82 0)
+		(property "LCSC_Part" "C1525"
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17013,7 +17555,7 @@
 			)
 		)
 		(property "Supplier" "JLCPCB"
-			(at 111.76 83.82 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17022,40 +17564,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "af419a2b-43f2-40e4-89bb-723c113ad8c4")
+			(uuid "7497ce91-91b6-4f7b-bfed-b1d621ecd277")
 		)
 		(pin "2"
-			(uuid "ab052258-ff9b-402e-a212-f030ee558c28")
+			(uuid "29e00d0d-0706-4d32-9053-e94b84bcaaed")
 		)
 		(instances
-			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/72ea5c00-7e69-4de6-bdd7-dbdcea913c16"
-					(reference "R51")
+			(project ""
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "C102")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "component_library:Resistors/0402WGF220JTCE")
-		(at 111.76 86.36 0)
-		(mirror y)
+		(lib_id "power:+1V0")
+		(at 175.26 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "81b45a7a-b4a0-4263-92e7-65ab1ab00f45")
-		(property "Reference" "R52"
-			(at 114.3 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 111.76 86.36 0)
+		(uuid "5b0fdb68-32a0-400c-b7df-f4faa9e87e82")
+		(property "Reference" "#PWR0101"
+			(at 175.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17063,8 +17596,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1005X35N"
-			(at 111.76 86.36 0)
+		(property "Value" "+1V8_AVCC"
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17073,7 +17614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 86.36 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,61 +17622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "22Ω"
-			(at 101.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 107.95 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Part" "C25092"
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "JLCPCB"
-			(at 111.76 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17144,40 +17632,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc541dd3-9661-4e3b-a1f0-db4e67df2ac5")
-		)
-		(pin "2"
-			(uuid "4f654cbc-81a9-4711-897f-ad37de354236")
+			(uuid "89cdf96c-52cc-459f-ae3a-c9b8e4528698")
 		)
 		(instances
 			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/72ea5c00-7e69-4de6-bdd7-dbdcea913c16"
-					(reference "R52")
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "component_library:Resistors/0402WGF220JTCE")
-		(at 111.76 96.52 0)
-		(mirror y)
+		(lib_id "power:+1V0")
+		(at 91.44 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "880acd97-e4bf-4c6d-873b-56e23df4243f")
-		(property "Reference" "R56"
-			(at 114.3 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 111.76 96.52 0)
+		(uuid "8603b962-c548-4469-9356-70736c4bf7bc")
+		(property "Reference" "#PWR0100"
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,8 +17661,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1005X35N"
-			(at 111.76 96.52 0)
+		(property "Value" "+1V8_AVCC"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17195,7 +17679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 96.52 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17203,61 +17687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "22Ω"
-			(at 101.6 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Part" "C25092"
-			(at 111.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "JLCPCB"
-			(at 111.76 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17266,15 +17697,202 @@
 			)
 		)
 		(pin "1"
-			(uuid "68135591-4d11-4325-bbb1-72e32614d673")
-		)
-		(pin "2"
-			(uuid "28a6b7d2-2ef1-485a-979d-f1eb42402227")
+			(uuid "af3e8875-ad86-448d-a3e5-3d4396f89830")
 		)
 		(instances
 			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/72ea5c00-7e69-4de6-bdd7-dbdcea913c16"
-					(reference "R56")
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "component_library:Resistors/0402WGF1003TCE")
+		(at 91.44 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b868a9-f134-4333-a975-b26cc5f4b384")
+		(property "Reference" "R26"
+			(at 93.98 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:RESC1005X35N"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100kΩ"
+			(at 93.98 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 93.98 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0402"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C25741"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e37084aa-e6cd-4647-90ee-c60972c1932e")
+		)
+		(pin "2"
+			(uuid "b376c1eb-3ded-49a5-b3f2-8ea4c1a09b09")
+		)
+		(instances
+			(project ""
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 175.26 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb3f40d-0dd5-44cd-ae35-72b2e411a2a2")
+		(property "Reference" "#PWR0102"
+			(at 175.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "734d1769-69b4-40ca-a698-b096e1d15e3a")
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -17282,16 +17900,16 @@
 	)
 	(symbol
 		(lib_id "component_library:System On Chip (SoC)/RK3399")
-		(at 149.86 91.44 0)
-		(unit 13)
+		(at 152.4 91.44 0)
+		(unit 23)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b415803-3794-4738-bd08-f365a2660281")
+		(uuid "dc1de0aa-a902-4520-9cea-266623eb0c02")
 		(property "Reference" "U1"
-			(at 149.8451 73.66 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17299,7 +17917,7 @@
 			)
 		)
 		(property "Value" "RK3399"
-			(at 149.8451 76.2 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17307,7 +17925,7 @@
 			)
 		)
 		(property "Footprint" "footprints:BGA828C65P31X31_2100X2100X161"
-			(at 167.64 96.52 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17317,7 +17935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17326,7 +17944,7 @@
 			)
 		)
 		(property "Description" "FCBGA-828(21x21) Microcontrollers (MCU/MPU/SOC) ROHS"
-			(at 160.02 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17335,7 +17953,7 @@
 			)
 		)
 		(property "MF" "Rockchip"
-			(at 167.64 96.52 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17345,7 +17963,7 @@
 			)
 		)
 		(property "Description_1" "RK3399 ROCK Pi 4 Model A 2GB - ARM® Cortex®-A53, Cortex®-A72 MPU Embedded Evaluation Board"
-			(at 167.64 93.98 0)
+			(at 162.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17355,7 +17973,7 @@
 			)
 		)
 		(property "Package" "FCBGA-828(21x21)"
-			(at 167.64 96.52 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17365,7 +17983,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 167.64 96.52 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17375,7 +17993,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RK3399/Fuzhou+Rockchip+Electronics+Co/view-part/?ref=snap"
-			(at 167.64 93.98 0)
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17385,7 +18003,7 @@
 			)
 		)
 		(property "MP" "RK3399"
-			(at 167.64 96.52 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17395,7 +18013,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 167.64 96.52 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17405,7 +18023,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RK3399/Fuzhou+Rockchip+Electronics+Co/view-part/?ref=eda"
-			(at 167.64 93.98 0)
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17415,7 +18033,7 @@
 			)
 		)
 		(property "Manufacturer" "Rockchip"
-			(at 149.86 91.44 0)
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17424,7 +18042,7 @@
 			)
 		)
 		(property "LCSC_Part" "C22364186"
-			(at 149.86 91.44 0)
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17433,7 +18051,7 @@
 			)
 		)
 		(property "Supplier" "JLCPCB"
-			(at 149.86 91.44 0)
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17441,2519 +18059,2520 @@
 				(hide yes)
 			)
 		)
-		(pin "AF9"
-			(uuid "2c322ee8-54bc-46ee-a6f0-1f15feab6bbc")
-		)
-		(pin "A27"
-			(uuid "0f2337b1-d38c-45ee-9fad-80810221aa3d")
-		)
-		(pin "AD3"
-			(uuid "070aa502-6862-4a3f-b8a6-bda3b1bfe527")
-		)
-		(pin "C9"
-			(uuid "65be105f-dab9-4e39-bbc0-3943e93c3ecd")
-		)
-		(pin "C12"
-			(uuid "e9cf62c0-cfeb-437f-a49d-f4952d7247bb")
-		)
-		(pin "A1"
-			(uuid "cb277913-a9e5-425d-bb3b-3948c5468c2f")
-		)
-		(pin "AF18"
-			(uuid "f4bcfd41-3350-4bd3-aa2f-9ed3b3fb30bd")
-		)
-		(pin "AD10"
-			(uuid "cd17ece0-b077-4c53-bb29-d608f8f513aa")
-		)
-		(pin "B5"
-			(uuid "66b1fb6d-b1c0-41f1-98e7-e2aba2d26fe0")
-		)
-		(pin "AB9"
-			(uuid "b8c8be0d-9fbc-4708-aa57-655a81a8a654")
-		)
-		(pin "AC22"
-			(uuid "c7d78f33-ee33-4bba-8526-a5cea7b6677e")
-		)
-		(pin "C8"
-			(uuid "fa7dd9f3-ca75-44a3-8653-53877f32ba7f")
-		)
-		(pin "Y10"
-			(uuid "7b9b0a8f-90da-4387-a98c-99e8cd08c553")
-		)
-		(pin "A31"
-			(uuid "8dc97662-062b-4f4c-958d-f2d95d8ae5c8")
-		)
-		(pin "AF20"
-			(uuid "5f5e2d28-75c4-48a4-b61e-576c4564fcb9")
-		)
-		(pin "AD22"
-			(uuid "ef532373-3fce-4ae7-a77c-61c37047510f")
-		)
-		(pin "AA3"
-			(uuid "6676ae2e-31ba-4571-8974-6f62cb5b40da")
-		)
-		(pin "AA9"
-			(uuid "e45756a9-2722-469a-9258-f2787775f54a")
-		)
-		(pin "AC20"
-			(uuid "6ba743ff-0c4d-44f8-8c58-e6f04cdf184d")
-		)
-		(pin "Y3"
-			(uuid "38ff1ded-1cca-4ea7-883c-f2f594091291")
-		)
-		(pin "AE23"
-			(uuid "a703ad42-afc2-4fdf-a56b-29d30f1bc4ef")
-		)
-		(pin "AD5"
-			(uuid "f19ec77a-42aa-4036-ae0c-e6d19a87babd")
-		)
-		(pin "AC3"
-			(uuid "8bcba6c8-f386-4389-afde-feada2efc079")
-		)
-		(pin "AA5"
-			(uuid "22a27612-20de-4c0f-9340-9a5aa6475f92")
-		)
-		(pin "AG2"
-			(uuid "e33823c6-d233-402f-86da-075a377ce46e")
-		)
-		(pin "AJ5"
-			(uuid "1250d7b0-1f2c-4654-95ad-78b430b5c0da")
-		)
-		(pin "AL1"
-			(uuid "0da8191a-eccd-421f-9394-dc4f1a36991e")
-		)
-		(pin "C11"
-			(uuid "8483ae0e-1ae0-4788-ba59-353b8b36706e")
-		)
-		(pin "F20"
-			(uuid "fc961616-04ac-484f-aca4-3255cd13979a")
-		)
-		(pin "G9"
-			(uuid "bcadb396-9971-45f1-9e2d-ed1f5247c381")
-		)
-		(pin "C20"
-			(uuid "55ccdcb6-f34d-4d76-a202-4a4e7483f40e")
-		)
-		(pin "C15"
-			(uuid "24cc0eef-b897-4350-aa76-3f80b65128a3")
-		)
-		(pin "C18"
-			(uuid "192b8eec-ad77-4141-abd1-c6d6d3402ab7")
-		)
-		(pin "C23"
-			(uuid "da838c62-70ef-4b44-bec1-ac7b138e73a3")
-		)
-		(pin "C24"
-			(uuid "436d88d8-dc2f-4139-85df-d47135de1938")
-		)
-		(pin "E18"
-			(uuid "e09cabff-8b03-42f9-8473-f7c13fba900c")
-		)
-		(pin "C14"
-			(uuid "5984e969-e688-44c0-9ea2-1128aeb52d3e")
-		)
-		(pin "D5"
-			(uuid "1a151f96-1b12-43f3-bc11-d0d3d195c7d2")
-		)
-		(pin "E4"
-			(uuid "4cb5aeb5-8df0-4c46-8f2b-1305f44c34e5")
-		)
-		(pin "E31"
-			(uuid "4245191b-db23-4eaa-abdc-ae9362a80350")
-		)
-		(pin "E2"
-			(uuid "810f2513-ae04-4ad6-8f87-7c9b286b4b1a")
-		)
-		(pin "C17"
-			(uuid "5bb28f24-0d1e-48cc-a58d-519281ff35b6")
-		)
-		(pin "F8"
-			(uuid "f5a17a29-5056-4296-a252-62f60a127bc4")
-		)
-		(pin "F15"
-			(uuid "6453517f-b5b4-4f89-ade9-4adf6c598abe")
-		)
-		(pin "C26"
-			(uuid "6d85a0f1-58ff-4ced-81de-436884961f2d")
-		)
-		(pin "G5"
-			(uuid "0518a177-cbe5-4ca8-a3c2-9f5770131830")
-		)
-		(pin "C21"
-			(uuid "72173971-1454-4a42-8833-b818ef586e75")
-		)
-		(pin "E7"
-			(uuid "76c06c11-0fe3-4057-acff-5fec991d3f68")
-		)
-		(pin "E12"
-			(uuid "5ffeb939-9ecd-4ab6-93a5-b5f00c85c757")
-		)
-		(pin "E15"
-			(uuid "b80b2b2b-e460-47c4-a511-c74da2dc1e37")
-		)
-		(pin "E21"
-			(uuid "e79272a5-b543-4754-ae9d-9ba282a28855")
-		)
-		(pin "E24"
-			(uuid "c3bd40c1-2481-4159-98f5-2ce38de7690b")
-		)
-		(pin "F18"
-			(uuid "bb8287cf-0a30-4a5b-bfe7-407729d0b414")
-		)
-		(pin "F21"
-			(uuid "5f60864e-b001-4f87-80f5-d732c84fc3b7")
-		)
-		(pin "G18"
-			(uuid "10a7e92c-cb87-4688-95d2-0190201d7031")
-		)
-		(pin "G27"
-			(uuid "e8240dbf-3a26-49aa-97c3-0ca49b2cf499")
-		)
-		(pin "H3"
-			(uuid "a8cf90a3-3deb-42f1-bc5a-6a9a84d3e856")
-		)
-		(pin "H9"
-			(uuid "5cf74fe9-082c-436d-b662-21c7ebf02e76")
-		)
-		(pin "H10"
-			(uuid "b300aeb6-daad-4d1c-b2ca-a267ae58d7a4")
-		)
-		(pin "H11"
-			(uuid "bbd31071-d63a-4a02-ba16-00229c077b58")
-		)
-		(pin "H12"
-			(uuid "c4aa882a-ae1c-48bc-b580-30f67d81b131")
-		)
-		(pin "H13"
-			(uuid "fe87446e-11ff-46e1-b132-a099dbc93a2a")
-		)
-		(pin "H15"
-			(uuid "5c21b687-8e90-497c-b86c-e0b4d118f052")
-		)
-		(pin "H16"
-			(uuid "1d5f6572-2e9f-4678-8a61-ebd727c2d6ed")
-		)
-		(pin "J6"
-			(uuid "a928a707-0296-4c68-bde5-d60bea988816")
-		)
-		(pin "K8"
-			(uuid "c4f0d87b-c9dc-4d13-962d-57aeebe4c000")
-		)
-		(pin "K20"
-			(uuid "5e397c64-9eac-4b28-82d5-c0e8c5d63791")
-		)
-		(pin "J8"
-			(uuid "abc5f79c-78bf-4443-a6a9-965c87cd036d")
-		)
-		(pin "J9"
-			(uuid "428ed12c-880d-4a3d-a1ca-db77129a09fa")
-		)
-		(pin "K9"
-			(uuid "8d987d56-a878-4da1-b88b-a6f31cf12963")
-		)
-		(pin "W21"
-			(uuid "7a33a072-d3c1-4ac0-a20e-ecaa3e87b35a")
-		)
-		(pin "K14"
-			(uuid "8c940100-d58f-4424-be91-988528f72156")
-		)
-		(pin "H17"
-			(uuid "fa7a963e-ab7e-4238-834d-c6964b0dd0cf")
-		)
-		(pin "K16"
-			(uuid "d5d41e87-e8fa-47cb-9038-869ccd8585b0")
-		)
-		(pin "N21"
-			(uuid "9057d0d1-86cb-49e0-98d1-1a8adf8ae377")
-		)
-		(pin "K22"
-			(uuid "99b024d2-3e07-4cca-8810-48930cbe8c00")
-		)
-		(pin "H26"
-			(uuid "5f3e6c62-052a-41c2-9a97-9058998de9e5")
-		)
-		(pin "Y17"
-			(uuid "2451895e-2b0b-4e39-8a20-66f21b997f6f")
-		)
-		(pin "M16"
-			(uuid "7ca3020d-acb3-4991-9cc3-32d4f6b302bf")
-		)
-		(pin "K18"
-			(uuid "54be56d0-ce70-4058-8717-e0e99639640b")
-		)
-		(pin "K10"
-			(uuid "a99b61a7-03e6-4f21-9002-cc914f940bfd")
-		)
-		(pin "L8"
-			(uuid "ce5b2458-7bf8-4bde-9229-1364882718dd")
-		)
-		(pin "L11"
-			(uuid "f832a7c7-5c1b-4178-a0d5-cb0284714065")
-		)
-		(pin "L13"
-			(uuid "4d7498d6-4a50-418a-8cf3-59dc731fd2ad")
-		)
-		(pin "L16"
-			(uuid "25e7325a-0a8d-4514-8884-0436c5698a30")
-		)
-		(pin "N17"
-			(uuid "486afef2-5f64-4527-b4e0-ea2332bdd873")
-		)
-		(pin "J3"
-			(uuid "3fb41ea6-8dd3-4218-9c9c-4cbce9ac5850")
-		)
-		(pin "H18"
-			(uuid "a7102242-afce-42c3-b1c1-830f518e0937")
-		)
-		(pin "J7"
-			(uuid "767897cf-90b1-4e53-a0df-55dd846f8548")
-		)
-		(pin "J10"
-			(uuid "ff193d74-c371-4460-9d87-3d39f381d01c")
-		)
-		(pin "K12"
-			(uuid "cca0d5fa-2b50-4f98-8f0f-4b532bff1248")
-		)
-		(pin "L3"
-			(uuid "9332c64c-e54b-4c66-832f-3227b8297cb8")
-		)
-		(pin "L12"
-			(uuid "54cf4fcb-20f8-4067-a2cd-8870d9032fc9")
-		)
-		(pin "L14"
-			(uuid "e63aeec2-eded-463c-98c5-eedc24a183e5")
-		)
-		(pin "L15"
-			(uuid "cbea4473-5402-40b3-a357-8c5b9fcaa3b6")
-		)
-		(pin "L20"
-			(uuid "8aeb5880-802a-4720-ac4d-fc23369e7554")
-		)
-		(pin "L22"
-			(uuid "31e1e698-fbba-4376-bd6b-a8e81dcfbe97")
-		)
-		(pin "N19"
-			(uuid "7d486091-698c-41c1-bffc-f17ac4aa35c2")
-		)
-		(pin "L6"
-			(uuid "676a39a0-f37f-4916-bfd3-5e33fea287aa")
-		)
-		(pin "L27"
-			(uuid "e4353c00-3ed1-493e-a647-da02148b6c3e")
-		)
-		(pin "M3"
-			(uuid "76e330b2-deb2-4d93-8957-9de3b2332757")
-		)
-		(pin "M8"
-			(uuid "6ef0ed49-cd3c-4c3d-bcd0-a52db4d18581")
-		)
-		(pin "M10"
-			(uuid "21ed27de-a44e-473e-8ca5-e6a63d75823a")
-		)
-		(pin "R3"
-			(uuid "bc6bf38c-3f77-4021-bbe4-383daedaa11a")
-		)
-		(pin "M23"
-			(uuid "260b844a-c021-4719-8c67-63270ea5d859")
-		)
-		(pin "P12"
-			(uuid "a47d6aca-c0e0-41b4-833b-837e120c3ddd")
-		)
-		(pin "T19"
-			(uuid "fd7651fe-d744-4124-99f6-2d4c33d480b3")
-		)
-		(pin "R21"
-			(uuid "d4b7de07-4170-4c74-9892-640915c1e52f")
-		)
-		(pin "P6"
-			(uuid "e4e4476b-a525-4cb8-be2b-48cc74ee7b29")
-		)
-		(pin "U12"
-			(uuid "ea67accb-a5ed-4b7a-b968-43a9f84e0e97")
-		)
-		(pin "N16"
-			(uuid "5d7c2618-88f4-4744-9251-7ae7dc1ba175")
-		)
-		(pin "P7"
-			(uuid "fc843926-93bf-4d14-9ecb-91ae0aaee1ef")
-		)
-		(pin "P11"
-			(uuid "9cce9efa-d925-4bbd-a9e5-0d225d34b0bc")
-		)
-		(pin "N14"
-			(uuid "56f0cfd3-33df-4324-9cef-13a48228e3d2")
-		)
-		(pin "N13"
-			(uuid "1a329f67-812c-464e-8a71-418dfb96e90e")
-		)
-		(pin "N15"
-			(uuid "4f13f4f0-6c4d-449e-ab69-f21871f0294f")
-		)
-		(pin "P8"
-			(uuid "a8a87f41-2153-40ac-9fe2-09cbbda13038")
-		)
-		(pin "P3"
-			(uuid "45a33a65-500a-493c-85f5-a107a31d99e2")
-		)
-		(pin "P16"
-			(uuid "4a6e3051-1300-4a11-82b3-fede0e3b6fe7")
-		)
-		(pin "P21"
-			(uuid "3e20501e-9e86-4bd4-9995-ed5f76ef6aea")
-		)
-		(pin "R5"
-			(uuid "64bc31cb-7e5b-4961-9a38-42c2377cb821")
-		)
-		(pin "R6"
-			(uuid "83e5b6a6-3466-4b1b-a61c-2fcc69d025e2")
-		)
-		(pin "U11"
-			(uuid "156beb8e-45ab-4d6e-ad18-6947357b965a")
-		)
-		(pin "P10"
-			(uuid "75019dc9-6efe-47b6-9183-2321895be413")
-		)
-		(pin "N8"
-			(uuid "7eac471a-8fd6-4c33-a8fa-ddeba3b424b4")
-		)
-		(pin "Y16"
-			(uuid "f2796cd5-b68f-49a3-b2ba-ca5c44a602e6")
-		)
-		(pin "P19"
-			(uuid "d18db85e-8327-4fac-9217-28419edd35e5")
-		)
-		(pin "U16"
-			(uuid "451a178f-8f5c-437c-9abe-bbc8704d9adc")
-		)
-		(pin "V17"
-			(uuid "a35937e5-85a6-448e-9dd0-43c2f1fbb41a")
-		)
-		(pin "T16"
-			(uuid "34181f92-9454-41e9-80e8-4c00e8bf4add")
-		)
-		(pin "AC21"
-			(uuid "86fb3a05-2c2e-4536-a120-be7e91d5acee")
-		)
-		(pin "R15"
-			(uuid "02c01c3b-b7e6-4a9a-8e85-a21901b68dcc")
-		)
-		(pin "T8"
-			(uuid "de9790dc-33c1-497d-97f1-8e07ceabfce2")
-		)
-		(pin "T10"
-			(uuid "0cf77988-e85e-42f8-bb32-17a49bc0c34f")
-		)
-		(pin "T21"
-			(uuid "d5397d75-b486-4e32-832f-674768eb9e0d")
-		)
-		(pin "U19"
-			(uuid "35e93c99-64c4-46dd-89ff-298b341ebcc6")
-		)
-		(pin "U21"
-			(uuid "610bfcef-4f11-4d1b-a56a-6ee30a2cc291")
-		)
-		(pin "U15"
-			(uuid "acbfd7cf-dc82-441f-ac0a-e0f14b45c6d8")
-		)
-		(pin "W8"
-			(uuid "47f3d1af-1aec-4c66-800b-fec945395534")
-		)
-		(pin "U14"
-			(uuid "798a29c5-1f44-4bb4-90c6-6f2248397351")
-		)
-		(pin "R23"
-			(uuid "7da1d449-4235-4e49-aa24-1be93e5cad0c")
-		)
-		(pin "W13"
-			(uuid "0d7ff5fa-a9da-4727-8ee1-80d3dbad56db")
-		)
-		(pin "U22"
-			(uuid "9b7cf82f-02a7-4edc-97ba-4a0448621622")
-		)
-		(pin "Y12"
-			(uuid "5585f40c-6b18-479d-b8b7-c3a8648d417c")
-		)
-		(pin "W17"
-			(uuid "4ee55169-a6a1-42d0-a63b-53ae749ca33a")
-		)
-		(pin "R14"
-			(uuid "b80d9fb5-0e06-40c2-bacb-46d348b99fa1")
-		)
-		(pin "W19"
-			(uuid "5bd05765-38a0-4b41-b2ad-8989281155fc")
-		)
-		(pin "Y13"
-			(uuid "b9c3a701-81ef-4a5f-8b1a-15ea4db2eb5b")
-		)
-		(pin "AB19"
-			(uuid "a53d87d8-6651-4a25-8a78-68467f57ab4d")
-		)
-		(pin "R16"
-			(uuid "41d8e829-4276-4313-acbc-81f090337e4e")
-		)
-		(pin "U3"
-			(uuid "a688f4b4-1525-49cc-8454-40b760b19c5d")
-		)
-		(pin "U8"
-			(uuid "5ea7a49f-904c-4ca2-8e0a-282ab2a7b025")
-		)
-		(pin "AC18"
-			(uuid "2bca161c-8921-4ce0-8fa9-4a962af63ff9")
-		)
-		(pin "V10"
-			(uuid "053f17fb-7fb6-47b9-800f-3de4d65846e3")
-		)
-		(pin "V5"
-			(uuid "65edf062-b475-4818-8e49-e679635a17a2")
-		)
-		(pin "Y11"
-			(uuid "6446e68f-5e73-4d4d-b06e-96390415f034")
-		)
-		(pin "U29"
-			(uuid "35fc96f4-d332-4ac9-8d55-c0a8afc3f638")
-		)
-		(pin "Y14"
-			(uuid "41d26068-9bab-4d69-bdc0-eff33159cc5f")
-		)
-		(pin "Y15"
-			(uuid "c1560bcc-bfc9-4316-8af0-c87e7d2f32f0")
-		)
-		(pin "W22"
-			(uuid "87a20fb5-7495-4865-b52f-eee8ef5d5cdb")
-		)
-		(pin "W30"
-			(uuid "8c4767f9-aaae-4c36-bfb2-3aa286f22d7f")
-		)
-		(pin "V3"
-			(uuid "5fa114de-96ac-40ec-9408-da04cc91de21")
-		)
-		(pin "V8"
-			(uuid "5b9f3bb7-7066-47fa-9e6f-f08ce8e3cf56")
-		)
-		(pin "AD21"
-			(uuid "5f3607eb-b4ac-4575-8e86-a9664e4c85ad")
-		)
-		(pin "R18"
-			(uuid "9da50e9b-185c-401d-a112-4484a135d8bb")
-		)
-		(pin "AB13"
-			(uuid "5de8d064-3808-41e6-92cd-b27e49024f9a")
-		)
-		(pin "AD13"
-			(uuid "3317d0da-1b45-47c4-90f7-d2158a7044f8")
-		)
 		(pin "Y9"
-			(uuid "5278e50f-ca16-481a-a693-4d49cc39adc7")
-		)
-		(pin "W9"
-			(uuid "18f085d9-bad5-4b69-af13-0c15db1c8654")
-		)
-		(pin "AJ21"
-			(uuid "fc9a2794-43d3-46ee-bbcc-e148be4dc4d8")
-		)
-		(pin "T18"
-			(uuid "12dda801-33c9-4f03-b706-43cdddffcd69")
-		)
-		(pin "AJ24"
-			(uuid "16dc8c77-44f5-4670-8928-68dbbc8a877c")
-		)
-		(pin "AJ20"
-			(uuid "5276100f-782b-4c0f-a95a-d8bab5c06a2b")
-		)
-		(pin "AB23"
-			(uuid "a0a4648c-acc3-4964-9e66-2a29817d5d1c")
-		)
-		(pin "AJ23"
-			(uuid "d7729ead-8019-481c-b5ac-f0e861504483")
+			(uuid "2d9dccdd-a269-42da-bb5e-12b8c08acd9e")
 		)
 		(pin "Y20"
-			(uuid "45eadb4d-a9da-4a8c-a956-50d8ede8071f")
+			(uuid "ac3e3973-389a-4338-9f33-2d1cb1105e6b")
+		)
+		(pin "AJ21"
+			(uuid "aa01ae0b-b269-422f-8198-cda904ec66df")
 		)
 		(pin "AJ27"
-			(uuid "4ac98620-3ba8-4d26-aede-f5999a8e6d15")
+			(uuid "5e598865-0028-4767-b101-c218be4ca452")
 		)
-		(pin "AF23"
-			(uuid "c85aecde-76e7-490c-9d17-fa28f4d32f2e")
+		(pin "V3"
+			(uuid "5fe018a6-0c76-447b-a3c8-5a64a3712e8c")
 		)
-		(pin "AA13"
-			(uuid "7c8717c0-32c5-4b47-abcf-89ae1bce8a35")
+		(pin "W30"
+			(uuid "3a779eb7-4af2-408e-832b-c8fb6f2f1a49")
 		)
-		(pin "AJ26"
-			(uuid "408efd12-c924-412e-87ae-3d7872ef5680")
-		)
-		(pin "AL31"
-			(uuid "d7f1dcfe-685a-4b58-8a3b-f7d869e47030")
-		)
-		(pin "W18"
-			(uuid "1f6c27c8-3c99-49e6-bda7-5c7d4a51bd7c")
-		)
-		(pin "AJ28"
-			(uuid "402f3cc5-7da3-4dd2-a8b4-ec2e032e8923")
-		)
-		(pin "AA10"
-			(uuid "9b349f82-1201-4055-a266-cd9338dd3710")
+		(pin "AJ23"
+			(uuid "8f1a1058-a5d4-493d-af33-0465b9eb9838")
 		)
 		(pin "Y23"
-			(uuid "1b76056b-868f-4a4e-b6b4-513178715f13")
+			(uuid "56ed2a2c-565c-4fcb-b3ef-b65fe5de3b75")
 		)
-		(pin "AA26"
-			(uuid "af9a1274-9892-496f-80f0-128ecc2b397c")
+		(pin "W9"
+			(uuid "52fc972b-a737-43f8-842e-8b4a504ee120")
 		)
-		(pin "AB11"
-			(uuid "052330a2-bc9c-4d43-bc37-afe8a0dc6c11")
+		(pin "V8"
+			(uuid "bf0e0edc-1c81-463f-b6bc-edc462e48563")
 		)
-		(pin "AA23"
-			(uuid "d68dd53a-5a6e-4f5b-a147-b0753df997cd")
+		(pin "W19"
+			(uuid "9281702b-fad3-4c98-acbf-a2efdc50922d")
 		)
-		(pin "AF24"
-			(uuid "ad3d7258-ca20-4202-89cd-9e6b3e91e000")
+		(pin "AJ24"
+			(uuid "b9a3db27-5f68-4291-902d-41fc09dbb0a6")
 		)
-		(pin "AA29"
-			(uuid "d8c5e5b5-2114-482e-9b86-13082da63f9b")
+		(pin "W22"
+			(uuid "4a8cf33a-dd1b-4ff8-a80c-709cd72504e4")
 		)
-		(pin "AC15"
-			(uuid "c8bab28b-382e-49a1-b6fd-34fddfad4061")
+		(pin "Y14"
+			(uuid "40453ff8-2c36-41e3-9453-66a859547ae0")
 		)
-		(pin "D3"
-			(uuid "cadb816f-401f-4f25-aac9-a067ebdd2580")
+		(pin "Y11"
+			(uuid "46b71b06-7f48-4e43-a792-dd88ac4eb431")
 		)
-		(pin "B15"
-			(uuid "29779157-910c-4f85-adee-91d705b3567a")
+		(pin "W17"
+			(uuid "b137434a-e25e-417f-b162-381ba3f53c9c")
 		)
-		(pin "D1"
-			(uuid "b8894f62-95c4-4905-a658-963574ccfb97")
+		(pin "V10"
+			(uuid "e0ac3048-b8c7-43f0-8962-a6ec49042aaa")
 		)
-		(pin "U6"
-			(uuid "c4948287-dd43-44d5-be14-604482c2eb3e")
+		(pin "W8"
+			(uuid "e62d6f42-870f-4cdf-9d2e-a74a1324258a")
 		)
-		(pin "C3"
-			(uuid "17b39948-158a-4c2a-a01f-21e3178c26df")
+		(pin "AD21"
+			(uuid "b32bbbd1-3419-4335-81eb-d334d5c8d376")
 		)
-		(pin "E1"
-			(uuid "aa248770-7216-4224-8b35-2f5cd5f6a244")
+		(pin "V5"
+			(uuid "0e89b4ce-0821-4132-86b5-e360e388f7a8")
 		)
-		(pin "K1"
-			(uuid "bf937b6e-d95a-42a7-b2a6-8645074d8a46")
+		(pin "Y13"
+			(uuid "c906f445-1cad-4e06-bb76-acf0b85228ad")
 		)
-		(pin "F5"
-			(uuid "c66eedb4-8861-48ea-9195-713f8e17e9ff")
+		(pin "R18"
+			(uuid "74362587-2ddf-4647-9bf2-beb0e41fc54b")
 		)
-		(pin "F4"
-			(uuid "ec6e4810-b619-47d5-aa94-25866f9d179b")
+		(pin "T18"
+			(uuid "d38a9de5-171e-4879-8edd-658b99da98f2")
 		)
-		(pin "M4"
-			(uuid "f2acab05-137d-4e9a-b8e3-93e8c41fa0ed")
+		(pin "U29"
+			(uuid "172b5006-5521-477b-9672-335d0044ff2d")
 		)
-		(pin "R10"
-			(uuid "ae428c42-bb97-4db4-b338-77b56c189395")
+		(pin "Y15"
+			(uuid "a6e73b14-4ae5-4a2e-a6d4-40bc23234e47")
 		)
-		(pin "U7"
-			(uuid "11e3f71c-6e4d-4c13-96c5-8d6c2a89c82d")
+		(pin "W18"
+			(uuid "6f43679d-ad9e-4f97-a51a-41eb1e2c5dcb")
 		)
-		(pin "U10"
-			(uuid "860b3900-7d7d-42b1-b73d-208331edc0bf")
+		(pin "AJ28"
+			(uuid "7142d2ea-1da6-4c68-a55f-1ac19cd66b7f")
 		)
-		(pin "V9"
-			(uuid "23bbaad9-778a-486d-84a5-12044afedea7")
+		(pin "AJ26"
+			(uuid "3fbc6709-3bd7-4843-af1a-16b5978afd6b")
 		)
-		(pin "D2"
-			(uuid "f88b61ad-75c7-4e6b-aa95-125743f797d1")
+		(pin "AA13"
+			(uuid "593555ec-6ff4-4863-9e38-8dad5f5fd8b9")
 		)
-		(pin "B14"
-			(uuid "1d28d206-d319-4c0c-b9cc-3d6856aa1237")
+		(pin "AL31"
+			(uuid "cb45001a-a8ed-4543-9af3-0caac434cfb5")
 		)
-		(pin "L5"
-			(uuid "8fa7988c-d144-40be-bf0e-4dbcba2b839c")
+		(pin "AA10"
+			(uuid "fcde4715-4dc8-40fb-9f61-52e58479d31e")
 		)
-		(pin "C1"
-			(uuid "f8410d0a-a767-434d-aa92-db5cd3542f23")
-		)
-		(pin "V7"
-			(uuid "086e5818-0a32-467d-85a4-d51117c30971")
-		)
-		(pin "E3"
-			(uuid "004b62b4-cff0-48e0-abce-6cba853e2498")
-		)
-		(pin "H7"
-			(uuid "8b0c5834-c62f-4fa3-9cbd-019afe4c172f")
-		)
-		(pin "V6"
-			(uuid "4586b7b3-ba4a-4037-b5ab-6e224da54dd9")
-		)
-		(pin "L4"
-			(uuid "9a1e8833-c1b7-4df0-9834-cc0995572660")
-		)
-		(pin "G6"
-			(uuid "b65db0a1-d933-4d5f-b565-cc0b25934366")
-		)
-		(pin "T9"
-			(uuid "9b1bae2b-8a1e-49df-8de5-f7787dee2aa0")
-		)
-		(pin "U9"
-			(uuid "431773ff-420b-40f1-9ed0-ba6401f1a9a9")
-		)
-		(pin "A16"
-			(uuid "60691092-ce9b-4e3f-ac26-0a28d8b86b88")
-		)
-		(pin "B17"
-			(uuid "150967e1-e09c-4d80-8c79-22289d5d28bf")
-		)
-		(pin "A17"
-			(uuid "9a714834-50c7-4937-86ef-d2c4c510c936")
-		)
-		(pin "A18"
-			(uuid "fbfff981-10bb-42df-9da1-7c34a0d29ca9")
-		)
-		(pin "B12"
-			(uuid "e18f00d0-3e4e-48ac-af9d-73d674c0f645")
-		)
-		(pin "A11"
-			(uuid "11c46d3f-ac1e-4b09-a700-c3a295c666cf")
-		)
-		(pin "B13"
-			(uuid "8aabf465-3d5d-44d7-bfb4-1c00040677df")
-		)
-		(pin "A12"
-			(uuid "dced6264-0f09-4558-ac2d-2a18c565d586")
-		)
-		(pin "A13"
-			(uuid "f042dcf2-302c-4395-8488-55001eeb09de")
-		)
-		(pin "B11"
-			(uuid "60044541-cd27-4ceb-ba0d-d63f7cc82eac")
-		)
-		(pin "A14"
-			(uuid "327e9e77-8149-4b80-a7f5-427274729da6")
-		)
-		(pin "B18"
-			(uuid "2fc93667-9f03-45d4-82b2-00d545676bb3")
-		)
-		(pin "A15"
-			(uuid "a6ea9539-c632-4596-9546-3384e0daad56")
-		)
-		(pin "B16"
-			(uuid "03ae42c0-0f76-42db-90cd-5557522ea8c7")
-		)
-		(pin "A19"
-			(uuid "96708bc6-2e5c-4f04-b925-798ca4e4d4ff")
-		)
-		(pin "B19"
-			(uuid "8fa01e01-5f6a-455d-9fed-2c552c8a3473")
-		)
-		(pin "A21"
-			(uuid "8cef9252-92fa-4020-b140-4bed1d15c095")
-		)
-		(pin "A20"
-			(uuid "58b2abc4-1cba-48b4-986d-d68cd435118a")
-		)
-		(pin "B21"
-			(uuid "4cddae3d-3181-4eba-aa55-f4bd594b7993")
-		)
-		(pin "B22"
-			(uuid "a7d3987f-7b6d-4c0f-b95f-6090026c2200")
-		)
-		(pin "A23"
-			(uuid "9c0396a0-b074-4404-9d0a-1a392a63f736")
-		)
-		(pin "A25"
-			(uuid "514a94f5-1cc9-4a68-af92-a523f8770847")
-		)
-		(pin "B26"
-			(uuid "2cc89329-7f91-4337-8c36-b9af2d051686")
-		)
-		(pin "D18"
-			(uuid "4be7005f-687d-456d-a499-8bac6ea318b1")
-		)
-		(pin "B23"
-			(uuid "b0637fb3-d2e5-4fe2-a547-a24cd5918bd2")
-		)
-		(pin "D21"
-			(uuid "38bbf843-d02d-4a8e-ab51-5a908cd86fbe")
-		)
-		(pin "B20"
-			(uuid "11f6bef6-010d-4d43-9b62-a4fe7c877fc1")
-		)
-		(pin "D17"
-			(uuid "83914b68-1682-4587-9df6-797b7151c747")
-		)
-		(pin "D15"
-			(uuid "5cb23038-d0a9-49ad-bb28-5ef8ddc5262d")
-		)
-		(pin "D20"
-			(uuid "10ab0f3e-57a1-4e21-808e-d545fde12106")
-		)
-		(pin "A22"
-			(uuid "f3ce14a1-affc-4cb3-b502-80a29663fd72")
-		)
-		(pin "D23"
-			(uuid "d32b53e4-35f2-4c2b-94fc-d9a19383e611")
-		)
-		(pin "A24"
-			(uuid "a9802be5-194a-4194-938a-a3bdac010ee9")
-		)
-		(pin "B24"
-			(uuid "32f6b702-73c1-4705-acb1-d04eec423e89")
-		)
-		(pin "B25"
-			(uuid "18335d33-9b5f-4270-ab83-3cd94d70c59e")
-		)
-		(pin "D14"
-			(uuid "942b8425-638b-4793-aac6-37d2f8d1a38d")
-		)
-		(pin "A26"
-			(uuid "67016ae0-0e05-484f-b930-82aa60e3f09d")
-		)
-		(pin "D24"
-			(uuid "21fd903d-c361-4411-879a-36dc6e019b02")
-		)
-		(pin "A2"
-			(uuid "7b5e715d-0b30-4f60-ba98-0198c4691e61")
-		)
-		(pin "E14"
-			(uuid "3a27ebe3-946d-401a-aff2-c7cece4370e8")
-		)
-		(pin "E23"
-			(uuid "45c73ec7-cd9f-49ac-998a-7f0c5e9d1d28")
-		)
-		(pin "A9"
-			(uuid "678660a1-b4a8-440c-b1b7-fa9e4ba8bb75")
-		)
-		(pin "B6"
-			(uuid "4dd5c11b-62f4-46c9-8faa-7449a3a887ed")
-		)
-		(pin "B10"
-			(uuid "778b3003-d69b-4e93-9315-9f1cc4d148da")
-		)
-		(pin "A8"
-			(uuid "95094b1d-9dd8-444f-8624-576ea898d4c6")
-		)
-		(pin "B4"
-			(uuid "2de98f6f-39d8-4f2e-a342-96f3cb7dcd9e")
-		)
-		(pin "J11"
-			(uuid "a4654d51-996d-48d9-b29f-7cc5f8800b0d")
-		)
-		(pin "A3"
-			(uuid "9d32c4d2-e0fb-4dea-902c-593fe3f544a4")
-		)
-		(pin "J13"
-			(uuid "cec70b9d-54e0-4565-9e11-6e53efaa4bfe")
-		)
-		(pin "J16"
-			(uuid "aa8a6575-aa71-4446-989c-7be1c9258732")
-		)
-		(pin "J12"
-			(uuid "c12c2971-5903-403c-979f-88c5d0ab64af")
-		)
-		(pin "F11"
-			(uuid "9095f07c-1af0-4a40-9720-515aa4995e35")
-		)
-		(pin "B3"
-			(uuid "5b85f127-b483-4cc9-bf19-f222d01d7f49")
-		)
-		(pin "E17"
-			(uuid "e2fab9ae-06af-4012-a6f3-6a1b80248c69")
-		)
-		(pin "F12"
-			(uuid "0ff6cbad-3fe4-4d12-8a0c-8bee3ed2d60b")
-		)
-		(pin "G15"
-			(uuid "1a091bd0-25dc-49bc-8e36-a3fb1f541405")
-		)
-		(pin "J15"
-			(uuid "3bf9d040-5a12-43e2-bace-6bccff83449f")
-		)
-		(pin "B8"
-			(uuid "61bce368-e254-481d-98e9-e6c8567b3fc5")
-		)
-		(pin "B7"
-			(uuid "a6ee23eb-d6b9-4cce-865c-9cf52e93ca03")
-		)
-		(pin "J14"
-			(uuid "c5d9ca9e-392a-4e57-b3d5-864faa6bc63b")
-		)
-		(pin "J17"
-			(uuid "dfff35ae-ea6c-48fb-9432-8c1a97168603")
-		)
-		(pin "H14"
-			(uuid "c99e625c-8089-4734-85a3-1382fa1be734")
-		)
-		(pin "G12"
-			(uuid "2fb2c07f-8253-43be-94bc-82e887551caf")
-		)
-		(pin "E20"
-			(uuid "9aeaffa8-b27e-477d-8328-3ff42bfdee9f")
-		)
-		(pin "A10"
-			(uuid "ddb2a4ad-df2e-454d-8148-4fcac53af7d1")
-		)
-		(pin "B9"
-			(uuid "9f93bed2-4eec-4dcd-8430-c72beef67c78")
-		)
-		(pin "A7"
-			(uuid "db332f5e-d2da-4ccc-9f05-2b6f370173f9")
-		)
-		(pin "A6"
-			(uuid "8b5281e6-611d-42d6-ad9d-67e02294400c")
-		)
-		(pin "A4"
-			(uuid "9e853ae5-d7d5-4089-aace-87e1479782fb")
-		)
-		(pin "C5"
-			(uuid "58c33f36-7938-4f86-9950-1ac4281640ad")
-		)
-		(pin "C6"
-			(uuid "be241790-2f01-4293-8a94-8e0440f90007")
-		)
-		(pin "E6"
-			(uuid "3c8e6c25-df64-4b1e-8ce3-9637f8ddc119")
-		)
-		(pin "K15"
-			(uuid "004ce8f5-bd15-4834-9b18-3d7d786154a2")
-		)
-		(pin "G8"
-			(uuid "58772ad5-6339-41f1-9146-ec8c735fd4c9")
-		)
-		(pin "K11"
-			(uuid "85bef6f5-e4ee-40b8-bb9b-be2ae1ee2504")
-		)
-		(pin "AH3"
-			(uuid "74af36fd-03b7-49f2-ad66-5e4732e55a39")
-		)
-		(pin "D6"
-			(uuid "9968efb7-40b1-4a46-bec0-02702ac32820")
-		)
-		(pin "F14"
-			(uuid "3a7d97dc-e45a-427c-a534-4e07f0f976fe")
-		)
-		(pin "Y31"
-			(uuid "7000d00a-9144-48e5-bd81-36d0f43cc6c9")
-		)
-		(pin "G17"
-			(uuid "7be95028-17b9-4f09-b1d3-4ff6860856d3")
-		)
-		(pin "D11"
-			(uuid "92fe8780-1f8d-4a70-bb98-506f3f1d8a42")
-		)
-		(pin "J18"
-			(uuid "bcb7d41a-8e8c-4385-b36b-acfcf63c3565")
-		)
-		(pin "F9"
-			(uuid "14dbc63d-dd1b-4614-9bce-fde0296a686a")
-		)
-		(pin "D8"
-			(uuid "caf30a60-550c-4e01-8db1-24bfa6076126")
-		)
-		(pin "G11"
-			(uuid "2145aa01-56e4-40ef-8706-66cb8f12602f")
-		)
-		(pin "B2"
-			(uuid "58bf2ba0-65b5-4441-a28d-84b0c1eecf2b")
-		)
-		(pin "E8"
-			(uuid "2fc2d09b-3702-4670-86dd-86df0f3cecf9")
-		)
-		(pin "D12"
-			(uuid "942b8d0e-f59d-458a-a433-3a7a6a6ac3f5")
-		)
-		(pin "D9"
-			(uuid "02987291-e810-4054-af8c-08e8475182af")
-		)
-		(pin "E9"
-			(uuid "6a267ecf-b6ef-4ccf-ae80-2e720cad2058")
-		)
-		(pin "F17"
-			(uuid "460f3b37-c9a6-4d55-a230-b9c99fc93a30")
-		)
-		(pin "G14"
-			(uuid "6ef15c1b-afd1-46de-b0a5-f9be943120db")
-		)
-		(pin "C4"
-			(uuid "e47dfe5b-9054-40b0-a1ee-c9353ec5991e")
-		)
-		(pin "F7"
-			(uuid "239a2617-8f42-4439-85bd-8db3127e41ba")
-		)
-		(pin "A5"
-			(uuid "aeea927d-b2b9-48c7-af13-ed4a8c588ed4")
-		)
-		(pin "E11"
-			(uuid "24f2953d-93e2-4efa-8e9a-34f13d836267")
-		)
-		(pin "K13"
-			(uuid "b233cda4-6d10-43bb-a0a2-6b675935cb87")
-		)
-		(pin "T30"
-			(uuid "2b5a7fb4-736b-42b3-a937-070082197c05")
-		)
-		(pin "K17"
-			(uuid "56e7a32d-35ea-4406-bbe1-0bb7e43fcd17")
-		)
-		(pin "Y30"
-			(uuid "78f96c2a-bdde-4f1d-aa0c-3a61a302f18e")
-		)
-		(pin "AK3"
-			(uuid "cbb56782-e964-40eb-91ed-692bdbe55bdc")
-		)
-		(pin "AH5"
-			(uuid "495ccca8-9ff7-420d-a77d-5f6f7f43fb49")
-		)
-		(pin "U31"
-			(uuid "607710a5-400b-4699-9247-d148d3482fb4")
-		)
-		(pin "AK1"
-			(uuid "feeb5153-4df3-42e0-911b-27d5b93784c5")
-		)
-		(pin "AD14"
-			(uuid "5dff275a-a4ae-4231-b870-9f29636c9522")
-		)
-		(pin "AD23"
-			(uuid "ae68d398-f48a-49ab-b7a2-1f511f40e58b")
-		)
-		(pin "AK4"
-			(uuid "0f701904-0607-487a-b980-0a116825587f")
-		)
-		(pin "AB20"
-			(uuid "67ae42e3-2052-486f-80e6-d178e1d2fb3e")
-		)
-		(pin "M31"
-			(uuid "2462895a-9c3f-4c0f-a7c1-4fa633628425")
-		)
-		(pin "AD25"
-			(uuid "e1face0a-5202-4d56-ac84-d0416ed362fe")
-		)
-		(pin "AG4"
-			(uuid "4ea1e81c-393c-47df-bf88-4ae75379b1b8")
-		)
-		(pin "AJ31"
-			(uuid "b418cbf3-edf8-4d96-b042-176ce7c4ba8c")
-		)
-		(pin "W31"
-			(uuid "630dc7ce-6811-416a-a803-c26f7985b9b2")
-		)
-		(pin "M24"
-			(uuid "e9c9e752-ec50-448d-84b0-ca0116f57f59")
-		)
-		(pin "AJ30"
-			(uuid "ec98d98c-8dcd-4b2d-a032-984f972717fb")
-		)
-		(pin "AD24"
-			(uuid "22ed401f-c47e-474b-a30e-7e231e6b6529")
-		)
-		(pin "AC12"
-			(uuid "a0034d2c-e541-4ed2-a998-36b160b21d52")
-		)
-		(pin "AB22"
-			(uuid "13a98481-07d7-4046-9dc9-785cf8475b5a")
-		)
-		(pin "AA22"
-			(uuid "224b5485-6c64-45be-95d5-b020c8c19c4c")
-		)
-		(pin "AC14"
-			(uuid "03f8f0da-488b-49ce-96d0-94c8cc87ace2")
-		)
-		(pin "AA19"
-			(uuid "154b182d-4567-43d9-8e6b-b3bdeb8561ca")
-		)
-		(pin "AD11"
-			(uuid "5a6730e3-c690-4051-8eb0-1bd4f1147cd3")
-		)
-		(pin "AD12"
-			(uuid "7931a286-364a-4a41-9969-c8028fbdcb6c")
-		)
-		(pin "AD15"
-			(uuid "157f6d12-3e1c-4ecc-9905-b270ec5a48eb")
-		)
-		(pin "R30"
-			(uuid "1a70a672-c389-4711-b4ee-bb18ba139ffe")
-		)
-		(pin "AJ3"
-			(uuid "79d77b0d-81c4-40d3-80e3-6aeaad532d90")
-		)
-		(pin "AA20"
-			(uuid "d75b6899-6bab-4e8e-b722-aaee414c8855")
-		)
-		(pin "N24"
-			(uuid "7a095390-d07b-4fa5-a937-8e4f16738421")
-		)
-		(pin "AA24"
-			(uuid "d41208ee-3210-42e4-b4ca-11f3e0c3058b")
-		)
-		(pin "AB24"
-			(uuid "5f7efa84-d579-430f-ab87-2203e1a79a35")
-		)
-		(pin "U30"
-			(uuid "594500df-5804-4c65-96f1-84691f04079f")
-		)
-		(pin "L25"
-			(uuid "3cdafba3-87ed-4b51-aa12-0f69d60fe9fe")
-		)
-		(pin "L26"
-			(uuid "9c3bd118-a202-457e-9687-fab6d1708798")
-		)
-		(pin "AK5"
-			(uuid "4283d109-d5a1-4a6a-bcbd-5d604db58599")
-		)
-		(pin "AH6"
-			(uuid "a2ee3690-6004-4ac1-b692-566565a1638e")
-		)
-		(pin "L29"
-			(uuid "1818bbcb-d828-4131-b923-0a0e66e640f0")
-		)
-		(pin "AD9"
-			(uuid "ef0c2896-ef11-4157-b8fb-a1bf7f5beb3a")
-		)
-		(pin "V28"
-			(uuid "4ec808e1-b351-4b3a-bb8e-712a3d72087a")
-		)
-		(pin "AF7"
-			(uuid "53f104fe-75d0-4cbd-8ccd-10bb6309d08c")
-		)
-		(pin "AA25"
-			(uuid "62e4dd57-c2fc-4193-83f6-f14e84fc1208")
-		)
-		(pin "K31"
-			(uuid "8dedde43-087d-4e01-9c3a-bdfce965f73b")
-		)
-		(pin "P24"
-			(uuid "acbac816-0510-400f-bdbf-3f9a174605d2")
-		)
-		(pin "R29"
-			(uuid "fbfba47c-0ec6-4b13-b144-a81252e5b7dd")
-		)
-		(pin "V25"
-			(uuid "add8b9dc-6e41-4073-a3e9-0160eed52516")
-		)
-		(pin "Y26"
-			(uuid "bcaa545e-8b9e-4d3c-b5c4-f1eee4ceb9b8")
-		)
-		(pin "V26"
-			(uuid "a1d423e5-4eac-4427-b7b4-40b0ad58321c")
-		)
-		(pin "U28"
-			(uuid "9dbd4ba4-3f89-4626-ac08-97440517e676")
-		)
-		(pin "Y27"
-			(uuid "0bfe47d9-9268-46a0-bfa9-ac4cfdf12fdf")
-		)
-		(pin "Y28"
-			(uuid "dc889606-b797-4051-96bb-83986da5ccb0")
-		)
-		(pin "U27"
-			(uuid "9df4d8b1-d581-4bbb-b2de-b0c5811ab056")
-		)
-		(pin "T23"
-			(uuid "8ba4de1a-4ed6-4d28-b063-99a76807db3f")
-		)
-		(pin "U26"
-			(uuid "171436cc-6306-43bf-9f19-dab42ad35ded")
-		)
-		(pin "AL4"
-			(uuid "ec2959d8-83fd-4bd0-b60c-1b96ef92f5d9")
-		)
-		(pin "AD8"
-			(uuid "3db9b1f7-35e3-4825-843c-d2fc5b328bac")
-		)
-		(pin "AG7"
-			(uuid "bb350b26-3465-41f1-ad7c-25c2d25365e6")
-		)
-		(pin "AE8"
-			(uuid "0d220316-7810-43e3-841c-c5cf02b2a25a")
-		)
-		(pin "V30"
-			(uuid "35ba8512-a012-4ca5-9726-81bd0d87c23a")
-		)
-		(pin "V29"
-			(uuid "656cf386-1351-4eef-a811-1d6b628855d4")
-		)
-		(pin "V31"
-			(uuid "a0710195-ddf8-44af-9892-d6dbce9b093c")
-		)
-		(pin "AF8"
-			(uuid "3c9ff700-dadc-4680-8374-e42f78a57727")
-		)
-		(pin "J31"
-			(uuid "97a67a4d-f5ca-40f3-a90e-d701ebb84c44")
-		)
-		(pin "J28"
-			(uuid "cc3e2caf-70c5-41fb-abac-08d996eafbd7")
-		)
-		(pin "J29"
-			(uuid "cc7bf72f-a1c6-4599-9a75-653a4313a1a4")
-		)
-		(pin "J30"
-			(uuid "52db8523-712e-438e-a173-b98b2365f8a0")
-		)
-		(pin "J25"
-			(uuid "d882825a-c326-4d7a-af32-f89393e837e9")
-		)
-		(pin "J26"
-			(uuid "04be9660-cc1d-4a83-9a8c-e9fad7b8bc90")
-		)
-		(pin "AJ8"
-			(uuid "822e1d40-8a8d-4681-a7ff-c5fdc7052c98")
-		)
-		(pin "AB10"
-			(uuid "6ab70d3d-06b9-4a2d-8eb2-fb1571cd592e")
+		(pin "AJ20"
+			(uuid "585e7521-7add-44f9-b7e1-9454fbc9cfac")
 		)
 		(pin "AC16"
-			(uuid "76d0c988-95af-4205-8f47-8edc31818f05")
-		)
-		(pin "AH29"
-			(uuid "3edb1be4-64f2-4b5e-9df3-5be505003fc3")
-		)
-		(pin "AD29"
-			(uuid "d9a2487a-6e0d-4f1f-a322-2c34e32751a4")
-		)
-		(pin "AE11"
-			(uuid "b4022be9-6c51-41e7-817d-8ddf263724f4")
-		)
-		(pin "AJ6"
-			(uuid "b0ce54a8-e5d9-41aa-967d-9cf6b7bcf4a4")
-		)
-		(pin "AC23"
-			(uuid "1f833580-8992-4e20-8977-193b63102d32")
-		)
-		(pin "AE27"
-			(uuid "a8e50065-770c-4a3c-888c-94ac7904bae1")
-		)
-		(pin "AA12"
-			(uuid "586c95f3-07ad-4a15-911a-c8ae0a7082c9")
-		)
-		(pin "AF29"
-			(uuid "1feecea5-a3d6-4589-a625-28a3fa3ccf28")
+			(uuid "bbf423a7-8ec2-43a3-951d-e128508ec342")
 		)
 		(pin "AD17"
-			(uuid "db81b9b2-6d4b-4518-80b5-b9f620a5492e")
-		)
-		(pin "AB16"
-			(uuid "a4aa11e3-5681-4a5e-a7f2-50f4c8617226")
-		)
-		(pin "AE17"
-			(uuid "03d27578-b3a7-4c58-9c67-f26e93478edc")
-		)
-		(pin "U23"
-			(uuid "537f556b-e7db-4533-950c-675a3ebf9e8a")
-		)
-		(pin "AE14"
-			(uuid "9ba060ca-2292-4bf5-8780-45ca02e9ebd5")
-		)
-		(pin "AB17"
-			(uuid "f2e6e6e2-b4a5-4ebb-ade7-6a8f37ffcb0c")
-		)
-		(pin "AF17"
-			(uuid "7323a1be-8dfe-444c-93d1-c323f19ffab7")
+			(uuid "87cacb01-68e8-4902-9fcc-b4a8315ecb0b")
 		)
 		(pin "AA14"
-			(uuid "eea6ba72-fa38-48b9-9914-90b5eff5c328")
+			(uuid "a54bd1df-e372-4010-8a7f-7f07ba418c93")
+		)
+		(pin "AF29"
+			(uuid "c81527d8-f66c-4e10-97f4-63d749291c07")
+		)
+		(pin "AB10"
+			(uuid "a1901a8c-fa8b-40c5-8e59-aaf26200c4e5")
 		)
 		(pin "AG29"
-			(uuid "9ecdb4a5-5559-4cb7-b9f1-af2219cdaa67")
+			(uuid "bbbdd5cf-d04d-4676-b4d9-f24fc49ba3e1")
 		)
-		(pin "AJ14"
-			(uuid "61e2ffe0-367d-4abf-869e-71d92628575d")
+		(pin "AF24"
+			(uuid "6094ae0c-d3a8-479e-9db5-5ef1bb33f695")
 		)
-		(pin "AA11"
-			(uuid "3c937f5e-4c00-48e7-a226-24f9b4943bdc")
+		(pin "AA23"
+			(uuid "6df2a174-3e1a-423b-b4e1-510bc0611d55")
+		)
+		(pin "AF23"
+			(uuid "041050df-026f-4c7a-a4ba-ba61946cfc79")
+		)
+		(pin "AC15"
+			(uuid "676791c6-6f65-4b75-be7d-cf013b4c3ec6")
+		)
+		(pin "AA26"
+			(uuid "92b778b0-84a1-450e-b8ec-b0f1ee48a8c7")
+		)
+		(pin "AB13"
+			(uuid "5e1c96fd-eed6-4347-b690-c1fb3c5ceb7f")
 		)
 		(pin "AC26"
-			(uuid "8a0aada2-d297-4a46-94a0-1a0770c65f15")
+			(uuid "97bcb620-2b68-47f6-8ed8-4a75f1d494ea")
 		)
-		(pin "AC29"
-			(uuid "4939f946-87c9-4e5a-997a-e0515f8cfea2")
+		(pin "AD29"
+			(uuid "f49a18aa-84a1-4d9b-a4be-4cc4d60052b3")
 		)
 		(pin "AE12"
-			(uuid "022844c9-bb45-44de-bdc3-37d914e82145")
+			(uuid "d2e2ac8e-47f5-488d-b245-7343723284c6")
 		)
-		(pin "AJ11"
-			(uuid "f2bc7043-0de0-472e-824b-2c2320828671")
+		(pin "AE27"
+			(uuid "198d831d-cfd6-48ee-8e25-673f1badfafb")
 		)
-		(pin "AJ12"
-			(uuid "7deec2b3-22c0-42f1-b778-1a4380bc226d")
+		(pin "AE17"
+			(uuid "0016c650-e092-4465-9cfb-d9210c254f2f")
 		)
-		(pin "AJ17"
-			(uuid "0eb48bd9-7232-49bc-a7d5-391e8ddc6cd2")
+		(pin "AA29"
+			(uuid "fe5d74db-77d9-49bd-9441-8b504f3479ba")
+		)
+		(pin "AE14"
+			(uuid "5e9945fb-5559-4c79-af49-a17242ca2b78")
+		)
+		(pin "AB23"
+			(uuid "582339cb-d663-4776-953a-c12d0933afa4")
+		)
+		(pin "AB11"
+			(uuid "85d346f1-b72f-45f4-a4bd-f7d09ade0a5c")
+		)
+		(pin "AA11"
+			(uuid "a8c2fa6a-92a5-4f4e-a00d-eec1fa6f8c37")
+		)
+		(pin "AC29"
+			(uuid "68d2cd7f-1ecf-4bd6-a73b-c671cbfe5f80")
+		)
+		(pin "AA12"
+			(uuid "e12066cc-6e70-4fd7-b2ed-c87dc428d511")
+		)
+		(pin "AD13"
+			(uuid "99cb6a51-3e4d-404a-bf5a-4e7f1f78dc27")
+		)
+		(pin "AC23"
+			(uuid "3216185e-718c-4049-9a51-ac447879152e")
+		)
+		(pin "AE11"
+			(uuid "b2fc9a9c-a318-42d4-93b9-bd65d342f4bb")
+		)
+		(pin "AF17"
+			(uuid "74066b0a-e312-4b80-a234-8126c1800932")
+		)
+		(pin "AH29"
+			(uuid "e34af545-0595-4f86-a68e-9a565fdabdd9")
+		)
+		(pin "AJ6"
+			(uuid "4fede65e-cd93-4cec-858f-2a8e94e0ad26")
 		)
 		(pin "AJ9"
-			(uuid "b820f8ff-7159-4fb8-a33d-77a7ddd8c921")
+			(uuid "6c7d7175-5ba1-481e-9131-2ad87d2d9b95")
 		)
-		(pin "AB15"
-			(uuid "57b591ee-33ea-4d2a-98c5-44f86e29ec86")
+		(pin "AJ8"
+			(uuid "d8e08dfb-643a-489f-a287-6fe0bdb9ed9a")
 		)
-		(pin "AC17"
-			(uuid "9fb52ab7-df38-428d-bf77-77af8d7e86b1")
-		)
-		(pin "AJ15"
-			(uuid "bda1e444-3aa9-4e80-8c18-0c5563eaaa92")
-		)
-		(pin "AJ29"
-			(uuid "a29d4547-a136-4c08-9e36-81a17f24e573")
-		)
-		(pin "AJ18"
-			(uuid "08f57b34-1bc3-4a1d-810b-71aa5f6fff59")
-		)
-		(pin "AD26"
-			(uuid "03aca355-d9d8-4b5d-9b19-efb476b4c553")
-		)
-		(pin "AC11"
-			(uuid "253e5b9f-9cc5-49d1-845f-c93a00fc6f86")
-		)
-		(pin "AC13"
-			(uuid "310ea01b-4ce1-459f-8823-f413bd73b7e1")
-		)
-		(pin "Y29"
-			(uuid "543b9cbe-5a39-45d7-8b8d-1d00e2c4dc22")
-		)
-		(pin "W23"
-			(uuid "9c19f942-96df-425a-a547-b7d976c1ff29")
-		)
-		(pin "V23"
-			(uuid "b191c73e-4cba-40c4-858d-9a74677424d0")
-		)
-		(pin "AC25"
-			(uuid "d35c5f47-1462-444a-a55b-32d12b0c225c")
-		)
-		(pin "B31"
-			(uuid "836e6f7e-ef08-4672-a7be-27d6a8ef851c")
-		)
-		(pin "C28"
-			(uuid "05fd6a07-d6b6-4c7d-ba34-016a58f46f92")
-		)
-		(pin "J21"
-			(uuid "c1a5d153-4e22-4922-a87e-d5b7bf337731")
-		)
-		(pin "M12"
-			(uuid "9d0a9bcb-effa-4f03-8095-806d9a56873c")
-		)
-		(pin "M14"
-			(uuid "8b12c322-7209-49df-940a-2326c0abdb08")
-		)
-		(pin "M15"
-			(uuid "caac8524-4dc9-4bd6-890a-1ba3aa544835")
-		)
-		(pin "N12"
-			(uuid "5a4104dd-7d26-4829-872a-db89ca9593ae")
-		)
-		(pin "P14"
-			(uuid "35333f86-c77d-4338-909e-257e91a25520")
-		)
-		(pin "W11"
-			(uuid "9a79f01a-c02b-48ad-bfbc-d02bf24afcc9")
-		)
-		(pin "AA15"
-			(uuid "583554ab-28d9-464e-9a16-cabe5096c5cc")
-		)
-		(pin "C29"
-			(uuid "170b5bfc-ab81-4e78-80dc-40ef8a0b8b76")
-		)
-		(pin "W12"
-			(uuid "444be629-ca03-43cb-bd2f-f02a4b7986d4")
-		)
-		(pin "H19"
-			(uuid "c73403c4-1b46-4c0e-9ba5-474fbbd34887")
-		)
-		(pin "P15"
-			(uuid "6c315d7a-f40e-4f4e-823e-2a37fcac719c")
+		(pin "U23"
+			(uuid "9a95310c-311b-47d9-84a7-6b6175e07457")
 		)
 		(pin "D29"
-			(uuid "014eab87-864a-43e6-a19b-1f878a030d8e")
+			(uuid "121be11c-3e31-499a-b774-a534b12fcf06")
 		)
-		(pin "M11"
-			(uuid "0ef75cfb-32f4-4464-96b7-486695d017cd")
+		(pin "AB15"
+			(uuid "1243609f-4cd7-4a71-b1a8-4db746145f58")
 		)
-		(pin "P13"
-			(uuid "9396e1ed-f6b9-4cce-a1c5-f7d242c50e5c")
+		(pin "W23"
+			(uuid "19e22490-f7f6-47e5-9389-fed9a0b33098")
 		)
-		(pin "W14"
-			(uuid "1757dd2c-ad89-47c1-8e0b-cc16c3dc9625")
+		(pin "C29"
+			(uuid "ab07e269-2d4d-43c3-993c-dff924741be9")
 		)
-		(pin "V15"
-			(uuid "d4680afd-7e31-46d3-a4fa-29e19a61fc3c")
-		)
-		(pin "V14"
-			(uuid "2644e8ce-fafd-44d5-a76e-b50b5b838f15")
+		(pin "C28"
+			(uuid "246e366c-4a4b-4418-8322-0256b0844f6b")
 		)
 		(pin "M13"
-			(uuid "cc0db85b-0d93-425a-b34f-24648d9a1c4c")
+			(uuid "e4e25da7-d1f3-4e9e-a34a-4865e2e43c53")
+		)
+		(pin "M15"
+			(uuid "9a2b7c2d-9cc1-4864-b2ae-ed7f254ed990")
+		)
+		(pin "AD26"
+			(uuid "953021a9-ae73-4f9e-9b63-80a05d34bc32")
+		)
+		(pin "AJ11"
+			(uuid "33c38ea3-525d-4e8e-8730-9d52b3e7ec3e")
+		)
+		(pin "AJ12"
+			(uuid "668653fa-217a-424b-9843-3006746ba2eb")
+		)
+		(pin "AJ17"
+			(uuid "93793551-c238-403f-b46c-c04abd976f00")
+		)
+		(pin "AJ29"
+			(uuid "d586a410-0b7b-41a7-9bb5-33dc7d3246ad")
+		)
+		(pin "V23"
+			(uuid "caaa6763-30a2-461b-97d6-b27e8f39a906")
+		)
+		(pin "AJ14"
+			(uuid "ce9607a6-d2ee-49bb-96a5-d395061834d0")
+		)
+		(pin "AC25"
+			(uuid "6da4c82b-b577-43e8-b334-02fa95eccec4")
+		)
+		(pin "AJ15"
+			(uuid "28a98535-7f42-440e-b1ad-2ba5036b6df1")
+		)
+		(pin "AC13"
+			(uuid "c65179c9-1b55-4710-94c6-f308378d1f61")
+		)
+		(pin "AB17"
+			(uuid "73c64928-0d22-4a69-8a7f-d5bfd10e36fe")
+		)
+		(pin "AA15"
+			(uuid "584270eb-3949-4b5d-bb69-4670b880ef4d")
+		)
+		(pin "AB16"
+			(uuid "beefa304-dab9-4832-a0e8-e9f8a8afe8f9")
+		)
+		(pin "Y29"
+			(uuid "95c574a9-182d-4dfc-94bf-a637a80d48aa")
+		)
+		(pin "AC11"
+			(uuid "464c3ec7-9116-4061-af81-fc14100c99c5")
+		)
+		(pin "AJ18"
+			(uuid "f8d8e078-5f95-44d4-9c2e-6ecfa48c93a9")
+		)
+		(pin "AC17"
+			(uuid "106770e8-eebd-4017-b4b0-198108a0c7ff")
+		)
+		(pin "B31"
+			(uuid "cb6ce341-55d0-4504-a535-61deca5a1aea")
+		)
+		(pin "H19"
+			(uuid "183b877a-46a0-46df-a2de-828bc5db3227")
+		)
+		(pin "J21"
+			(uuid "14dc0164-051c-4a5a-81ea-35f2e40e4914")
 		)
 		(pin "P17"
-			(uuid "6a5b0ffd-4d62-416e-9641-3ddaa9c51512")
+			(uuid "f1de1c0d-990c-4a65-adc6-237161714783")
 		)
-		(pin "N11"
-			(uuid "6cc62f0c-4608-4a48-98d8-45e87a8a5252")
+		(pin "M11"
+			(uuid "a8e9d8cf-30c9-42ad-ba09-626b97297ad7")
 		)
-		(pin "W15"
-			(uuid "d705684d-bd57-438d-91a6-35d71144b027")
+		(pin "M12"
+			(uuid "5e4d6f86-4a89-4f7d-abb0-e23c59171ec5")
 		)
-		(pin "R12"
-			(uuid "9a41cb48-6522-409d-8c37-a49c0c4125fb")
-		)
-		(pin "R11"
-			(uuid "7f2af8de-7dbb-41b2-bdbf-3b16b3614298")
-		)
-		(pin "T11"
-			(uuid "9752caa3-c94a-4a81-a87b-5d5defb2e0bf")
-		)
-		(pin "T13"
-			(uuid "bb054b9b-956c-491f-b08b-018e019f5814")
-		)
-		(pin "V12"
-			(uuid "18f2edc4-6333-454f-928e-9865d1db7f84")
-		)
-		(pin "V16"
-			(uuid "3f465a38-bd5f-4b2e-8bfb-f377436a07dc")
-		)
-		(pin "W16"
-			(uuid "d448f7c2-8919-45b6-9c43-60003bd62a5d")
-		)
-		(pin "K21"
-			(uuid "e3bcbea3-c895-4543-a51d-3482b5c76970")
-		)
-		(pin "L23"
-			(uuid "2eae73af-af64-4cec-b745-b4cf3d842b3f")
-		)
-		(pin "N20"
-			(uuid "77d183da-0fe5-4d0e-8f07-8a677b274b08")
-		)
-		(pin "K19"
-			(uuid "0229f3b0-180d-4290-9cc7-4f4c70579f01")
-		)
-		(pin "U18"
-			(uuid "13b6e671-824e-4879-b102-c67efc49e6a9")
-		)
-		(pin "T14"
-			(uuid "ab2d60a2-c80f-49b2-8a2b-f5b884ef2182")
-		)
-		(pin "L21"
-			(uuid "da9cde0f-97a0-4e7c-857c-96f878b6281a")
-		)
-		(pin "U13"
-			(uuid "40cbb27d-4fda-4e30-9011-f36cea6043f0")
+		(pin "M14"
+			(uuid "aaf6b69b-a17c-42e6-b723-a6b611b16503")
 		)
 		(pin "V11"
-			(uuid "766c3c18-c8c1-4dfe-b5b4-77da1ce86942")
+			(uuid "bc637d6e-3cd3-4c6a-b36f-745510d46688")
 		)
-		(pin "V13"
-			(uuid "d01aef6d-5fcb-473e-9f9f-b4c35d07debd")
+		(pin "U13"
+			(uuid "89d6d661-1517-4cbb-9e4e-c4a43a915b8d")
 		)
-		(pin "T15"
-			(uuid "6306ca93-09c0-4419-908f-51059af58b01")
+		(pin "R11"
+			(uuid "36c00932-0ae4-44fa-9c70-397e8b55a9d1")
 		)
-		(pin "R13"
-			(uuid "7deaca23-ef39-4297-9107-62a2c7531d3a")
-		)
-		(pin "L19"
-			(uuid "e341df02-9d33-4a52-9b69-4faf62841057")
-		)
-		(pin "M21"
-			(uuid "1638bb81-9656-4546-a1b2-f3dbc42dddb8")
-		)
-		(pin "T12"
-			(uuid "6c742b3b-7355-4fbf-9670-7ebc039517ba")
-		)
-		(pin "N22"
-			(uuid "1960ff72-8b62-4321-8754-177c45825d70")
-		)
-		(pin "N18"
-			(uuid "0c7031c6-7a3e-4032-aaac-843de67fb41f")
-		)
-		(pin "L18"
-			(uuid "e36df641-4b08-4d57-b9de-c04ff8af3b72")
-		)
-		(pin "V21"
-			(uuid "6dfcf9f9-1194-45d8-ba70-d4905e54067f")
-		)
-		(pin "V19"
-			(uuid "4c54cdb0-a3ae-4c54-ab4c-b0933fe25f22")
+		(pin "R12"
+			(uuid "e127fad8-8fca-48d8-8dc8-17d34b2484c6")
 		)
 		(pin "W10"
-			(uuid "77716a98-9554-478c-accf-4b0650b8721e")
+			(uuid "29d7f0f9-7cc1-4b9e-9669-7a7efcadf75f")
 		)
-		(pin "M19"
-			(uuid "ad0cfc3e-4d8d-4166-8090-d6e759990031")
+		(pin "L19"
+			(uuid "e8c837f7-365e-477e-8b51-f3ae9f328f74")
 		)
 		(pin "M18"
-			(uuid "2f63d00b-0416-4d0f-a788-60481e67e1e2")
-		)
-		(pin "M22"
-			(uuid "371d3b06-7555-435a-a15c-6c7f58ad54fb")
+			(uuid "01fd278a-ed44-4690-94ea-4c5d85fadd66")
 		)
 		(pin "M20"
-			(uuid "2e279463-cad5-432f-a2a3-68197dedacce")
+			(uuid "e8dddf57-a215-475e-a7a3-04105d36cebd")
 		)
-		(pin "V22"
-			(uuid "1c015297-c895-4d6e-8c61-27d3e537dd21")
+		(pin "M21"
+			(uuid "977ca86f-976f-462c-8861-913f5479afc3")
 		)
-		(pin "V20"
-			(uuid "d9c16d98-19bd-40a9-8a6c-8ec24895fb04")
+		(pin "V14"
+			(uuid "b33be90d-510c-4a50-9a89-2de1ff37e804")
 		)
-		(pin "V18"
-			(uuid "346ce668-eb61-45c7-b04f-0606031617f1")
+		(pin "P13"
+			(uuid "d81dba1b-5d61-466d-9b74-0c6aa1ed039e")
 		)
-		(pin "W20"
-			(uuid "3fee75f0-597e-4933-ab17-fdac1b78285a")
+		(pin "T11"
+			(uuid "c034b80e-35c1-49db-a5c9-4b188353690d")
 		)
-		(pin "P22"
-			(uuid "298aed49-d946-4c65-8f6c-42596b7bc17f")
+		(pin "T12"
+			(uuid "6ec35fc8-6aa7-4bae-9251-7d05546d2d33")
 		)
-		(pin "AF30"
-			(uuid "c8ef4a96-43c6-4ba3-81db-579a113748a1")
+		(pin "W12"
+			(uuid "a0df592e-2676-4f4e-92cf-f19c877be8f3")
 		)
-		(pin "T20"
-			(uuid "f59aa07a-5ea1-4c4d-89f7-57bfd51aa943")
+		(pin "N11"
+			(uuid "266345f2-81a8-4ada-b84c-80a73f7f7af4")
 		)
-		(pin "AH30"
-			(uuid "6210cf5e-67b5-4126-9cb2-49059bb646e2")
+		(pin "P14"
+			(uuid "49a91a08-7bca-4ef6-84a3-9192e956c09b")
 		)
-		(pin "AC27"
-			(uuid "45dcaac7-0e78-40cb-8e5f-a6d113f5b00a")
+		(pin "P15"
+			(uuid "8c8c06d0-b925-4244-ab17-a5a6059dc43d")
 		)
-		(pin "AF28"
-			(uuid "8676e770-c104-4550-92be-b331a6dd6f3d")
+		(pin "W14"
+			(uuid "736b2a3b-679f-4f41-9984-a9cf294df561")
 		)
-		(pin "AE31"
-			(uuid "9050a583-a054-4449-b4ad-aeb0bbd921c0")
+		(pin "W11"
+			(uuid "f8344eec-b1aa-42bf-8085-a56c533e9053")
 		)
-		(pin "AG30"
-			(uuid "bd8be8f7-032b-49af-ba51-94de920ec194")
+		(pin "N12"
+			(uuid "7d8e4506-5b2e-45f6-bbb1-3559de35213d")
 		)
-		(pin "AC28"
-			(uuid "38ea44fb-e395-49a1-b17b-a34770d95c74")
+		(pin "V13"
+			(uuid "e230af26-a509-432a-91f5-f950b60e53dc")
 		)
-		(pin "R20"
-			(uuid "1aa12981-a8d3-49e9-9361-0cd01a4eaaae")
+		(pin "T13"
+			(uuid "f3ffa1fb-45fe-4d5d-9150-f423a6d232e6")
 		)
-		(pin "AG31"
-			(uuid "004a5be6-8d70-40d0-ba42-1117d64556d8")
+		(pin "R13"
+			(uuid "6a835c71-5924-4de6-88db-b793e9c055e2")
 		)
-		(pin "U17"
-			(uuid "9496d623-d306-46d4-8209-7289b0dc9e71")
+		(pin "T14"
+			(uuid "cdabeb1e-5734-451b-a7d2-8bc0e91deaa2")
 		)
-		(pin "R22"
-			(uuid "e5576745-7fd1-4679-9a08-710d8d7bdbe6")
+		(pin "V15"
+			(uuid "03b08f51-21e4-4109-b2ed-8936d39c9b52")
 		)
-		(pin "AE30"
-			(uuid "4cd26f98-c824-4416-b86b-de2ad3a481ec")
+		(pin "V12"
+			(uuid "edd04c91-b192-43a6-b729-06b9351fdcde")
 		)
-		(pin "AH31"
-			(uuid "0b0c2883-f326-4f01-a3fd-7ebc731b8dcd")
+		(pin "V16"
+			(uuid "86d50767-84a6-4f37-bd56-635506e7e05c")
 		)
-		(pin "P20"
-			(uuid "80b04860-18b7-4370-aa32-7a61aba50274")
+		(pin "W16"
+			(uuid "bc716bab-1580-4ea5-86b0-1f92b2e1a9c9")
 		)
-		(pin "L17"
-			(uuid "2f45ee84-218b-4d40-81eb-0ab79bb26cf7")
+		(pin "W15"
+			(uuid "4f53d7da-130d-4e6a-8e43-952efdef617f")
 		)
-		(pin "AF27"
-			(uuid "64cc0853-84b0-4847-99d7-294c09fd676e")
+		(pin "T15"
+			(uuid "a2d4ae43-1e58-41c0-87c0-acb7e211e682")
 		)
-		(pin "AE6"
-			(uuid "2b1e5d9f-d166-4469-856a-8ca9cdd39bae")
+		(pin "L21"
+			(uuid "e5ace209-18c1-46a2-912b-689aecab0610")
 		)
-		(pin "Y24"
-			(uuid "12bce975-c8e0-4828-a4aa-b31579dd5508")
-		)
-		(pin "U20"
-			(uuid "19d08011-e034-406e-9425-5af1b6750e16")
+		(pin "M19"
+			(uuid "588500e5-55e5-4499-8a17-10aff0d2c20f")
 		)
 		(pin "M17"
-			(uuid "cd28836b-4d69-43d3-a33d-5d0288578dee")
+			(uuid "2a9cac8e-076d-4476-80e5-7dd8c51084ad")
 		)
-		(pin "W24"
-			(uuid "5d303955-367f-4f61-a727-0f41ec9bcf5f")
-		)
-		(pin "T17"
-			(uuid "a9750bfc-7dec-4988-b1d4-89b3ca80612d")
+		(pin "L17"
+			(uuid "3074905b-80a6-430e-a381-6217f998aead")
 		)
 		(pin "R19"
-			(uuid "1a09d225-355e-477c-afd2-0fe35bcc252b")
+			(uuid "eccb6a68-dc9a-44c3-bb71-812c6e6255ab")
 		)
-		(pin "T22"
-			(uuid "b07d294b-338f-4aaa-b981-70115605e7d1")
+		(pin "N20"
+			(uuid "18d6df27-f830-436b-a541-e466c074bbe6")
+		)
+		(pin "W20"
+			(uuid "ca36da28-2879-41fa-8a1c-e8d28c43149f")
+		)
+		(pin "T20"
+			(uuid "f2d6a4d4-c22f-4cdb-a195-99ff2c9661d6")
+		)
+		(pin "AF30"
+			(uuid "1989829a-d931-4b58-b17e-e97a11d02bd0")
 		)
 		(pin "AF31"
-			(uuid "e8554b6d-28ff-451e-ac96-e39505599b22")
+			(uuid "6309b102-beb3-42e6-b2ef-b0527896672a")
 		)
-		(pin "AD31"
-			(uuid "fd399204-d213-4786-927f-dc160a318f1c")
+		(pin "AC27"
+			(uuid "ab322d11-b391-491b-a68a-af10c223fe0c")
 		)
-		(pin "AD2"
-			(uuid "76040e66-b449-4849-ba3a-fef915bc6a6f")
+		(pin "AF27"
+			(uuid "105ce5d5-e14f-48c5-9209-e288b7a1a59a")
 		)
-		(pin "V2"
-			(uuid "b4cca230-00ab-4e0e-ac48-47cc38f6802f")
+		(pin "V20"
+			(uuid "3eee5a45-c6ad-4804-a892-a33e9d02ad69")
 		)
-		(pin "U1"
-			(uuid "07ba7430-4467-44b0-8558-bbd240aa7af3")
+		(pin "T17"
+			(uuid "90990c95-0d52-426f-a495-03d0e28b74d6")
 		)
-		(pin "AC1"
-			(uuid "7cecba44-1b0c-4066-8c67-3687bddb7f4e")
+		(pin "N22"
+			(uuid "3af54598-700f-4c16-8418-539d1a79dbe8")
 		)
-		(pin "AA27"
-			(uuid "2f3683a6-34a4-4626-bd76-0a4517f5e74e")
+		(pin "K19"
+			(uuid "17f1652a-6daf-4ee6-a7cb-24c0bf65a19a")
 		)
-		(pin "AD28"
-			(uuid "c8945249-7448-481f-8ac3-aa6780cd42a5")
+		(pin "M22"
+			(uuid "733cf8fa-d205-45c8-951a-2118c96f1261")
 		)
-		(pin "P1"
-			(uuid "8f7ab63d-8e1e-4565-ae31-14cfd2dec150")
+		(pin "L18"
+			(uuid "998955a5-a5ab-434c-a573-1f4d381999f5")
+		)
+		(pin "K21"
+			(uuid "12836e18-d787-492c-a6af-e33d49e2d4b7")
+		)
+		(pin "V21"
+			(uuid "e089734c-9462-4064-9982-7963d9731bfa")
+		)
+		(pin "V19"
+			(uuid "13944e31-259c-40ee-80e7-7445299f3d1a")
+		)
+		(pin "V22"
+			(uuid "a40d5286-1caa-4c30-93af-e8c8c0213e9b")
+		)
+		(pin "V18"
+			(uuid "0c1239f9-489e-4b20-bf57-d9f10b3652ea")
+		)
+		(pin "N18"
+			(uuid "a909b0b8-91e6-42ac-9303-f5e5a87936d0")
+		)
+		(pin "U18"
+			(uuid "07872945-3100-44fd-840f-763a0ef6d7a0")
+		)
+		(pin "L23"
+			(uuid "94469fb3-561b-4bfc-a9b3-3f12d917b886")
+		)
+		(pin "U17"
+			(uuid "960218c0-5c9f-49ba-87ab-afa62e6f868d")
+		)
+		(pin "U20"
+			(uuid "78ec4ed4-13db-4df4-818d-1979226b6092")
+		)
+		(pin "P20"
+			(uuid "74a377c9-032f-414c-954b-b3602a268326")
+		)
+		(pin "R20"
+			(uuid "5f41bb5b-cd20-47d2-abcc-5226ac487367")
+		)
+		(pin "P22"
+			(uuid "2baa16d2-cd36-4c2a-9a6b-0305ef602c00")
+		)
+		(pin "T22"
+			(uuid "0b097687-faf5-4133-949b-9bf67759ef23")
+		)
+		(pin "R22"
+			(uuid "18630a3c-fea3-41b3-ba2e-a3e669e8fe6b")
+		)
+		(pin "AH30"
+			(uuid "6a5787bd-a886-4d61-89fc-c05b6e395252")
+		)
+		(pin "AH31"
+			(uuid "c4cdb1de-bf6d-4be8-8afc-e6c74b9a4741")
+		)
+		(pin "AC28"
+			(uuid "8c8f70bc-2c05-4136-850d-b8c9c0f8144f")
 		)
 		(pin "AA28"
-			(uuid "0b55becb-e000-450f-ab8c-18b40cb461bb")
+			(uuid "7b670a59-9151-4ba6-b41d-f9711c4a12dc")
 		)
-		(pin "AA2"
-			(uuid "11222986-8df1-4e6e-9f18-0b3a91281a47")
-		)
-		(pin "N2"
-			(uuid "95eb12ed-a313-4a7c-b23e-df1c79737495")
-		)
-		(pin "Y1"
-			(uuid "f3ac3c02-589c-4e41-9eb8-c08c7d79974a")
-		)
-		(pin "AA1"
-			(uuid "80c42e1b-f083-49b0-a03e-985fd914000a")
-		)
-		(pin "W2"
-			(uuid "780c8e88-3286-4d4c-909b-0658847e39ac")
+		(pin "AG30"
+			(uuid "f513803e-31da-4f62-a562-4605dcd5a650")
 		)
 		(pin "AF2"
-			(uuid "64568139-b922-41de-a6e2-38f652367914")
-		)
-		(pin "AE2"
-			(uuid "37b65804-27a1-4a70-a021-a7fc5029238d")
+			(uuid "70e5742b-fb73-4d6e-8124-96685cb7efdf")
 		)
 		(pin "AF1"
-			(uuid "2fea052a-0203-48b7-8f55-15e63e482f50")
+			(uuid "c4c5b278-6918-4fea-9d76-2af2f3c18a07")
 		)
-		(pin "AD30"
-			(uuid "c86bc80d-cf39-4756-a771-b6b9feb3abd0")
+		(pin "AF28"
+			(uuid "7189a64c-4e90-49ef-8217-8f47684dc48d")
 		)
-		(pin "Y2"
-			(uuid "405d1527-25d6-481e-9f88-ddcbb0313e04")
+		(pin "AE6"
+			(uuid "dfbc6580-fcea-409b-bd18-3babdb70be9d")
 		)
 		(pin "AD1"
-			(uuid "dc633747-3a9a-49c8-9e0b-ccd98f13aee3")
+			(uuid "86f473c5-71c4-4e2d-9d76-bdf59c52da99")
+		)
+		(pin "AA27"
+			(uuid "e1990068-2dae-4263-b74c-a5301a4e2856")
+		)
+		(pin "AC1"
+			(uuid "f1ae5fa2-6f68-43cc-b378-1f70c6f8f737")
 		)
 		(pin "AC2"
-			(uuid "dbda9c6e-ab82-47f6-802e-ed573d3b0a99")
+			(uuid "d4700276-e79a-44ee-acb7-102109f54e72")
 		)
-		(pin "V1"
-			(uuid "29e12c04-8280-40e7-badd-7e8628ed5ec7")
-		)
-		(pin "AB1"
-			(uuid "ffdb1951-d536-4a74-854b-a78e33ce8847")
-		)
-		(pin "W1"
-			(uuid "7f829a1d-1ef7-4622-b9f1-ae67728f4c1e")
+		(pin "W24"
+			(uuid "66aafba5-95c0-4c8f-aef8-4141da3c90cc")
 		)
 		(pin "AD27"
-			(uuid "49553f2a-5256-4376-ad1c-56a992af02d5")
+			(uuid "e51fda57-3048-456b-8e46-a2352dea4493")
+		)
+		(pin "AE31"
+			(uuid "919f1be7-d864-4f5f-a475-fb31d312db34")
+		)
+		(pin "AB1"
+			(uuid "3e087ded-b2ae-46bd-af21-f3f464dc245b")
+		)
+		(pin "Y24"
+			(uuid "29796150-1313-4c16-ae51-1091f24a30a0")
+		)
+		(pin "AD31"
+			(uuid "d789b8e3-9c99-49ee-8aa1-f17f2fad08e0")
+		)
+		(pin "AD30"
+			(uuid "3c9bde45-45ad-4340-8e92-6ac697f245ad")
+		)
+		(pin "AA2"
+			(uuid "2cb760df-61a5-4640-9bf9-4f1be16369d2")
+		)
+		(pin "AE30"
+			(uuid "7d19aa98-8871-4fc1-8cdd-b2afe3262ea7")
+		)
+		(pin "AD28"
+			(uuid "5140dd3a-3be4-4847-ba6b-ed1336d174e1")
+		)
+		(pin "Y2"
+			(uuid "27ff9f47-0555-4408-9091-a056425fb2dd")
+		)
+		(pin "AG31"
+			(uuid "40cc9f6d-f676-43e0-83ab-4f05b408298a")
+		)
+		(pin "Y1"
+			(uuid "25bcef30-8e24-4ca7-9f9f-2e78b10b73c0")
 		)
 		(pin "AB2"
-			(uuid "5a215087-ac50-4d31-8148-40009b7ebf31")
+			(uuid "59c6f5e4-44d4-4d3e-9ede-84936adfa064")
+		)
+		(pin "W1"
+			(uuid "a2e9a2fa-7284-41b3-9c0b-592d4244d97f")
+		)
+		(pin "AA1"
+			(uuid "d64524bb-bf23-479f-b192-ba6f7c7fa8cb")
+		)
+		(pin "W2"
+			(uuid "c0e49db9-69ba-4d03-a042-dfb42cc9a837")
+		)
+		(pin "AE2"
+			(uuid "e37e1c93-d88c-41f9-aacb-0b47cfbdd504")
+		)
+		(pin "AD2"
+			(uuid "82fc7679-c92a-41aa-9c25-3455d77f3947")
 		)
 		(pin "AE1"
-			(uuid "e81f1442-7c49-47cc-b30f-1ce7995f0959")
+			(uuid "4c12c742-0002-465a-a9f2-d68c4117753a")
 		)
-		(pin "U2"
-			(uuid "4ec13b10-416d-4597-a6d2-b3d1d31654ae")
-		)
-		(pin "T1"
-			(uuid "30913b49-50a0-49af-80b2-a7b5061fc1e5")
-		)
-		(pin "T2"
-			(uuid "303ab522-2b65-4b2c-995b-ca6bf2a82f37")
-		)
-		(pin "R2"
-			(uuid "9ee3c489-ce8f-4bc7-8a8d-e2f4ba38f33f")
-		)
-		(pin "R1"
-			(uuid "027e1a7b-39c9-4790-8378-b06aab1569a9")
-		)
-		(pin "P2"
-			(uuid "eff9676a-f6a3-4b50-bf86-ee5885a8ad3a")
-		)
-		(pin "N1"
-			(uuid "5926521f-e4d9-4a08-9eb4-0f5b755e0676")
+		(pin "P1"
+			(uuid "790676b7-1194-4453-b017-449aacdaaceb")
 		)
 		(pin "M1"
-			(uuid "1a0a2e55-2a93-4387-9ce3-9afa52e9915b")
+			(uuid "39bc3be8-92f5-4c3b-a873-29f93086d505")
 		)
-		(pin "V4"
-			(uuid "debb7b7e-4669-4c58-9b6a-4b3b462b2f75")
-		)
-		(pin "L10"
-			(uuid "fd1411af-3060-427a-b2dd-2b3f5c311788")
-		)
-		(pin "U4"
-			(uuid "ee64fe21-260a-4073-a108-d86bf5148dbf")
-		)
-		(pin "F3"
-			(uuid "235ef6b1-6c2e-4cee-8bbd-049e78254a3f")
-		)
-		(pin "J5"
-			(uuid "b6e226a2-2795-43f7-b358-4f4c5aa4f31b")
-		)
-		(pin "L1"
-			(uuid "6fc82e9b-9c84-4876-9540-f048c86a9b5c")
-		)
-		(pin "R4"
-			(uuid "8c3688d6-8802-493f-bc1b-ea6894b6ac8d")
-		)
-		(pin "M7"
-			(uuid "fd9a9fbe-f2aa-49b7-9fb6-85ae5d962f2f")
-		)
-		(pin "R9"
-			(uuid "5f77d537-ec50-46a0-bf4f-c28aa49626c3")
-		)
-		(pin "R7"
-			(uuid "3be8cd9a-ac6e-495b-ac1c-dcf88ec8e19f")
-		)
-		(pin "N9"
-			(uuid "73485197-3743-4ea3-aded-06b6dcfd8606")
-		)
-		(pin "P9"
-			(uuid "fd4533b7-68b6-4507-9930-da573c878ec4")
-		)
-		(pin "H6"
-			(uuid "34a30e42-169f-47d9-b0a4-66d164f9dde0")
-		)
-		(pin "M2"
-			(uuid "606f212a-bfa6-42db-87dd-714cd0a68161")
-		)
-		(pin "L2"
-			(uuid "329e0f26-a35f-4c86-b8be-0327b4b55137")
-		)
-		(pin "M9"
-			(uuid "20788805-072a-439e-b4e7-487d70a9984b")
-		)
-		(pin "N10"
-			(uuid "cca21832-03e2-4817-8118-6a7a67ed5293")
-		)
-		(pin "Y4"
-			(uuid "91bd8bfc-d486-405e-87ed-ff77c814d007")
-		)
-		(pin "AC4"
-			(uuid "768d131e-be46-40aa-b4f2-181becb13513")
+		(pin "P2"
+			(uuid "32c568b6-e42d-4f4b-96ab-af5b026a214e")
 		)
 		(pin "AD4"
-			(uuid "19030986-b7c5-4cdd-9305-b3d6ddac456e")
-		)
-		(pin "L9"
-			(uuid "c8410dcf-4c51-4495-8f7c-aef0642af4eb")
-		)
-		(pin "P4"
-			(uuid "2702de76-6225-45c4-9373-b95b2b020bd0")
-		)
-		(pin "H5"
-			(uuid "c9e9b90f-9a52-4c55-b422-de1714592cf6")
-		)
-		(pin "L7"
-			(uuid "2104226f-53ab-4f66-9542-9781ac8fc9d9")
-		)
-		(pin "AA4"
-			(uuid "b092766f-fcf2-4d6f-834a-d856e5a43ff5")
+			(uuid "27aaf9d0-b226-4bc9-a3b1-5a4a1ded98d8")
 		)
 		(pin "R8"
-			(uuid "cb73be39-35ea-4490-8df1-643e87117855")
+			(uuid "0237e53d-ec26-41cd-985b-6d46d75575f5")
 		)
-		(pin "H4"
-			(uuid "7c4edd26-299a-4be5-b40f-1accd0b1a828")
+		(pin "L1"
+			(uuid "88516859-9714-40c6-ae28-63e33609dd2c")
 		)
-		(pin "J4"
-			(uuid "6e05f93f-7cc2-4d1c-92c6-db90614d116f")
+		(pin "Y4"
+			(uuid "e2754079-148d-416c-a2e4-f93e459e70d2")
+		)
+		(pin "AA4"
+			(uuid "3658ae72-94f7-4ab4-af9e-06e409064515")
+		)
+		(pin "U2"
+			(uuid "24ad872a-6346-4f86-a3a8-7becf3f30ec9")
+		)
+		(pin "U1"
+			(uuid "4a358b1b-c76b-4dd3-90c4-b777ac41964b")
+		)
+		(pin "T1"
+			(uuid "53ffcb4b-da99-4e95-b900-3d62f25d39f3")
+		)
+		(pin "P4"
+			(uuid "e7704d03-7c9c-4f3e-a851-d637831ead7f")
+		)
+		(pin "R4"
+			(uuid "8045fbcd-edf8-4345-bda6-768d4d955ec4")
+		)
+		(pin "M2"
+			(uuid "3b6897b4-e248-46c7-a58a-487c3854ccd3")
+		)
+		(pin "V1"
+			(uuid "ee93e1e1-1a13-4b9c-a59a-93b55a9557ec")
+		)
+		(pin "V4"
+			(uuid "ebb97915-48c6-4f98-94bd-ddce1b8d2cc3")
+		)
+		(pin "R7"
+			(uuid "bc562229-5a11-4299-b524-3b48bd579a32")
 		)
 		(pin "Y5"
-			(uuid "eade9444-731f-4342-b75a-ab51b2b5d714")
+			(uuid "1699ec2f-0e2e-494f-bea1-d3b4d95dfe9a")
 		)
-		(pin "H2"
-			(uuid "c31c8485-afad-4c91-a529-bcca38539489")
+		(pin "M9"
+			(uuid "50d09cfd-ef00-4840-886c-57b3a9e4f001")
 		)
-		(pin "H1"
-			(uuid "15851522-48e8-4a6d-9a2a-b7d80fcb1712")
+		(pin "F3"
+			(uuid "1ae7c6c6-8e09-4f4e-838d-47e2257bd44e")
 		)
-		(pin "P5"
-			(uuid "5505174c-0b09-4f0a-ae7a-d04ee716db24")
+		(pin "L2"
+			(uuid "0b73f990-1c87-4465-a931-b582533bb875")
 		)
-		(pin "J1"
-			(uuid "0c352da4-8045-42f0-9c76-3f673e5b0043")
+		(pin "R1"
+			(uuid "57865120-5a92-46c6-9ed1-1355b11bb4ee")
 		)
-		(pin "J2"
-			(uuid "f2481a82-6ce1-4bd6-9c3e-54c18ac712b0")
+		(pin "R2"
+			(uuid "90a7ee32-146a-4006-8852-4ef1dedace34")
 		)
-		(pin "K2"
-			(uuid "5a77b869-c578-4761-a70b-cff38d73e4d9")
+		(pin "V2"
+			(uuid "6706e421-f7cb-418a-951a-88792c5085d4")
 		)
-		(pin "AC5"
-			(uuid "1b8ef91e-90f7-4793-b279-41064be6542e")
+		(pin "T2"
+			(uuid "7081e4c4-fe0b-48a7-a014-2d5abc599ad9")
 		)
-		(pin "M6"
-			(uuid "7d6c6d31-b332-47c5-9d35-a7d28e0e4b65")
+		(pin "N1"
+			(uuid "e0d38de3-d447-4720-9809-7669d1c44334")
 		)
-		(pin "M5"
-			(uuid "50897954-86ab-4aff-8c1d-018af1b12d97")
+		(pin "N2"
+			(uuid "826460a8-d682-463e-897b-07c18ebeaa31")
 		)
-		(pin "C2"
-			(uuid "b49d5b04-4672-4ebc-8712-02c9ffc8c2a9")
+		(pin "AC4"
+			(uuid "7d10c41c-e446-4f86-9afb-072143035292")
 		)
-		(pin "F2"
-			(uuid "1efd24ef-5bd0-4a3f-8c01-b60cd2954c2f")
+		(pin "U4"
+			(uuid "09139e7c-fecb-44cb-a4d2-1407694546b1")
 		)
-		(pin "F1"
-			(uuid "631088ad-f522-4600-8108-03ad152843aa")
+		(pin "M7"
+			(uuid "2ab3a0c6-811d-4c7d-b417-4a0295d16222")
 		)
-		(pin "U5"
-			(uuid "0a8e125d-15bd-4210-ad2b-0885c295b78a")
+		(pin "L9"
+			(uuid "5fd45e1f-930c-4366-b559-31b2b2d98893")
 		)
-		(pin "G1"
-			(uuid "96a317e1-618a-4abf-8828-c7200f93adf6")
+		(pin "L10"
+			(uuid "46069cba-a1fb-4c7a-929b-520eb3e1729d")
+		)
+		(pin "N9"
+			(uuid "28de64a7-2dae-45d3-933e-7e0e1a5e7771")
+		)
+		(pin "P9"
+			(uuid "86a7b6db-e609-4464-9475-188c26c75f63")
+		)
+		(pin "N10"
+			(uuid "bad57073-05c1-4a84-8df8-089f5a605fc9")
+		)
+		(pin "R9"
+			(uuid "1fef7b93-e62e-4e1d-a992-4a8c3b212204")
+		)
+		(pin "H4"
+			(uuid "9137bf62-1228-49af-b8f6-6effdca7b294")
+		)
+		(pin "J4"
+			(uuid "50cb591c-0f79-476d-8f7c-d41c4f0ab2d7")
+		)
+		(pin "H5"
+			(uuid "4f5d139a-a5b9-408e-9268-a7f9014fe6a8")
+		)
+		(pin "J5"
+			(uuid "44c0acc4-1872-4097-b989-3dd3bdbbad87")
+		)
+		(pin "L7"
+			(uuid "ab283663-11fb-478c-b880-0c3cf39e2e38")
+		)
+		(pin "H6"
+			(uuid "0591f063-7e94-4070-b1fd-77a88c3a4897")
+		)
+		(pin "C1"
+			(uuid "7857a965-77a5-4719-b8b2-4045d9fe7598")
 		)
 		(pin "B1"
-			(uuid "5e0fb639-b593-41af-8e73-04161079a433")
+			(uuid "716369c6-c07a-4214-812a-7687189805bf")
+		)
+		(pin "D2"
+			(uuid "2b39df15-3234-4e56-8942-5cfed5db3ac5")
+		)
+		(pin "J1"
+			(uuid "728a69ba-e412-43b8-93a6-0dfe8c524c5d")
+		)
+		(pin "D3"
+			(uuid "49fd37b1-4ef8-424a-bfba-ea7a2d139bd7")
+		)
+		(pin "P5"
+			(uuid "e8e24ebc-b7d2-4b12-800e-1aa8ec2c01a4")
+		)
+		(pin "M6"
+			(uuid "125f5a59-4293-484c-b720-81d84379c06f")
+		)
+		(pin "F2"
+			(uuid "96863a88-94fb-48b9-9ab4-8c14ba714f94")
+		)
+		(pin "J2"
+			(uuid "a93f35ac-4e57-41ba-9de7-b4dddc92da5a")
+		)
+		(pin "D1"
+			(uuid "46d317dd-0854-456e-985d-17c1d83e07e9")
+		)
+		(pin "E3"
+			(uuid "5377788a-3088-4dc1-99c8-cd5b9a599286")
+		)
+		(pin "H1"
+			(uuid "8c21f2ba-97e2-4ac6-adc0-34950681fb16")
+		)
+		(pin "M5"
+			(uuid "a46a980d-e97a-476f-a90e-7bba075a4b7d")
+		)
+		(pin "AC5"
+			(uuid "dfc3b96d-1029-4858-9655-f558a7080624")
+		)
+		(pin "U5"
+			(uuid "377e66d6-57f3-434f-9adf-7a08b075ed9a")
+		)
+		(pin "C2"
+			(uuid "091aabbe-5170-45c3-af32-14e67a1ebffd")
+		)
+		(pin "F1"
+			(uuid "9821eed2-6cba-4964-adbb-9fabb142cd9a")
 		)
 		(pin "G2"
-			(uuid "89c89553-0681-4c2d-9662-4dfbbcd3ec6d")
+			(uuid "576f4b5e-7246-44f1-8cfa-8bad45eb12d3")
 		)
-		(pin "AA30"
-			(uuid "e6c724c4-6188-4e4a-8f56-4ad5d2b0dff0")
+		(pin "H2"
+			(uuid "15f89d62-acae-4ba5-bfa5-0396c9bd162a")
 		)
-		(pin "AG18"
-			(uuid "d53984c7-3411-42e6-87ce-8655f5ed1899")
+		(pin "G1"
+			(uuid "b96c3165-470f-4e7e-8e7a-ee1e52ad6b87")
 		)
-		(pin "V24"
-			(uuid "8c53f695-420d-4d72-8d21-02eefa33ac1b")
+		(pin "K2"
+			(uuid "aab53781-7b32-4653-bff3-3964c7d34fc0")
 		)
-		(pin "K24"
-			(uuid "0bb31ec1-55de-4832-b636-806accd08394")
+		(pin "K1"
+			(uuid "56e3a219-8610-48d4-9200-dd37c584ee53")
 		)
-		(pin "AK21"
-			(uuid "eebe9af5-e772-4b9f-9449-cc912b3b81d9")
+		(pin "B17"
+			(uuid "37f8b4c0-ae62-44ac-b50c-939e94c42a96")
 		)
-		(pin "AK22"
-			(uuid "8b216b2c-310a-4920-a381-f1ac3da9c1f6")
+		(pin "E1"
+			(uuid "a8677af0-b928-4d6c-9129-fe482a831afd")
 		)
-		(pin "AK24"
-			(uuid "f62f90d5-9563-43a3-8d6d-ba7a217033ab")
+		(pin "A16"
+			(uuid "f58a1827-ce21-45cb-9d21-1369f2ee545f")
 		)
-		(pin "L24"
-			(uuid "a51cf7f7-6490-40b7-bb17-be79d8064be3")
+		(pin "B11"
+			(uuid "3e023069-1001-464d-ac12-1ddac1f50b79")
 		)
-		(pin "L28"
-			(uuid "3d788d87-a8ec-4862-afc9-0ae5b5746e1e")
+		(pin "L5"
+			(uuid "8fb41df2-0627-4200-ba2d-124311c92dcf")
 		)
-		(pin "AC31"
-			(uuid "fd4418a7-119b-40f0-9598-f96b624eca83")
+		(pin "B12"
+			(uuid "f2e938e2-b32a-4c8e-9664-9c7ccae81ae2")
 		)
-		(pin "L31"
-			(uuid "22e2b720-5a4a-4d5c-aff9-354d7a444754")
+		(pin "G6"
+			(uuid "87917d17-614b-4fa2-829e-67cfdcf9f441")
 		)
-		(pin "K30"
-			(uuid "05772212-baf3-4728-b76c-fcc0d14279e7")
+		(pin "F4"
+			(uuid "57a6abd5-020e-414e-bad4-404f350cf2d1")
 		)
-		(pin "AC30"
-			(uuid "9a0da332-3ae4-4430-ad84-5f70dae0dc78")
+		(pin "H7"
+			(uuid "5b335991-9f17-4a00-ae74-c7f21f7ee440")
 		)
-		(pin "AL30"
-			(uuid "0531e685-7cfa-48a4-ba03-21add92ba067")
+		(pin "C3"
+			(uuid "0813c73b-8237-4f26-bd3d-63e0d848b9e0")
 		)
-		(pin "AH23"
-			(uuid "dbbdfdd6-2227-44c7-bc8b-cb3b26850f99")
+		(pin "V7"
+			(uuid "b06bf6e6-e7de-47d0-a47a-4b208aed6a9b")
 		)
-		(pin "AG23"
-			(uuid "b7084eb7-600a-45af-bedf-5a2f4d051b9a")
+		(pin "F5"
+			(uuid "1ddab461-a222-4872-9cc8-14c1105dd10f")
 		)
-		(pin "AH18"
-			(uuid "3c5290ca-ec96-4196-ab00-3f7cf95130d8")
+		(pin "V6"
+			(uuid "54e311d8-08ec-480d-82f5-84711f30d866")
 		)
-		(pin "J27"
-			(uuid "1df0ed32-779e-46bc-be48-f8b11fe6b0f0")
+		(pin "U6"
+			(uuid "29d3ff5a-746f-4273-ac39-c8d693cf947b")
 		)
-		(pin "Y25"
-			(uuid "4b6fdec2-c2da-4e57-ada7-ea6759fdf964")
+		(pin "T9"
+			(uuid "6cb996a5-92d6-4440-ade5-8c2086d84860")
 		)
-		(pin "V27"
-			(uuid "f635dba3-99da-441e-8544-89410638ab26")
+		(pin "U9"
+			(uuid "65b72296-8c03-461a-ae53-21f330f62953")
 		)
-		(pin "AB31"
-			(uuid "2a21629d-a326-42f6-aa11-414d9b79a825")
+		(pin "U7"
+			(uuid "023f34ee-a56d-4216-a77f-c9ed7cccc7b4")
+		)
+		(pin "R10"
+			(uuid "83923126-2e37-4c02-bf8c-e62eb4088350")
+		)
+		(pin "U10"
+			(uuid "65978eaf-144f-49be-a839-5e46b7637d4e")
+		)
+		(pin "V9"
+			(uuid "231374be-1c93-4be3-8fe9-0bd614c0a375")
+		)
+		(pin "B15"
+			(uuid "7d803285-ae2c-47ee-87d3-a834ec517528")
+		)
+		(pin "M4"
+			(uuid "24be019a-8eb0-42f6-81a2-c5aa136fc8e9")
+		)
+		(pin "L4"
+			(uuid "10459aef-48df-4242-a576-f83df70f30a1")
+		)
+		(pin "A15"
+			(uuid "4cc2cd28-f6a7-4e22-84ac-c76658ff1367")
+		)
+		(pin "B16"
+			(uuid "06a4f3ab-67e8-4524-873c-ebae7f598ca6")
+		)
+		(pin "A18"
+			(uuid "9bcaf5d2-32c0-441e-9e2f-d00417d6c855")
+		)
+		(pin "A17"
+			(uuid "23fd5f24-a43a-4eeb-9e1c-4062f35a4173")
+		)
+		(pin "B18"
+			(uuid "60ea1cbf-d6e6-4b5a-a0ba-9156a415b052")
+		)
+		(pin "D17"
+			(uuid "d3f08b53-702d-4142-977f-dbaeecd3c5b7")
+		)
+		(pin "A25"
+			(uuid "555aba6d-f6ae-4325-bb5b-2ec717dca914")
+		)
+		(pin "A14"
+			(uuid "ec23bbc3-033b-45f0-a793-661377e02fb6")
+		)
+		(pin "D20"
+			(uuid "fb066223-a54f-4283-bb58-f75de22de9aa")
+		)
+		(pin "A12"
+			(uuid "07a7dcdc-ffac-4725-9745-b022850f386b")
+		)
+		(pin "B21"
+			(uuid "1b77516e-f66b-4b00-a022-0b3b044da028")
+		)
+		(pin "B22"
+			(uuid "2b74e8e9-798d-44bc-930a-2658ff670da6")
+		)
+		(pin "A21"
+			(uuid "fd2a1650-3276-40a2-851e-c441041c58e3")
+		)
+		(pin "A24"
+			(uuid "55ccc621-9cfd-4a00-be7f-40414f0db8a2")
+		)
+		(pin "B25"
+			(uuid "f0db2742-b221-4704-9577-056ec1ad76ba")
+		)
+		(pin "B23"
+			(uuid "01680cee-41ec-41b8-9dd8-e5b13c6a6093")
+		)
+		(pin "B20"
+			(uuid "4868aead-4732-423c-adb5-4191ad690c94")
+		)
+		(pin "B19"
+			(uuid "3a1ddc3f-a116-4a71-a92a-6a4b2722b489")
+		)
+		(pin "A23"
+			(uuid "2e1191db-d4d8-47bf-a359-4aaac970f844")
+		)
+		(pin "B24"
+			(uuid "a611062d-971d-431c-b02d-7f0f63ea867e")
+		)
+		(pin "B26"
+			(uuid "907e043c-1971-4366-911a-536521ff98e7")
+		)
+		(pin "A19"
+			(uuid "0c6f999b-fc73-4c7a-91f5-7db9ea77411c")
+		)
+		(pin "A20"
+			(uuid "f1ff825d-450a-4223-879b-58c3ad5df73a")
+		)
+		(pin "A26"
+			(uuid "aa180925-6487-4bb3-842b-be2915573f93")
+		)
+		(pin "B13"
+			(uuid "16cb1a02-402a-4d70-bfc9-92ec6780f82c")
+		)
+		(pin "D18"
+			(uuid "ced45cc5-877e-44f4-9907-c017a93517b2")
+		)
+		(pin "A22"
+			(uuid "16075a45-6160-4ba7-a4c3-d2aa6801916f")
+		)
+		(pin "A11"
+			(uuid "891df54a-6883-4c67-aa33-ad10a3bae799")
+		)
+		(pin "B14"
+			(uuid "661af9d8-23fe-4e23-a4ae-53e77da7e4de")
+		)
+		(pin "A13"
+			(uuid "e73223e7-65da-4298-a0ca-1a08fd27cf19")
+		)
+		(pin "D15"
+			(uuid "a869d945-cd0f-461e-ad13-d7e96ff83ab5")
+		)
+		(pin "D14"
+			(uuid "7f68ff7c-a966-446f-b970-d02c6a71560c")
+		)
+		(pin "D21"
+			(uuid "3db87436-f33f-42bc-9adb-fd67b59b7261")
+		)
+		(pin "D24"
+			(uuid "b13b9956-e6a0-4ab3-9647-4e2c63026ffb")
+		)
+		(pin "D23"
+			(uuid "8debfe58-a420-4585-8735-7c777dbf3e0c")
+		)
+		(pin "G15"
+			(uuid "5e8d3ec3-bfc3-43df-adf4-2853722711e2")
+		)
+		(pin "H14"
+			(uuid "a60fef5d-1e66-4dd0-944c-1c283e23c52c")
+		)
+		(pin "G12"
+			(uuid "a2c3f6dd-dcc3-4fe3-9f19-46ceccc431e2")
+		)
+		(pin "J11"
+			(uuid "33620ae4-2c6b-4cc5-bbca-8c908262aec9")
+		)
+		(pin "J12"
+			(uuid "656b8dab-9080-402f-8f7d-1a0a7a8e2285")
+		)
+		(pin "J13"
+			(uuid "2648cae9-fb03-4e1e-97c5-32446bb3027b")
+		)
+		(pin "E23"
+			(uuid "7ba70c7f-96c9-48e3-8705-53859b138a45")
+		)
+		(pin "E17"
+			(uuid "39455298-b14c-4552-a3d4-12ad358ba56a")
+		)
+		(pin "J17"
+			(uuid "a1984869-769a-4c52-8193-ca97277c0012")
+		)
+		(pin "B6"
+			(uuid "fa406675-4332-4583-a27b-878e2d4bc17c")
+		)
+		(pin "D8"
+			(uuid "89e326af-8915-44d1-a658-dc1064e81192")
+		)
+		(pin "E9"
+			(uuid "bebf886b-0cbe-445d-995a-e2ea45e0a6a8")
+		)
+		(pin "G11"
+			(uuid "5c7eb207-b0ac-423d-8b74-83ce0f239717")
+		)
+		(pin "E20"
+			(uuid "d6310cbc-1df9-4e8c-9f23-3e9ad3f0eccb")
+		)
+		(pin "A9"
+			(uuid "f6d81682-6482-4613-809a-1609a9ea986a")
+		)
+		(pin "B8"
+			(uuid "32d68528-d8f2-4c3e-8759-f5de5882d6ab")
+		)
+		(pin "J14"
+			(uuid "5f3c512b-3a84-427a-b7f2-45e1fc6628ee")
+		)
+		(pin "D9"
+			(uuid "7e73a61f-06bd-417d-adff-6bda5802ddc5")
+		)
+		(pin "C6"
+			(uuid "db8acc2d-6eb6-4b63-9802-491a77684da3")
+		)
+		(pin "F12"
+			(uuid "d42dacf8-bbf4-4076-9b9d-d7c1680e83d9")
+		)
+		(pin "A10"
+			(uuid "2fdc0b9e-836b-428b-a423-befb813137c8")
+		)
+		(pin "J16"
+			(uuid "d2ccc906-24e1-4d9d-94c8-48e1c7924fc3")
+		)
+		(pin "E8"
+			(uuid "e3862a03-2c33-4103-a577-912f58e16190")
+		)
+		(pin "F11"
+			(uuid "3ddf7d63-d409-4073-90ab-c30baa35b033")
+		)
+		(pin "B3"
+			(uuid "194da4c5-bf78-4422-ac0d-5d9bd5a4ee1f")
+		)
+		(pin "B9"
+			(uuid "668fb857-b624-4612-963a-8dc6a7cc1907")
+		)
+		(pin "A2"
+			(uuid "7a65dcca-0664-44ad-94d3-2a1af352c241")
+		)
+		(pin "F9"
+			(uuid "07ad69a7-83e4-4156-878b-ed19f8421ba3")
+		)
+		(pin "J15"
+			(uuid "5a57ec24-89ee-4292-93e4-f5a0147a66e5")
+		)
+		(pin "E14"
+			(uuid "ad9c6a34-e04a-4366-9092-9c72a3266845")
+		)
+		(pin "B10"
+			(uuid "47945e1b-145e-4019-8aa1-e3811e6ed63d")
+		)
+		(pin "A8"
+			(uuid "1548ef53-e28b-474f-9b37-9354c3e3a8fa")
+		)
+		(pin "B7"
+			(uuid "f82f7da0-a5ec-4aa6-acd0-32138a28b1be")
+		)
+		(pin "A7"
+			(uuid "d1894e82-8419-4062-bc78-9f688190891f")
+		)
+		(pin "F14"
+			(uuid "3c1e53c7-d99f-4113-a4ae-707bd8e4b96d")
+		)
+		(pin "K11"
+			(uuid "312dd900-505a-497a-99b0-6b9d854d863f")
+		)
+		(pin "A5"
+			(uuid "f6dceb08-5319-428c-9843-04733347d1aa")
+		)
+		(pin "E6"
+			(uuid "dbbfcf7a-41d1-4d26-a97c-42cf3230951a")
+		)
+		(pin "T30"
+			(uuid "13062513-ff3d-4d24-b20e-430d657e04ef")
+		)
+		(pin "C5"
+			(uuid "91a00001-c1a1-46b0-ba83-c288e8a2c824")
+		)
+		(pin "K13"
+			(uuid "b8e9a927-fd38-4e7b-aa0a-c6abd038e414")
+		)
+		(pin "AH5"
+			(uuid "ec5a1102-5dcc-4275-88c8-bff422e6c614")
+		)
+		(pin "AG4"
+			(uuid "ec49cafb-adbe-4b66-9529-0cdaa9797b53")
+		)
+		(pin "AJ31"
+			(uuid "b5408658-9256-4931-b2c2-95f97e67fdc5")
+		)
+		(pin "A6"
+			(uuid "67a7ec8a-84ee-4e04-93b1-767c70552d93")
+		)
+		(pin "G17"
+			(uuid "29332112-9fdf-4dc1-96aa-e1042d710af1")
+		)
+		(pin "B4"
+			(uuid "918d6329-e7ea-41c9-9431-a4a4e609c22d")
+		)
+		(pin "D11"
+			(uuid "abcf2604-b6fc-46b3-85c0-16b3586a6a64")
+		)
+		(pin "G8"
+			(uuid "2035e0cb-f641-4bce-9724-d6367fcf464d")
+		)
+		(pin "B2"
+			(uuid "5a872401-d0e6-413b-ab85-67ced32ec747")
+		)
+		(pin "D6"
+			(uuid "925a78a8-8726-4a9a-90f5-67b1428f4b04")
+		)
+		(pin "E11"
+			(uuid "6e306c8b-650d-494e-a578-63f6db737845")
+		)
+		(pin "G14"
+			(uuid "f039bba2-087e-4e9c-9260-401de8cdd331")
+		)
+		(pin "F17"
+			(uuid "27288aa5-8fe8-4fb4-9db5-8d0bf9650d5a")
+		)
+		(pin "F7"
+			(uuid "1d805deb-6cc5-49ef-b752-24eae8055c25")
+		)
+		(pin "A4"
+			(uuid "57438e4c-4473-44f3-ba09-30821735e482")
+		)
+		(pin "D12"
+			(uuid "48901940-7cc0-42b8-984f-57523c9f8b80")
+		)
+		(pin "A3"
+			(uuid "5d6f4d6d-de2d-4e9f-880b-c54ad07ba52d")
+		)
+		(pin "C4"
+			(uuid "e2453d0b-deea-4295-9b63-e62008645a16")
+		)
+		(pin "J18"
+			(uuid "f7ecece0-b762-4cc1-8048-820187aacb9c")
+		)
+		(pin "K15"
+			(uuid "97b68b1b-952c-455d-8dfa-7d7d37d67961")
+		)
+		(pin "K17"
+			(uuid "135fa248-b721-4a58-8c28-7150be83d1ac")
+		)
+		(pin "Y31"
+			(uuid "1f352a84-8103-4f0c-bae7-37ca94119376")
+		)
+		(pin "Y30"
+			(uuid "e61bd938-c3a1-4848-97c9-874c344275a3")
+		)
+		(pin "AH3"
+			(uuid "cca7fd52-f4f2-4979-8f45-c8ae265db31a")
+		)
+		(pin "AK3"
+			(uuid "557bd87f-1224-4fa9-a4c9-f77985945fef")
+		)
+		(pin "AJ3"
+			(uuid "51cb14b6-6b28-4bfc-92c6-b3095a299a10")
+		)
+		(pin "AJ30"
+			(uuid "8df57556-9940-448c-9268-285f3f87437d")
+		)
+		(pin "AD24"
+			(uuid "da0b07b8-c5a4-4aff-8871-88cc75d69571")
+		)
+		(pin "AD25"
+			(uuid "6acd4bd8-80a0-4d9b-8bd7-c56383070358")
+		)
+		(pin "AD23"
+			(uuid "37f4681e-57c1-4c37-b452-b6e3002f4183")
+		)
+		(pin "R30"
+			(uuid "573aa471-102f-458e-9a63-344607cae1b9")
+		)
+		(pin "AB22"
+			(uuid "04976738-532c-4502-9109-a629cbf2f941")
+		)
+		(pin "AA22"
+			(uuid "113119a4-5e65-4c70-9547-065dd94ff4eb")
+		)
+		(pin "AC12"
+			(uuid "0f9af314-ecea-4b23-a8ac-c9fb18a532f0")
+		)
+		(pin "AD14"
+			(uuid "24382b69-a0a8-43ba-a20f-a656535db1e1")
+		)
+		(pin "AA19"
+			(uuid "d68a5dba-83a4-4780-aa0d-25f567a8d8dc")
+		)
+		(pin "AB20"
+			(uuid "091f6062-a583-45ed-8cb4-b1e3a471a9df")
+		)
+		(pin "U31"
+			(uuid "96994f09-2758-4e9b-b623-9b979c7a065b")
+		)
+		(pin "N24"
+			(uuid "5d4c0826-29ec-41e2-af79-2578776d5f0c")
+		)
+		(pin "AK1"
+			(uuid "2c9ef97a-231c-408e-8489-9dcf5a6e5da0")
+		)
+		(pin "AA24"
+			(uuid "4ca9306c-7c2a-4109-83be-48cc0beb8610")
+		)
+		(pin "AB24"
+			(uuid "72ad3814-5666-4718-b531-1252bafeca29")
+		)
+		(pin "AC14"
+			(uuid "1c577808-3ad8-4024-ac0c-cae773e4d55a")
+		)
+		(pin "W31"
+			(uuid "53cc0985-a6f0-4b64-80df-09e9ad6310e9")
+		)
+		(pin "U30"
+			(uuid "6df6553a-3ece-4e91-93f4-49c7e422f076")
+		)
+		(pin "M24"
+			(uuid "8a71f169-226e-401c-b5ca-6966e0e5a1f3")
+		)
+		(pin "AD15"
+			(uuid "f74e1d5d-f07b-4e96-b8b3-3ff11f044172")
+		)
+		(pin "AD12"
+			(uuid "f078fc41-7a77-4c35-a101-882cfe39202d")
+		)
+		(pin "AA20"
+			(uuid "52549e58-770b-4859-89a2-d4655e0809e0")
+		)
+		(pin "AD11"
+			(uuid "353d2f63-1d7e-41cd-8b63-b7f642e4ee66")
+		)
+		(pin "A1"
+			(uuid "d4d9604f-6d2f-475d-acef-64c0cb7976da")
+		)
+		(pin "AG2"
+			(uuid "fcc66d2c-97f9-430e-a704-2f87714f7df2")
+		)
+		(pin "AE23"
+			(uuid "f9185eed-a2f8-405a-9bb1-559a6cb7527e")
+		)
+		(pin "C8"
+			(uuid "cf82e7f0-c54b-49b3-be36-3f2980e48007")
+		)
+		(pin "C12"
+			(uuid "b33c97d4-3a63-4b36-8442-b4d0f60d52f8")
+		)
+		(pin "C15"
+			(uuid "6d609f38-8e8f-470b-aa33-6a71ecea85d6")
+		)
+		(pin "AA3"
+			(uuid "7177eebe-6bf8-4b1c-a7a8-611746ccaa8f")
+		)
+		(pin "AA9"
+			(uuid "ba56cdfb-d723-40dc-95fe-26a22ff18f4c")
+		)
+		(pin "AB9"
+			(uuid "2d70d4bd-0f79-4889-b8eb-c2517eaae913")
+		)
+		(pin "AD22"
+			(uuid "62a7a667-f91d-4a61-b198-ab38c752ad4b")
+		)
+		(pin "Y3"
+			(uuid "aac8ac7d-fff9-47e3-8a3f-e5ba4a239a16")
+		)
+		(pin "AL1"
+			(uuid "2e8fccef-7611-48f1-b490-da5125bb4a25")
+		)
+		(pin "C9"
+			(uuid "7c82cd79-dc70-44e6-af4a-7ec50ffe23ef")
+		)
+		(pin "Y10"
+			(uuid "fd21bdd3-1761-4b7f-b250-827ec8791f3e")
+		)
+		(pin "AC20"
+			(uuid "84514273-58f4-498c-ad26-ba0df3639938")
+		)
+		(pin "AA5"
+			(uuid "9b7e8225-a31d-4b68-8a1b-ee69bdb5355e")
+		)
+		(pin "AD3"
+			(uuid "a2967683-2af3-4091-9bdc-e50a54059e7e")
+		)
+		(pin "AD5"
+			(uuid "26db5924-6e20-4410-b34b-7b61b34f558f")
+		)
+		(pin "AF9"
+			(uuid "f7a68ed2-97f8-43ca-8487-8f1580a3b671")
+		)
+		(pin "AC22"
+			(uuid "94ebb514-e475-4aef-be0f-43817a11efb3")
+		)
+		(pin "A27"
+			(uuid "1346fac4-b0a3-40b7-bc30-e327e3e46a26")
+		)
+		(pin "AF18"
+			(uuid "f7ef307e-9c03-45b5-9548-c562d8f48192")
+		)
+		(pin "AF20"
+			(uuid "306286ef-557a-4b2a-9b93-c4d006543e8e")
+		)
+		(pin "AD10"
+			(uuid "ec35b58e-3880-4c78-84e4-6f57fdf45e7e")
+		)
+		(pin "A31"
+			(uuid "6c65b684-b24d-4c12-bfe1-acaff181f8ab")
+		)
+		(pin "AC3"
+			(uuid "8800ca6b-0d79-4ae1-b4cb-728fb75a5131")
+		)
+		(pin "AJ5"
+			(uuid "437f0df2-80f4-44ac-bcbe-885baca3181c")
+		)
+		(pin "B5"
+			(uuid "d7e70ddc-a7a3-41b2-8568-ddc64bc731d8")
+		)
+		(pin "C11"
+			(uuid "fd32c8c1-53d1-44e5-9d65-77ec9714f30e")
+		)
+		(pin "C14"
+			(uuid "6a4f01ec-5aba-4520-9426-814e1db36333")
+		)
+		(pin "E18"
+			(uuid "20fd78c9-a03c-4900-856f-20dc0f4c6018")
+		)
+		(pin "F21"
+			(uuid "d2663e67-e2e9-40b5-9f66-ab4482041553")
+		)
+		(pin "C21"
+			(uuid "e50c65d2-0fee-41d5-9900-5fd69fcf7037")
+		)
+		(pin "H9"
+			(uuid "fc46fe62-e3a8-4605-9603-a3427e1ed842")
+		)
+		(pin "E7"
+			(uuid "aea5f02f-7ce0-4312-a5a5-c5bd06c5bdd5")
+		)
+		(pin "E21"
+			(uuid "f567c209-22bc-4750-9213-5934c263ee25")
+		)
+		(pin "F18"
+			(uuid "35af2f22-c043-4782-8291-327d13e2b134")
+		)
+		(pin "F8"
+			(uuid "6e00657e-fc80-4587-9d4c-71cda3729b44")
+		)
+		(pin "E15"
+			(uuid "ce9c8c9e-b8de-4eaf-97c4-1e933781c421")
+		)
+		(pin "E31"
+			(uuid "15f0fec8-ef16-4870-a1d9-a70d5e07a8bf")
+		)
+		(pin "C18"
+			(uuid "3e12e0c7-86fc-4195-9cd6-7b97deef462e")
+		)
+		(pin "G9"
+			(uuid "b811360f-b439-4b67-872f-3f9747a6e885")
+		)
+		(pin "E2"
+			(uuid "6c61e3f9-c9c6-4767-b893-00a921baad0f")
+		)
+		(pin "C26"
+			(uuid "d88aa681-c517-4d43-8922-ddba4707fa15")
+		)
+		(pin "C20"
+			(uuid "ea019aeb-378f-466a-b9ad-0f0269caf94e")
+		)
+		(pin "C24"
+			(uuid "822d9db1-a164-4197-8dbc-5b6454157927")
+		)
+		(pin "C23"
+			(uuid "5bb6c9df-1f01-4838-9462-38af775f6081")
+		)
+		(pin "E4"
+			(uuid "facd2090-ac6a-440a-88f8-1c1cd7b31fb6")
+		)
+		(pin "E12"
+			(uuid "d4c11ce9-27b4-4cc5-ad4c-5c03d9ba87b8")
+		)
+		(pin "E24"
+			(uuid "24a45183-8c4f-4147-9c33-c97816ac3ff6")
+		)
+		(pin "F15"
+			(uuid "8457c008-4ef2-4e49-ab2e-85147113f3df")
+		)
+		(pin "G18"
+			(uuid "519e56d9-e566-4c3e-8aa0-bc6f3bd33176")
+		)
+		(pin "H3"
+			(uuid "2a6e3118-9535-4c48-bfed-d931805e368a")
+		)
+		(pin "D5"
+			(uuid "74f7e075-40d3-4851-8038-ade318607f25")
+		)
+		(pin "C17"
+			(uuid "20081532-4b8e-4271-acf9-fdbd9cbfb378")
+		)
+		(pin "F20"
+			(uuid "828fb43e-23bd-4cbd-8618-16e270c39da3")
+		)
+		(pin "G27"
+			(uuid "92970aeb-3680-472e-ba51-15031326159a")
+		)
+		(pin "G5"
+			(uuid "2598fdc7-f119-4275-8378-c461cc7b1fd0")
+		)
+		(pin "H10"
+			(uuid "67978088-f086-4212-892e-1692fec11c38")
+		)
+		(pin "H13"
+			(uuid "575b60a9-fb20-4c7d-ac5f-4c18eedcfbfa")
+		)
+		(pin "H15"
+			(uuid "4067c565-0bc7-4aee-b106-22d1063ae735")
+		)
+		(pin "H16"
+			(uuid "04f6d48d-3416-4f30-b208-bcfc374eb54a")
+		)
+		(pin "H17"
+			(uuid "617100e3-8df7-4d43-b83f-23b33eedfd1c")
+		)
+		(pin "H11"
+			(uuid "5c62e339-6271-4a39-b4a8-348121abe311")
+		)
+		(pin "H12"
+			(uuid "8dfd8ae7-b50a-41a6-8649-e9f08db65298")
+		)
+		(pin "J3"
+			(uuid "2ab0e0a2-9a8a-4730-9a6b-96dd1827f602")
+		)
+		(pin "L14"
+			(uuid "76a6fd8e-4455-4e47-a02f-0b3e60621d3d")
+		)
+		(pin "J8"
+			(uuid "a87a9eab-7515-4540-8e3f-2f8a14ee476c")
+		)
+		(pin "K22"
+			(uuid "7012b48a-483c-4d7a-8aa0-258b78a5f5b5")
+		)
+		(pin "J9"
+			(uuid "b384d420-e8e5-46d2-a504-cb3ea7eb5a1f")
+		)
+		(pin "K9"
+			(uuid "a6ac1b54-ace8-48f3-a1bc-cb077c08d2d5")
+		)
+		(pin "K14"
+			(uuid "dee0714c-1948-48bb-9550-f081a73f2a42")
+		)
+		(pin "H18"
+			(uuid "924971e9-4326-44c6-8cf2-eda14f2f0147")
+		)
+		(pin "J7"
+			(uuid "3c6ef6d8-c452-4b7b-b7da-7a80a5af106e")
+		)
+		(pin "W21"
+			(uuid "7d7e20be-521e-4d92-a6ce-38b4f13a3027")
+		)
+		(pin "L6"
+			(uuid "736c366f-fa45-4061-b26c-bc3700c95c80")
+		)
+		(pin "J10"
+			(uuid "ac732361-300b-4ab2-9885-9846d43f856c")
+		)
+		(pin "K16"
+			(uuid "4c9498cb-e525-4509-b692-ce053b1f8e80")
+		)
+		(pin "K20"
+			(uuid "83b55b9e-59fa-4164-935e-d8c932366bbc")
+		)
+		(pin "L3"
+			(uuid "68f4eb5b-f721-4b78-a4fc-8c1c2cde910a")
+		)
+		(pin "K8"
+			(uuid "225afe78-b045-4b7d-b19e-36a0b702e920")
+		)
+		(pin "K10"
+			(uuid "b5dd3090-1a31-455d-b42b-249b8a3fec69")
+		)
+		(pin "K12"
+			(uuid "fb7458b1-1788-47b3-8f9c-eee92a4bfb80")
+		)
+		(pin "L8"
+			(uuid "7ec298ef-0e1c-4419-9d2a-971ce6923658")
+		)
+		(pin "L11"
+			(uuid "a1a286f3-72c2-4d51-b399-e584e255c9da")
+		)
+		(pin "K18"
+			(uuid "cf796473-bb2e-4a38-971b-cee44ffa57c2")
+		)
+		(pin "H26"
+			(uuid "116d9626-8c57-4cae-bba2-f671935cc2b7")
+		)
+		(pin "N19"
+			(uuid "963a9fce-d5f0-4298-832c-f7069eefc82f")
+		)
+		(pin "L12"
+			(uuid "8b987d6e-df39-4fdc-abbc-19d302e93e98")
+		)
+		(pin "J6"
+			(uuid "85d096d9-b6f0-4770-a311-f97a4b0530d9")
+		)
+		(pin "L13"
+			(uuid "4ebd7c94-1826-45e1-a59f-763cb1133048")
+		)
+		(pin "L27"
+			(uuid "2da55a7e-f24b-426d-ad23-339f997dec69")
+		)
+		(pin "P7"
+			(uuid "38388215-5a49-47a5-a713-2350b674c444")
+		)
+		(pin "Y16"
+			(uuid "43d3c6b4-b5a4-44c0-b9a4-836e27f10afa")
+		)
+		(pin "L22"
+			(uuid "07808f27-6ad6-47d8-95fe-943d0af3bf94")
+		)
+		(pin "P6"
+			(uuid "f4da756a-e743-4b7f-8ae7-e7998b907d40")
+		)
+		(pin "L20"
+			(uuid "22c23094-374a-4372-b510-d6b8b42c2000")
+		)
+		(pin "N16"
+			(uuid "c0356bcc-2681-4202-8b1b-5fd76a19fb3c")
+		)
+		(pin "M3"
+			(uuid "999eb198-06a7-4c23-b7f7-cb5a30456782")
+		)
+		(pin "P16"
+			(uuid "078f63a6-8f16-4bf9-9c2f-3610ba890604")
+		)
+		(pin "L16"
+			(uuid "98571348-9b97-40c0-a30e-a0d15d02fbc9")
+		)
+		(pin "N17"
+			(uuid "c6659203-d6f5-434e-ac07-e2a6ab4ccd42")
+		)
+		(pin "N14"
+			(uuid "bc459f21-14f3-4cf7-94bf-56f7a3cdb8b2")
+		)
+		(pin "P8"
+			(uuid "014cacc4-1fb1-43da-a1ca-54af719dacc2")
+		)
+		(pin "M10"
+			(uuid "2a453d6f-032d-425f-9a75-ba7e9504bc6e")
+		)
+		(pin "M8"
+			(uuid "aaaf06f1-eda6-4cee-b9c6-d753baccdca0")
+		)
+		(pin "M23"
+			(uuid "278b9b33-0e7b-4843-bc91-b057ebc767e4")
+		)
+		(pin "P12"
+			(uuid "a7670fc3-7caf-432d-b830-1e2b8c502f8e")
+		)
+		(pin "L15"
+			(uuid "65fb2e2d-8a61-4147-8460-cf959c7252b5")
+		)
+		(pin "N8"
+			(uuid "cdeb6e98-6e5d-467c-a783-dc2fa828d044")
+		)
+		(pin "P11"
+			(uuid "a3aa3af8-7199-4657-bc0f-31e5246eb3b1")
+		)
+		(pin "N13"
+			(uuid "8290a7ed-c122-4782-929e-a76c67c1653a")
+		)
+		(pin "Y17"
+			(uuid "ef03cc40-2668-473b-8475-ef8bcde2c6e1")
+		)
+		(pin "N21"
+			(uuid "68211e1f-0105-4c22-9079-45797b6c84de")
+		)
+		(pin "N15"
+			(uuid "3a3b7b4b-c17b-4c67-979b-360f64ad9505")
+		)
+		(pin "M16"
+			(uuid "79664960-47a9-4f3d-b405-976787a46c13")
+		)
+		(pin "P3"
+			(uuid "3d4a85fd-7f49-4fa8-a329-e1b8cb9555db")
+		)
+		(pin "P10"
+			(uuid "d06e2d39-c0b5-45c5-93a5-8b5e1f63174b")
+		)
+		(pin "P19"
+			(uuid "7f41ee37-67b6-471d-9c9d-ef93554b63e9")
+		)
+		(pin "P21"
+			(uuid "2b1e7abe-9a2b-46c7-93e3-340992593102")
+		)
+		(pin "T19"
+			(uuid "e2f23ddc-b4cf-4bf9-b6e1-e0b4f116e70c")
+		)
+		(pin "R6"
+			(uuid "c8a158d6-e693-412a-86fd-6788feee8862")
+		)
+		(pin "U11"
+			(uuid "109907ff-1757-45b9-bd94-101e2bbaf581")
+		)
+		(pin "U12"
+			(uuid "35969306-b97e-4acc-9f1b-dd8fd32be983")
+		)
+		(pin "R5"
+			(uuid "a62a92fe-a600-4c05-b65f-a585b82f5bbd")
+		)
+		(pin "W13"
+			(uuid "cdead0a3-1f15-4744-85ae-f4b3cbda4370")
+		)
+		(pin "R3"
+			(uuid "f5641de9-40a0-4d87-80f3-f7fb2248042e")
+		)
+		(pin "R21"
+			(uuid "fe86809c-e9c5-42ab-bb57-8ad5a22221be")
+		)
+		(pin "R14"
+			(uuid "fa5474ee-ed45-4b43-b3a3-aa84ebdb7335")
+		)
+		(pin "V17"
+			(uuid "eac90633-0637-49ca-a4e9-ba68a4a6f545")
+		)
+		(pin "AB19"
+			(uuid "68ef1a60-ce41-4d90-9e1c-59adfae4b098")
+		)
+		(pin "U16"
+			(uuid "6f2246fc-70d8-4bc7-93b0-6577944baf75")
+		)
+		(pin "T16"
+			(uuid "53e981f1-50ea-41d4-8fce-991c38afc40b")
+		)
+		(pin "AC18"
+			(uuid "2e199c6b-0ab1-4431-8d2f-e6fcd4160b47")
+		)
+		(pin "U22"
+			(uuid "faee76de-ae2e-4a19-80f1-671af263e150")
+		)
+		(pin "U15"
+			(uuid "5c5c9290-8854-45a7-9335-6a28d2e67c6b")
+		)
+		(pin "Y12"
+			(uuid "d844a091-b616-4cd0-b407-0c536303e5ef")
+		)
+		(pin "U8"
+			(uuid "a9299507-daec-491c-bb3a-97642a416345")
+		)
+		(pin "R16"
+			(uuid "b6433c90-dbd7-450a-8c90-984f2d324072")
+		)
+		(pin "T8"
+			(uuid "9d734abb-0e80-49f9-a1af-da639e46c4de")
+		)
+		(pin "T10"
+			(uuid "5b339fe9-9ad2-499e-b0b4-34eb445390bd")
+		)
+		(pin "AC21"
+			(uuid "04353217-fcce-484d-b2b0-0cf56cd1ef9a")
+		)
+		(pin "T21"
+			(uuid "2de2fb9f-d723-4b68-8965-d276bafab20a")
+		)
+		(pin "R23"
+			(uuid "b76a0167-a3ca-4058-be40-cec92573ee34")
+		)
+		(pin "U14"
+			(uuid "4717baae-80c7-4441-8340-7d2d085355d3")
+		)
+		(pin "U3"
+			(uuid "7a92ea5b-d7af-4adc-af6d-11c2ab95aee9")
+		)
+		(pin "U19"
+			(uuid "e588ce84-e133-43f9-9ecc-1654923cd0e2")
+		)
+		(pin "R15"
+			(uuid "ec4e0c00-d4f4-43e9-8c49-5509db0ca124")
+		)
+		(pin "U21"
+			(uuid "9f8c55a5-0448-4b8f-b0ab-c7131a8428ae")
+		)
+		(pin "M31"
+			(uuid "6bd3a9ba-595e-4838-82fd-e1e658ca7d84")
+		)
+		(pin "Y27"
+			(uuid "6e310ef7-fa25-4f23-96a8-7cb1f783875c")
+		)
+		(pin "AF7"
+			(uuid "c14c2a17-556a-496d-9a97-cae18419d564")
+		)
+		(pin "AA25"
+			(uuid "41971107-896b-4703-9c03-3e3b44d9b52f")
+		)
+		(pin "AG7"
+			(uuid "6699791b-51ee-4703-b8c0-5a36a4df3641")
+		)
+		(pin "U28"
+			(uuid "9af1c94f-6629-425e-86b8-f28fd29b4465")
+		)
+		(pin "L26"
+			(uuid "cb430afb-2ab0-448b-b656-8e44e1f2e0c1")
+		)
+		(pin "Y28"
+			(uuid "7569cc27-2dc7-4cec-a8eb-e24732f27622")
+		)
+		(pin "V25"
+			(uuid "469b9df5-9001-4154-bdc0-a4c2061acc1d")
+		)
+		(pin "V28"
+			(uuid "775c7f47-754a-4eaf-94c1-e5830062a461")
+		)
+		(pin "P24"
+			(uuid "08e306ab-8c0b-47ef-adfa-40c767aa18d8")
+		)
+		(pin "AK4"
+			(uuid "ab17b00d-6fc1-4e4f-b6db-755e860b3f9e")
+		)
+		(pin "V30"
+			(uuid "155ac81f-8c3f-4139-a9bf-d5fa06580409")
+		)
+		(pin "U26"
+			(uuid "303e6b92-f9ba-4f1a-bbc8-82cb14cae073")
+		)
+		(pin "T23"
+			(uuid "139226dc-5bff-4656-9228-9998f630fb70")
+		)
+		(pin "AD8"
+			(uuid "7be48d56-6a1f-4569-9b6d-5ff60865a87f")
+		)
+		(pin "V31"
+			(uuid "cd363802-4f73-4130-bbd7-95849ee4a04b")
+		)
+		(pin "AE8"
+			(uuid "ece9893e-b781-4d23-8dee-bba01b3246f3")
+		)
+		(pin "U27"
+			(uuid "a71dbb7b-3267-4ccf-890b-ebb7ce8fad7a")
+		)
+		(pin "AH6"
+			(uuid "8183f925-e202-410c-9664-2d6140cf564a")
+		)
+		(pin "Y26"
+			(uuid "c3cd1914-4612-405b-b791-97504d572009")
+		)
+		(pin "R29"
+			(uuid "f2bc8d1d-fcea-47ab-a17a-605d4a504e7a")
+		)
+		(pin "V29"
+			(uuid "d773cb08-b719-4262-b148-a3e755040773")
+		)
+		(pin "AK5"
+			(uuid "234d6c25-673f-4884-b857-52ce4f500a55")
+		)
+		(pin "L25"
+			(uuid "f08a9b5c-3aec-4daf-861b-ac5e421acf9b")
+		)
+		(pin "V26"
+			(uuid "dda318db-416a-4d41-93bd-d87c5e613d0e")
+		)
+		(pin "AL4"
+			(uuid "0f729ec3-53b1-4acf-82a9-3e18806f8e33")
+		)
+		(pin "AD9"
+			(uuid "25973f2c-eddb-414b-a695-354dec67d6ce")
 		)
 		(pin "L30"
-			(uuid "5cc717a2-e0f2-4d69-8d92-24c1bfedcd98")
+			(uuid "5d9478cf-546b-43d8-90d7-93da5335b233")
+		)
+		(pin "AB31"
+			(uuid "b31b89bd-1ff6-454a-91bf-27c98ecbda0d")
 		)
 		(pin "U24"
-			(uuid "5e5136d6-ecd7-48c7-870b-3b77615b18a4")
+			(uuid "d60a1541-063a-4293-ab91-209b4f68dfe3")
 		)
-		(pin "AA31"
-			(uuid "290d8cd9-efd2-4cf1-998f-138947d517ad")
+		(pin "AH23"
+			(uuid "ccf3199f-014c-4c90-99fe-f9525130b9d3")
+		)
+		(pin "J29"
+			(uuid "93422458-20fc-496e-9357-14c748f561cf")
+		)
+		(pin "V24"
+			(uuid "5a26fa23-6ec3-47c2-a76e-801d316b81f6")
+		)
+		(pin "AA30"
+			(uuid "4d29d63a-d722-4f3c-b31d-ea0a76559a85")
+		)
+		(pin "AG23"
+			(uuid "5c963b13-9328-4c03-9ffc-80489bdf2449")
+		)
+		(pin "J28"
+			(uuid "f35632ed-7a9a-40ab-854a-414b65e0c57d")
+		)
+		(pin "AF8"
+			(uuid "c89e3e92-0605-4e3a-9e6f-1534a2b70a68")
+		)
+		(pin "V27"
+			(uuid "01ef2b71-fc14-4ec1-81ae-f400deac7bc2")
+		)
+		(pin "AC31"
+			(uuid "ad4919d5-a15b-4334-833e-77e63132abb6")
 		)
 		(pin "AB30"
-			(uuid "f3703452-2817-40f2-9878-00736018454f")
+			(uuid "f83a0a06-97e4-4270-a579-05daa04a022b")
 		)
-		(pin "AD19"
-			(uuid "4b690fe4-5529-4621-b0c7-3d2a1f5ec4e8")
+		(pin "J27"
+			(uuid "564565e9-1413-4cda-b133-6a858248b9dc")
 		)
-		(pin "AG20"
-			(uuid "cd4c0c00-7ebf-48c4-b10c-8614ee30e8aa")
+		(pin "J25"
+			(uuid "43f3ebbd-eba2-47bb-bc69-a89d1f02c745")
 		)
-		(pin "AH20"
-			(uuid "ce49d4dd-9caf-45fb-92c9-c0d774bd0869")
+		(pin "J26"
+			(uuid "266ad92f-66b6-4768-8264-4309b6b2f500")
+		)
+		(pin "L31"
+			(uuid "c6888e6a-56de-46ca-9ce1-11a74206e02b")
+		)
+		(pin "K30"
+			(uuid "1131d507-df48-443c-ab6f-eaa9eee92cca")
+		)
+		(pin "J30"
+			(uuid "08392c90-7eb3-4620-8f0a-a3761e02cbfc")
+		)
+		(pin "J31"
+			(uuid "1f053b9c-bd3a-4f50-8911-068dcecf069f")
+		)
+		(pin "K24"
+			(uuid "1e884287-fdda-4651-a861-59ccd7e854ca")
+		)
+		(pin "L24"
+			(uuid "b551bd9e-c98a-42df-aa40-636cce7631fd")
+		)
+		(pin "K31"
+			(uuid "c8328f41-5e01-445e-bce0-dbd78cebd044")
+		)
+		(pin "L29"
+			(uuid "613f0863-97d4-4f73-84dd-c5688ef7554b")
+		)
+		(pin "L28"
+			(uuid "d1030927-9af6-4c6e-9203-0c7eb9c3916b")
+		)
+		(pin "AC30"
+			(uuid "1fd311a4-5c00-4b75-ae22-c23bc98a98ad")
+		)
+		(pin "AA31"
+			(uuid "f7118b20-6011-448d-bc39-eecdbf9b43e4")
+		)
+		(pin "Y25"
+			(uuid "8ddc7522-0dad-42e5-be10-e1d88871e9a8")
 		)
 		(pin "AL22"
-			(uuid "3f0645bc-ff37-46f7-97c4-ba15efaa03d4")
+			(uuid "ea133649-6ea9-47f1-b21b-bbe32088ecc8")
+		)
+		(pin "AK21"
+			(uuid "fad3803a-c9c8-4e73-a4ab-b2186e780687")
 		)
 		(pin "AL21"
-			(uuid "26b731b3-1fd3-4b22-9438-f5c4c263c5a5")
+			(uuid "70a08df4-5d44-4e06-93ac-5f1c6c3ef67e")
+		)
+		(pin "AK24"
+			(uuid "811b8663-2fc7-4974-a400-4d7ef5dfdaf5")
+		)
+		(pin "AL30"
+			(uuid "377f7bdd-26b3-40da-94fb-5ee5fe2152d5")
+		)
+		(pin "AK22"
+			(uuid "646bd8c1-1738-40eb-a1b9-647fe9757dac")
 		)
 		(pin "AL24"
-			(uuid "76196239-f432-4340-acc5-e38cffaaaab6")
-		)
-		(pin "AG17"
-			(uuid "b6c15f56-d1a2-4fc1-96b1-ceb5b0746099")
-		)
-		(pin "AE18"
-			(uuid "f6179942-0831-4657-aff7-b24ee14b1244")
-		)
-		(pin "AL20"
-			(uuid "16352de9-ee55-428b-bc39-961d8559c79d")
-		)
-		(pin "AG21"
-			(uuid "0ae7c4c2-3189-4cd2-a3cc-fc51fb7021b6")
-		)
-		(pin "AL26"
-			(uuid "690bc964-4eb2-4e17-957d-897f5288d952")
-		)
-		(pin "AC19"
-			(uuid "f0169e1d-269f-4dd2-869c-a7652df43d1e")
-		)
-		(pin "AB18"
-			(uuid "dc2af90c-d5d0-4661-82b3-80cc9394455a")
-		)
-		(pin "AE26"
-			(uuid "285e6d81-db05-498a-ae1c-4b4a35584f18")
-		)
-		(pin "AK28"
-			(uuid "060132a3-95d5-48c8-b079-239df3b528a3")
-		)
-		(pin "AK27"
-			(uuid "91fb31ba-5eb0-4150-927b-eac3a8882995")
-		)
-		(pin "AL27"
-			(uuid "649ea753-c414-4019-b7b8-bfca7136162a")
-		)
-		(pin "AK20"
-			(uuid "d03c4c57-f850-4072-b4d6-93284b583b65")
-		)
-		(pin "AG24"
-			(uuid "9ee54a4e-6516-4a8b-a7f3-e7c56d901a58")
-		)
-		(pin "AL23"
-			(uuid "5ab244a5-4a62-478c-913a-11ae12580b48")
-		)
-		(pin "AA18"
-			(uuid "bbf20403-7408-4961-8bf8-15f4e4dbc6d6")
-		)
-		(pin "AB21"
-			(uuid "aab2d5e6-82fc-4da3-be78-e3fde3ab03e0")
-		)
-		(pin "Y19"
-			(uuid "5eb9e74b-6b45-4499-9496-83a85079b8b6")
-		)
-		(pin "AH21"
-			(uuid "6d48dcbd-4b71-4138-a0ce-f6ff5f5fe16e")
+			(uuid "7f6c240e-3db3-49e3-93de-4ae6859eb6d1")
 		)
 		(pin "AK23"
-			(uuid "b3c43a6e-f4e6-4850-b7f4-260defed8003")
+			(uuid "c3187c38-d4ab-4927-99ba-08215c03fb5b")
 		)
-		(pin "AF21"
-			(uuid "80aa4533-0a6f-4906-8d76-abfa055dd6e7")
+		(pin "AL23"
+			(uuid "bcf39002-f2fe-4c22-86ee-14db4753332d")
 		)
-		(pin "AE21"
-			(uuid "5774b62b-c5cf-4a92-af35-c70c951dd491")
-		)
-		(pin "Y22"
-			(uuid "95eca013-1b55-41ec-a246-8a0e304983e8")
-		)
-		(pin "AA21"
-			(uuid "0aab713b-7aaf-4f71-9e98-ba646a029b84")
-		)
-		(pin "Y21"
-			(uuid "4e2fc4da-1af9-4337-958d-180a3944ff50")
-		)
-		(pin "AH17"
-			(uuid "ab9a7b47-07b3-49d4-b429-75c4898818f8")
-		)
-		(pin "AD18"
-			(uuid "cf0a4166-d67c-425a-87cd-61b65046095f")
-		)
-		(pin "AK30"
-			(uuid "91246cb3-56c8-4de8-b0e7-98c351a734ef")
-		)
-		(pin "Y18"
-			(uuid "df7aaf1d-8b96-448e-bd66-7e9ab5bc3e58")
-		)
-		(pin "AH24"
-			(uuid "4a35741e-65f0-4f10-8196-e07ec11dd0f2")
-		)
-		(pin "AK26"
-			(uuid "ef667010-c46b-461c-a1b9-99e5351d8c43")
-		)
-		(pin "AK25"
-			(uuid "cb88b0aa-69b0-4766-9cab-28ad96ddb1e3")
-		)
-		(pin "AL25"
-			(uuid "d2407798-cdff-4713-abe3-58c597d6b17d")
-		)
-		(pin "AL28"
-			(uuid "ef212f02-7d2b-4070-b510-643fdc991274")
-		)
-		(pin "B30"
-			(uuid "003d7374-6fc9-43f4-9190-1fbf2197f0b2")
-		)
-		(pin "A29"
-			(uuid "cca3f21a-f941-40de-b262-f21b9d1bd7cd")
-		)
-		(pin "A28"
-			(uuid "cbb30c73-2c99-4e23-85b2-752f96e2b9f0")
+		(pin "AL27"
+			(uuid "c37db5d5-97d3-441e-92e6-4b54ce3a86b8")
 		)
 		(pin "AE20"
-			(uuid "16942a09-593c-456a-a680-e055a81761e7")
+			(uuid "07289fed-9f9e-447a-b663-faa685a475ad")
+		)
+		(pin "AK30"
+			(uuid "ee6be582-9cc1-453c-9176-3e30223a76e0")
 		)
 		(pin "AK29"
-			(uuid "635192d1-41c4-47fe-a3ef-688af384d01b")
+			(uuid "2d950df8-064b-49b0-8488-03bac7e8e533")
 		)
-		(pin "J19"
-			(uuid "2455799f-1734-4757-8c2b-c954ab542187")
+		(pin "AG18"
+			(uuid "96802f69-94bb-472b-bd67-cff7f8b50141")
 		)
-		(pin "J20"
-			(uuid "f5375f38-a833-47b6-8faf-ac0dce91aaea")
+		(pin "AH17"
+			(uuid "2fe4bdab-2c6f-4920-879d-38f78128950c")
 		)
-		(pin "AL17"
-			(uuid "d9d9a217-6da6-4252-8382-805d73712eb3")
+		(pin "AG24"
+			(uuid "e8d68d52-7aec-4095-bfa4-c9475543343c")
+		)
+		(pin "AK20"
+			(uuid "56da8263-858d-4ced-80df-e5abd844d9d5")
+		)
+		(pin "AE18"
+			(uuid "fc932d7d-3995-4f39-be22-6d2da6281809")
+		)
+		(pin "AH24"
+			(uuid "4c4d5a6e-8ed6-482b-b99f-c42ad604c42a")
+		)
+		(pin "AE26"
+			(uuid "0efd73a5-7e32-46c1-92b2-f34ea20b5fcf")
+		)
+		(pin "AL20"
+			(uuid "ff26afcb-3f8a-47db-944d-c23c764c8ec1")
+		)
+		(pin "AL26"
+			(uuid "e3aa5e12-94ef-4b16-911d-43598d31f50d")
+		)
+		(pin "AK26"
+			(uuid "4021845e-cba4-4ff2-bd2c-c873449a1a8f")
+		)
+		(pin "AH20"
+			(uuid "a4965fc6-4098-4a27-865f-733031800275")
+		)
+		(pin "AH18"
+			(uuid "f2a34b7c-25db-42fe-bdd7-a5d403f3be6d")
+		)
+		(pin "AD19"
+			(uuid "5972d8e6-5b2b-4879-938a-d55d3108f178")
+		)
+		(pin "AD18"
+			(uuid "88c6c1ba-65c4-4b4f-a9b0-eb5831aaac90")
+		)
+		(pin "AK25"
+			(uuid "da341555-151a-485c-a3e9-e9143b0934ee")
+		)
+		(pin "AG20"
+			(uuid "900727e5-737c-4cdc-bcdd-801f715fe052")
+		)
+		(pin "AL25"
+			(uuid "b2c6f24c-9738-434d-aadb-059b36c2b88c")
+		)
+		(pin "AL28"
+			(uuid "4c26da15-5b9f-423b-9a15-984ea433e7b9")
+		)
+		(pin "AK28"
+			(uuid "4a7d928c-38f2-460d-9ed9-80353d308807")
+		)
+		(pin "AG17"
+			(uuid "18e0e7ab-44ac-44f6-b3a0-f4fe2254bb96")
+		)
+		(pin "AK27"
+			(uuid "f2d3d11f-5106-4678-ba0f-83e6e40830fa")
 		)
 		(pin "AD20"
-			(uuid "47c6a6f4-bff8-4f07-9143-6a512db22f79")
+			(uuid "901c4c2f-269a-4566-b03c-52c05ba12833")
 		)
-		(pin "AE24"
-			(uuid "fe937471-7cf2-4bc4-ab68-79743ef5b0df")
+		(pin "AH21"
+			(uuid "e6f20055-f0d7-4253-ae68-7db2023e4b3b")
 		)
-		(pin "H20"
-			(uuid "4fbb2752-4e6c-418f-8003-92a068070218")
-		)
-		(pin "G20"
-			(uuid "bcd578eb-3c03-4605-a700-44138df2a3cb")
+		(pin "AF21"
+			(uuid "48df8fed-facb-4e77-a1fa-5ecdfca4430d")
 		)
 		(pin "B28"
-			(uuid "a99594e0-82a9-4bb2-8b70-eb9c968a5d28")
+			(uuid "034caec8-62f2-4607-9cae-e4466676e793")
 		)
-		(pin "A30"
-			(uuid "e255197a-911a-47ae-8f94-43cf0b6e5447")
-		)
-		(pin "C30"
-			(uuid "7c43ef88-34b8-4f3e-a0fa-03ef2ad4f7e8")
-		)
-		(pin "G21"
-			(uuid "a358bacc-7764-4b24-b42b-70de84d9b876")
-		)
-		(pin "AD7"
-			(uuid "946e835d-d38c-480b-a521-dace724d09c9")
-		)
-		(pin "AF15"
-			(uuid "3dd572e5-bbfa-4754-99dc-ff36ca263343")
-		)
-		(pin "AE15"
-			(uuid "7668ac08-b78e-421a-bc08-e9a89efba081")
-		)
-		(pin "AL29"
-			(uuid "4ebcd9e1-bef7-4b0b-b90b-5567cfe83d27")
+		(pin "H20"
+			(uuid "a6a87111-6e76-4ea8-8d03-4840e391afcd")
 		)
 		(pin "B29"
-			(uuid "048d50a3-a7fa-4d3c-99bb-30c7aeef350e")
+			(uuid "13611d9a-7a49-4329-b785-c77de1e2cd00")
 		)
-		(pin "AK16"
-			(uuid "e9b21c60-5197-4db5-92e2-595089f42c4d")
+		(pin "AA18"
+			(uuid "615fb1b8-f904-43d1-ac90-f58a7cad9dec")
 		)
-		(pin "AK31"
-			(uuid "4a2d5bb6-0722-460c-94b9-f1102a98cc45")
+		(pin "A30"
+			(uuid "f3ba8ca5-b2e5-4dec-b133-3ffa31098e9e")
 		)
-		(pin "AF25"
-			(uuid "8aaa19cf-39ec-483a-aa6a-4fb0626fbfff")
+		(pin "AE21"
+			(uuid "b8d83e92-2f8f-435c-9423-275d90593369")
 		)
 		(pin "H21"
-			(uuid "93c12684-9ac2-41ed-b7a3-eb6f7d250007")
+			(uuid "99ee2f8c-d748-4fa4-b49c-43a4b81e4473")
 		)
-		(pin "C31"
-			(uuid "f27da2ae-e819-48aa-9547-f1090e4061dc")
+		(pin "AF25"
+			(uuid "950e4e67-b124-4b70-af61-fca2e10eda85")
 		)
-		(pin "AL16"
-			(uuid "74b93a92-0ff7-4fee-8044-6d9cdfebd03e")
+		(pin "J20"
+			(uuid "5a201121-19df-47ce-8309-8948a3c7cfbc")
 		)
-		(pin "AA16"
-			(uuid "e149b86f-956d-4568-9c2b-a988823f1d85")
+		(pin "AE15"
+			(uuid "cce4bb95-35c8-4504-ae34-072b450f45a1")
 		)
-		(pin "D31"
-			(uuid "ac552a74-e8e7-490d-ae35-41aae3f283bb")
+		(pin "A28"
+			(uuid "1a1b9a1b-d507-4a7c-8b2e-e4a000b8f2b7")
 		)
-		(pin "AA17"
-			(uuid "303b5068-2d12-49b4-999d-6234f0a5429c")
+		(pin "G20"
+			(uuid "991e5a71-2d9c-4eb3-b68a-69a53f868aae")
+		)
+		(pin "Y22"
+			(uuid "d007ec4a-d9d1-454b-8dd7-488be96bd678")
+		)
+		(pin "Y19"
+			(uuid "88ee2b0f-61c6-4964-8cf0-6b90013eb438")
+		)
+		(pin "Y18"
+			(uuid "00085103-dbc5-41b5-9674-fdfab46a19dc")
+		)
+		(pin "AE24"
+			(uuid "c326a300-b111-4c86-9c44-2d2d5e15a7e0")
+		)
+		(pin "AL29"
+			(uuid "46b9518b-1468-4754-8e30-73b7a76982c3")
+		)
+		(pin "AC19"
+			(uuid "8d4b9d03-5f34-4d15-a6bc-90fd4062b963")
+		)
+		(pin "Y21"
+			(uuid "35f8204b-dac1-4bdb-8826-cc48aafd3ee2")
+		)
+		(pin "AG21"
+			(uuid "22950369-e03b-44c1-bdfb-011899b87baa")
+		)
+		(pin "AK31"
+			(uuid "cc0f031d-059b-406c-88a9-8e16cd369664")
+		)
+		(pin "AB18"
+			(uuid "73ebe0c0-4d62-4d2a-b474-4783fcc3e3bc")
+		)
+		(pin "AB21"
+			(uuid "cee1ef36-8094-4a57-a492-62e438cee92d")
+		)
+		(pin "AA21"
+			(uuid "c424aced-9e71-45b9-827e-1ac1c606e736")
+		)
+		(pin "G21"
+			(uuid "7bcecca2-eb42-425d-8aa1-1310fb2c56be")
+		)
+		(pin "AD7"
+			(uuid "178a4a63-9bea-4c9f-a53c-97b607237fc0")
+		)
+		(pin "J19"
+			(uuid "102e6a39-c0dc-4f61-ac3c-4d0c8f17126f")
+		)
+		(pin "A29"
+			(uuid "8aec5c87-f34c-42b4-ba6a-d799a3c4013c")
+		)
+		(pin "B30"
+			(uuid "c4ecf28c-7891-49c5-bb97-c3e7412d4cdd")
 		)
 		(pin "D30"
-			(uuid "3c282167-e784-43d0-b086-b7440937ed05")
+			(uuid "9e15234a-8fad-4945-a882-821b1ed440a3")
 		)
-		(pin "AD16"
-			(uuid "a12d841e-494a-4e4d-bccb-8433e62e49ea")
+		(pin "C30"
+			(uuid "eaa19474-30be-464d-97df-25445bdb0792")
 		)
-		(pin "AH12"
-			(uuid "3b4fccca-cb55-4cfd-9aff-7247db845fa5")
+		(pin "C31"
+			(uuid "13d44c27-fbaf-4703-ba1d-861bd66ace4f")
 		)
-		(pin "AB12"
-			(uuid "6b5b5dbd-8909-4e96-8be5-59efb0eda267")
+		(pin "D31"
+			(uuid "cff3ca13-9834-4f1d-8f36-dd2c04032864")
 		)
-		(pin "AK18"
-			(uuid "3b85fc2f-1f17-4702-81e5-53dc2efba286")
+		(pin "AF15"
+			(uuid "8153882d-a9a2-47e3-88aa-d9ce184ebaed")
 		)
-		(pin "AB14"
-			(uuid "c14c71de-1b46-4dfd-b224-1fe68224b633")
-		)
-		(pin "AL18"
-			(uuid "b7dba5d9-3c0f-4f7d-91c5-4deb299295a3")
-		)
-		(pin "AG15"
-			(uuid "01d9068f-ded3-481f-9a20-e6efc9be15c9")
-		)
-		(pin "AF12"
-			(uuid "8676aefe-33d0-4e0e-99d0-a36ca11c7894")
-		)
-		(pin "AK6"
-			(uuid "45a1b680-b387-42cc-9adc-6a01bd369704")
-		)
-		(pin "AL7"
-			(uuid "54c54e3c-9af3-4d35-ac14-826e3ed6abb4")
-		)
-		(pin "AH15"
-			(uuid "feccefb7-1c90-43e7-a737-5561c4291e6a")
-		)
-		(pin "AL12"
-			(uuid "95f95804-e772-4413-aed7-2f94c77ef632")
-		)
-		(pin "AG11"
-			(uuid "953b53cb-3043-428c-9ba2-4c16b306ef05")
-		)
-		(pin "AG12"
-			(uuid "da7e07d9-d646-4965-8ff2-e3447f6e370b")
-		)
-		(pin "AK17"
-			(uuid "f4b1246b-cead-40b3-8fca-b2c0e2c0707b")
-		)
-		(pin "AL14"
-			(uuid "da6bd3f0-41ae-41f5-90a0-1c46e73cc6c9")
-		)
-		(pin "AL19"
-			(uuid "d47a5c42-3af4-4272-9038-661c1066e57a")
-		)
-		(pin "AH11"
-			(uuid "9966258a-00cc-4486-aea4-10ead73a006e")
+		(pin "AK16"
+			(uuid "c6cce4ae-80fc-4bed-95c9-5660b94f531c")
 		)
 		(pin "AK19"
-			(uuid "77854c02-62f8-48d1-9579-1794dbf4dd15")
+			(uuid "9247967a-2931-4dfa-a714-45da7f27858b")
+		)
+		(pin "AF12"
+			(uuid "586e1cd2-5fe4-4953-94ba-444d8730e0ce")
 		)
 		(pin "AL15"
-			(uuid "3aa87225-8163-4fb1-bd75-f4063f0253dd")
+			(uuid "360dc384-7193-41f9-a503-61462f20d3f3")
 		)
-		(pin "AK14"
-			(uuid "c48b4198-80ab-4b18-ae64-1edb5f7b685f")
+		(pin "AK17"
+			(uuid "b84a8c78-33dc-469b-b6b9-98396185bf71")
+		)
+		(pin "AG12"
+			(uuid "2f5ea20f-5737-4239-9e1e-3d121e884f7f")
 		)
 		(pin "AK12"
-			(uuid "33e6d85d-4b53-4ff9-9ff8-767a793d755e")
-		)
-		(pin "AG9"
-			(uuid "fc72ee51-e1de-45bf-ac05-177d8e291317")
-		)
-		(pin "AH14"
-			(uuid "76d26cb5-a423-4541-8f7e-f9c2490f68a4")
-		)
-		(pin "AG14"
-			(uuid "792578b8-ea99-42b0-874f-0ce4de0bdce2")
-		)
-		(pin "AH9"
-			(uuid "516308b3-b63d-4e5f-8608-959a25eea8c4")
-		)
-		(pin "AK15"
-			(uuid "f04ee0ac-4bd8-4d7a-a6c0-14e2112ae55c")
-		)
-		(pin "AL11"
-			(uuid "620f80cb-8a0f-4e01-92b4-f2dfe081ceeb")
+			(uuid "a2f48b40-73e7-4678-bb19-fc31255bdc15")
 		)
 		(pin "AK11"
-			(uuid "da1b63a9-53fc-4e97-bf71-bbed82a98d81")
+			(uuid "4ad360ba-83dc-4d1c-a00b-308a81a06a35")
 		)
-		(pin "AK13"
-			(uuid "ba505c1a-f293-4103-85de-b70c5bff1177")
+		(pin "AH9"
+			(uuid "0c4a1670-a593-4e4e-a8b5-e1fdc74ca3d3")
 		)
 		(pin "AL13"
-			(uuid "17ccc637-9644-4d3a-a373-52d50cde7856")
+			(uuid "a385a18e-aa99-415b-8ed4-6b4d38b0bfbb")
 		)
-		(pin "AF14"
-			(uuid "0037fb16-0a71-4ea9-866a-ba9d658cae9d")
+		(pin "AH14"
+			(uuid "4c327dd5-becc-4e81-816d-3c111f113c27")
 		)
-		(pin "AL6"
-			(uuid "2f2b225e-58a0-45ed-8ab7-ddd2623f2bbb")
+		(pin "AA17"
+			(uuid "d0989af2-62c1-42bd-8482-db8a9489f2ca")
 		)
-		(pin "AG25"
-			(uuid "4cbb5f50-234d-4372-b8e0-5cbd0b2a71a2")
+		(pin "AH15"
+			(uuid "2cb8ca25-06fc-428c-afb5-44f48757f39e")
 		)
-		(pin "AH27"
-			(uuid "1913df32-f6ec-45a2-bbe2-12a7eb3114af")
+		(pin "AG11"
+			(uuid "0c1208e5-48d2-4f6d-a0cf-74edf9c868d8")
 		)
-		(pin "AL10"
-			(uuid "0a672fd5-790e-4a6e-b4a5-24e097e67617")
+		(pin "AG9"
+			(uuid "658d40ec-d57a-47fe-90b3-f0cdd72bb22c")
 		)
-		(pin "AK10"
-			(uuid "eb52c70c-81ee-4b67-bddd-4317ee72368c")
+		(pin "AD16"
+			(uuid "d3e6232f-4b9a-42e3-b958-bacec7d1b1ef")
 		)
-		(pin "AF11"
-			(uuid "35691313-0312-4a33-90a3-a116d75f23ba")
+		(pin "AA16"
+			(uuid "e4459264-b99a-4cf4-a64e-fcf93012c470")
+		)
+		(pin "AK18"
+			(uuid "799337ca-70c7-418b-b354-72110ea7cd49")
+		)
+		(pin "AL18"
+			(uuid "b4254b0d-4d89-487c-bf63-b423206b20d4")
+		)
+		(pin "AL17"
+			(uuid "1dffa491-b5ef-440b-b959-1bf9322a9b86")
+		)
+		(pin "AL16"
+			(uuid "640114d5-c7b7-40d2-935d-6d4e6636b6b3")
+		)
+		(pin "AL19"
+			(uuid "ddfd60d2-18a8-428c-ad64-7ebf45af39a0")
+		)
+		(pin "AG15"
+			(uuid "94f13bcd-c82f-47ca-b210-726fe773f473")
+		)
+		(pin "AG14"
+			(uuid "497432d4-81ad-4a2a-8378-4f420175192a")
+		)
+		(pin "AH11"
+			(uuid "e846cda0-8bdd-49fb-86aa-a7ec88397071")
+		)
+		(pin "AB12"
+			(uuid "def65ee6-d255-4564-92c4-80064a9d9660")
+		)
+		(pin "AH12"
+			(uuid "a0e0cd4e-babc-4859-8b74-2bf1f56d6e56")
+		)
+		(pin "AK15"
+			(uuid "d6d9f975-3acd-43c5-85fc-ba306156cc20")
+		)
+		(pin "AL14"
+			(uuid "156325fd-ee42-4952-9a61-3947c6b5f60e")
+		)
+		(pin "AK14"
+			(uuid "29758a34-e686-4860-a248-866de6e0fdb7")
+		)
+		(pin "AL12"
+			(uuid "e9e00a8a-0a30-4a6c-8127-d388487b4e5c")
+		)
+		(pin "AL11"
+			(uuid "63394212-86d8-49e6-86bd-1e31ae0b3a00")
+		)
+		(pin "AK13"
+			(uuid "fbd23b8c-f579-4e96-a1db-87764058a7cc")
+		)
+		(pin "AB14"
+			(uuid "711dec1e-ab0e-4a9f-986f-6442f635112d")
 		)
 		(pin "R25"
-			(uuid "2f1d2adb-c52e-4428-8180-3edf74cbb50b")
+			(uuid "e28d954b-4c95-469c-aa21-ff635579ebcb")
 		)
-		(pin "AH26"
-			(uuid "b13c6af2-80c3-4bf0-a40f-703366b778fa")
+		(pin "AF14"
+			(uuid "f375a5fc-995e-45e2-b0f8-a5f56aecac43")
 		)
-		(pin "D27"
-			(uuid "1303e7b3-acbf-4871-ac43-ba25ee22c67a")
+		(pin "AL6"
+			(uuid "8778f230-775d-4314-ae79-54f44335384e")
 		)
-		(pin "R28"
-			(uuid "8cf3a986-ff65-450d-a00c-bf2f187c028e")
-		)
-		(pin "AC10"
-			(uuid "95dbdba2-001d-49f5-8f65-0bed2bb92f85")
-		)
-		(pin "E25"
-			(uuid "df61d874-30cc-4480-b4a9-82f47bb622fd")
-		)
-		(pin "F23"
-			(uuid "99804a3b-a678-4cf6-99c8-957eb3f4691b")
-		)
-		(pin "AG26"
-			(uuid "402ce4d2-d78d-4e1d-be63-65690b274c80")
-		)
-		(pin "AG28"
-			(uuid "bdf9e0f4-23ef-438f-9b53-f4e22226934f")
-		)
-		(pin "G26"
-			(uuid "959ceb68-507c-407f-9130-ef3018861ea4")
-		)
-		(pin "AC24"
-			(uuid "408187b3-eb87-4f71-aec2-234cf85c1ce7")
-		)
-		(pin "AG8"
-			(uuid "fe1e418a-cc55-4751-9766-758b15527271")
-		)
-		(pin "AL9"
-			(uuid "d1642e05-c996-4e97-b07f-df12fdfbd580")
-		)
-		(pin "AL8"
-			(uuid "08b0e24e-b8d3-43cb-9490-93c670cf42f9")
-		)
-		(pin "AK8"
-			(uuid "a8043de1-8fa8-4b58-b722-c8e3d39bef59")
+		(pin "AK6"
+			(uuid "f29efb31-e715-42ca-9eff-7f107e36212c")
 		)
 		(pin "AK7"
-			(uuid "91f8e331-9627-4dd5-a1eb-e7ceec594a8b")
+			(uuid "5cb97801-3ed7-4e06-9c19-7fc50869df4d")
 		)
-		(pin "AK9"
-			(uuid "e99075ae-15f4-463c-846a-244ca8739f90")
+		(pin "AL10"
+			(uuid "b7cc2877-7d1d-44a0-9a36-b46402462c5b")
 		)
-		(pin "T31"
-			(uuid "e43e479d-f76c-4e43-b921-4165095bf75c")
+		(pin "AF11"
+			(uuid "e696edcf-295c-48c5-a5f5-3ce721b2bfbf")
 		)
 		(pin "R26"
-			(uuid "9c7e8bf9-38b1-4148-8778-fa6e70cb79a4")
+			(uuid "bcf1ddc8-f996-435f-b9d6-ff3ce8d85b9c")
 		)
-		(pin "R27"
-			(uuid "01a9ca46-7cc5-4bf9-977f-7471ed1e16bc")
+		(pin "AH27"
+			(uuid "0b281af1-5bbf-4e2d-91c2-820afc09f45d")
 		)
-		(pin "P26"
-			(uuid "e6b4a370-d962-4d83-9a43-12429df3c5fa")
+		(pin "AC24"
+			(uuid "d9f02cc0-ae16-4d01-b464-c6e023be35f3")
 		)
 		(pin "F25"
-			(uuid "5ed5b044-f020-4dc4-b585-445cdfb59265")
+			(uuid "2fadb3ae-7109-4e86-a2e8-5d04902134cd")
 		)
-		(pin "E26"
-			(uuid "905da2d9-4472-4e7d-a4a5-072ae62632fc")
+		(pin "AK8"
+			(uuid "da937312-e6a6-4258-aa85-4c9a6ce59161")
 		)
-		(pin "E30"
-			(uuid "f0cf0368-b471-4fe1-89d7-5283b230ff04")
-		)
-		(pin "E29"
-			(uuid "4904a195-80d3-45a1-a85a-d0728602de28")
+		(pin "AL7"
+			(uuid "4fc70110-f080-4795-9bf7-2178e0c0160a")
 		)
 		(pin "F27"
-			(uuid "1af034b3-d833-4452-9d22-4015ab7480b4")
+			(uuid "7f7e7077-bbe0-453f-be72-ae568665f1bf")
 		)
-		(pin "C27"
-			(uuid "235374b5-7fdb-44ce-8b5f-2fc13a487cf7")
+		(pin "E30"
+			(uuid "58e7a31c-4d71-497b-800e-cb999901e206")
 		)
-		(pin "D26"
-			(uuid "cc9158cb-8cbd-4f39-bce1-0580ba73d5a3")
+		(pin "E25"
+			(uuid "fed00ace-0ea8-4247-85bb-14a7de830b09")
 		)
-		(pin "G23"
-			(uuid "567a30b1-ac3e-4a10-8ec8-55b6d8fb51cc")
+		(pin "E29"
+			(uuid "e788e1a5-27fb-46e1-a9cf-98dc2ffab104")
 		)
-		(pin "E28"
-			(uuid "f5629d4f-7f8c-479c-9441-a34d88c5b8b3")
+		(pin "E26"
+			(uuid "17e1f085-0ea2-4117-86be-783464e71e2c")
 		)
-		(pin "H23"
-			(uuid "5164e7b6-3e79-403e-99cb-999bd0e9fae7")
+		(pin "AK9"
+			(uuid "faa8bf8d-1c96-4a27-b54b-d384e73f0ee1")
 		)
-		(pin "H22"
-			(uuid "3a3afea2-aace-4023-b1b5-9e5ef53ecdb0")
+		(pin "T31"
+			(uuid "05cdbe1e-f004-4740-9368-46170c1323d7")
 		)
-		(pin "G24"
-			(uuid "bdb6d20e-9b30-47a8-8ba0-e3295f779422")
+		(pin "AC10"
+			(uuid "23eef487-3f5c-4bfd-b6fe-ec890c0b32c0")
 		)
-		(pin "F24"
-			(uuid "20439863-eac1-450e-ad30-9bf9f43a7356")
+		(pin "AL8"
+			(uuid "107c2e2b-42e6-4661-9abb-b0f6857aeac6")
 		)
-		(pin "AE9"
-			(uuid "07fb6231-cfb6-40a7-b10c-a62caab8c17b")
+		(pin "R27"
+			(uuid "38d9cf5f-eb4d-437e-8d6a-5d0654378f59")
 		)
-		(pin "AH8"
-			(uuid "136e1c18-7d0e-4053-bb0a-9051569ec468")
+		(pin "AK10"
+			(uuid "61c06285-329c-4557-85dc-fa4180ea7ef6")
 		)
-		(pin "AG1"
-			(uuid "8e189f45-8e0f-46a5-92db-536990441971")
+		(pin "AL9"
+			(uuid "b4ec4fc7-c8a0-48c1-b5b3-79ed04106f58")
 		)
-		(pin "AJ4"
-			(uuid "e9dd7b2d-9f19-440c-8aac-7482ef02cbf5")
+		(pin "AG26"
+			(uuid "4d2428ed-b369-4bda-8bbc-a3ef0ef137de")
 		)
-		(pin "AL2"
-			(uuid "d6433f33-e217-4986-a3dc-b6a3ff5fbacc")
+		(pin "AH26"
+			(uuid "8b594a55-df3c-419c-9c81-624984856d2a")
 		)
-		(pin "Y6"
-			(uuid "d1eb585a-f56f-4db9-ae16-4553c1fb7a20")
+		(pin "AG25"
+			(uuid "5dbb2d3e-48a1-4f81-845f-0b04808d73ed")
 		)
-		(pin "AL3"
-			(uuid "cb708847-ea16-451e-af77-4b71dccdb1b3")
+		(pin "AG28"
+			(uuid "394dc315-9d65-4ee9-8938-330029a454bd")
 		)
-		(pin "AL5"
-			(uuid "c53dda4d-2951-4d45-b8ff-0661ed240355")
+		(pin "P26"
+			(uuid "d8dde578-886e-43d0-bb62-8509bfd3b65b")
 		)
-		(pin "P31"
-			(uuid "cbc5d703-111a-4b0a-883f-13f6b3c59210")
-		)
-		(pin "M29"
-			(uuid "a019fa41-6f36-4f21-9c3a-34b4b60702fb")
-		)
-		(pin "M28"
-			(uuid "53f6f7b6-2863-4677-96bf-5ac560420704")
-		)
-		(pin "P25"
-			(uuid "0c47e2ac-ef60-414c-9de0-3f22c8bb9b78")
-		)
-		(pin "M25"
-			(uuid "bf6d4af4-d12c-4471-9197-2819340b2454")
-		)
-		(pin "M30"
-			(uuid "0bb15c55-b680-4825-bb40-09023bc2cbb0")
-		)
-		(pin "AF5"
-			(uuid "d4129d10-e47f-4ee6-ae20-bdb32bd8ab38")
-		)
-		(pin "H24"
-			(uuid "a32c0bc6-b42e-4f61-bad5-0b18f8386fe7")
-		)
-		(pin "P30"
-			(uuid "650237c2-7304-48ff-8695-4f8362de4bff")
-		)
-		(pin "G31"
-			(uuid "97973500-a66f-4bd5-8b77-769749269df1")
-		)
-		(pin "H25"
-			(uuid "8af95416-f82c-4cbc-b792-e5e4be913865")
-		)
-		(pin "H28"
-			(uuid "cd9e5faa-4e13-4e3b-97f0-6b26799ea039")
-		)
-		(pin "F30"
-			(uuid "0a3de661-3dd4-4838-85f2-ee0213868701")
-		)
-		(pin "H30"
-			(uuid "6fc2d0dc-9e85-4abc-9eb7-1b1dbb9c920e")
-		)
-		(pin "AG6"
-			(uuid "6db4e023-6b8a-4c1d-9010-f0d813d58b32")
-		)
-		(pin "F28"
-			(uuid "67db6656-bd1f-4092-9800-e36f109b5a9b")
+		(pin "R28"
+			(uuid "a71eca61-d65c-47fe-9f90-b6bf64ecef50")
 		)
 		(pin "AK2"
-			(uuid "ea1f17aa-5362-46e0-a793-90e25040c58a")
+			(uuid "4ec546d6-a5ce-4963-b8f2-76c139cb4507")
 		)
-		(pin "U25"
-			(uuid "3c0e28f1-bd34-4743-8661-0764d2ec301f")
+		(pin "P30"
+			(uuid "2f1d4a0e-dcb8-42bf-8d8d-28b698729fa6")
 		)
-		(pin "AA8"
-			(uuid "b61130fd-bb91-40ed-a779-dfc8be83b498")
+		(pin "AF5"
+			(uuid "b9dcf5bb-e833-4140-9af0-abdbb4fffba0")
 		)
-		(pin "H29"
-			(uuid "4628bfee-593d-4e70-852d-db4fe00cb351")
+		(pin "AL5"
+			(uuid "1c4c4220-9abf-4a31-9b83-de990f1a96fc")
 		)
-		(pin "Y8"
-			(uuid "40035e20-6528-45fc-8d88-888cb6dfe82d")
+		(pin "C27"
+			(uuid "d66a3b44-955b-4537-b36d-e2955b306e40")
 		)
-		(pin "AB8"
-			(uuid "ff7edbb0-56b5-4a3f-b364-afe0be2c2394")
+		(pin "D27"
+			(uuid "dbb80cbb-6ccb-4178-b20e-1f9841b38448")
 		)
-		(pin "P29"
-			(uuid "3abb0a53-a08d-4c15-9c04-f8836d42839f")
+		(pin "D26"
+			(uuid "998b0231-d7a0-43ca-8607-0f88c90aeb8c")
 		)
-		(pin "R17"
-			(uuid "59c469fa-e08c-4bb7-8b1d-18f1da06e8bc")
+		(pin "F24"
+			(uuid "84412213-6115-4832-a2f0-145bc5f0fb24")
 		)
-		(pin "T24"
-			(uuid "1a78a420-3326-4eae-be1f-747b9f4fc868")
+		(pin "F30"
+			(uuid "8903d76b-a964-4586-a0c6-d5dfbf33e4cc")
 		)
-		(pin "H31"
-			(uuid "50bb1ab3-cdd9-41c1-b83a-18acbe4fb759")
+		(pin "P31"
+			(uuid "286e0902-850c-4b29-b1a5-f812e4710fe5")
 		)
-		(pin "P18"
-			(uuid "8a2ffccf-2c18-412b-a2e1-21e2753ea4bb")
+		(pin "AE9"
+			(uuid "e05e07e6-a2b1-4c20-8d8c-ce141991b2a9")
 		)
-		(pin "F31"
-			(uuid "aebc7722-9551-4076-bc59-144cd71fd281")
+		(pin "AG1"
+			(uuid "54619cfb-ffbf-4793-af5a-f31031e6f988")
 		)
-		(pin "P28"
-			(uuid "f655aa53-9b8e-42a7-ad17-ec91e7b510ad")
+		(pin "M30"
+			(uuid "1aff05fc-7ce6-4cf1-9160-ee1c12566a83")
 		)
-		(pin "H27"
-			(uuid "55875b9b-cec5-41de-8cf0-794ea3fb5136")
+		(pin "E28"
+			(uuid "108e18cb-af7e-4684-ba6c-c3bf08461c75")
 		)
-		(pin "B27"
-			(uuid "3e7009ac-673e-46d4-8160-e1322464e3e0")
+		(pin "H23"
+			(uuid "d1d6f215-fe61-4017-8cc6-0db5213dd69d")
 		)
-		(pin "J22"
-			(uuid "5a40b1b4-9002-4d0e-8355-d032b41b7247")
+		(pin "G26"
+			(uuid "09ae2cb1-08f2-4853-9ff3-d72997d21776")
+		)
+		(pin "AH8"
+			(uuid "0fd499b6-6a9d-47d9-9fb2-97388a2d38ec")
+		)
+		(pin "G23"
+			(uuid "8eb0bbed-540b-41e3-bcbe-138b1ed9b89b")
+		)
+		(pin "AG8"
+			(uuid "0fb6e782-cfa4-4037-b450-119531d9609b")
+		)
+		(pin "F23"
+			(uuid "fe630cc6-6445-435c-9264-41bbd83e5fae")
+		)
+		(pin "G24"
+			(uuid "24c6bfdc-4292-41db-a529-69cfa5ac2bef")
+		)
+		(pin "H22"
+			(uuid "110c0da0-76ad-42f7-8357-12ab8c6e3a5a")
+		)
+		(pin "AL2"
+			(uuid "33a71e3c-a0bf-4fb8-bbd3-06ba4377014c")
+		)
+		(pin "AG6"
+			(uuid "193e1e4d-6d4b-4fa2-8ca9-901aec9c9390")
+		)
+		(pin "AJ4"
+			(uuid "1e97c8f5-9378-4f29-8170-f6e79664565d")
+		)
+		(pin "Y6"
+			(uuid "16e3241e-afc0-4d97-b75f-df9946efe8e8")
+		)
+		(pin "M29"
+			(uuid "6fd52bad-8bc9-4d18-b32a-a2301f4eaeea")
+		)
+		(pin "AL3"
+			(uuid "c7565ed0-2d78-4254-ba3d-a98c167b86c8")
+		)
+		(pin "M28"
+			(uuid "c40b9d43-17d7-43e9-9289-6b8e49394a98")
+		)
+		(pin "P25"
+			(uuid "f17cecd4-7753-4ac6-a115-83ecbf4e3798")
+		)
+		(pin "M25"
+			(uuid "aaa4c8fa-2139-48d0-a11e-ec0afdec8ae2")
+		)
+		(pin "H24"
+			(uuid "f7c9ec6e-8be5-4b9d-a472-ca3b46d417e0")
+		)
+		(pin "H28"
+			(uuid "ecbfb5a0-cfef-4b50-b182-a7d4bac85a19")
 		)
 		(pin "K23"
-			(uuid "ed5e88ba-f1be-4fa3-a1de-b08e9d3074e4")
-		)
-		(pin "R24"
-			(uuid "8bd2c5c8-7036-47df-8d14-ac2c913027bd")
-		)
-		(pin "F29"
-			(uuid "8297ae14-9154-4dad-bad6-d29d5af4ae36")
-		)
-		(pin "J24"
-			(uuid "e6b2bdcc-8fb4-4784-99ba-fc2d4aa02d26")
-		)
-		(pin "N23"
-			(uuid "13033693-2509-447f-8be7-df4462a3d7d3")
-		)
-		(pin "AJ1"
-			(uuid "9b4d2514-feb9-4598-b922-4d8be8fbf7ea")
+			(uuid "df17b1fc-d356-4bce-bfbb-50bf9ce8c6ae")
 		)
 		(pin "AC8"
-			(uuid "fa4e827c-6ecc-4354-9d73-7aa60ffed133")
-		)
-		(pin "J23"
-			(uuid "5fea660a-6e9a-4884-ab57-1f9bc815f443")
-		)
-		(pin "G30"
-			(uuid "792570e7-9cd0-4168-8c1a-f5b96592af53")
+			(uuid "99563b42-7277-4908-b0ca-8da11be69589")
 		)
 		(pin "AC9"
-			(uuid "b2e75195-696b-4d83-bd1d-cd6e1916e622")
+			(uuid "0f386f2b-2726-44d0-a256-a6cc592620e5")
 		)
-		(pin "P23"
-			(uuid "1e317fbc-6b5f-43b8-aedc-71a72d1565d3")
+		(pin "J22"
+			(uuid "2643c430-0970-433f-a4d4-b95c9ba93d80")
 		)
-		(pin "N31"
-			(uuid "278e0734-f279-4bf7-aabd-486062930baf")
+		(pin "J24"
+			(uuid "c233ee7c-ffb8-46ce-b3dd-2f3490f3c8bc")
 		)
-		(pin "P27"
-			(uuid "a816d539-cce2-4d0d-af41-b22cde13c469")
-		)
-		(pin "AC7"
-			(uuid "9d7a876a-267a-49f6-81fc-85d21be0bca5")
-		)
-		(pin "AG3"
-			(uuid "94ff21ce-f2b3-4e0a-bb51-03eb7e4fe9e2")
-		)
-		(pin "AA6"
-			(uuid "7d2b2887-62df-4021-978a-c6dac02fa0a8")
-		)
-		(pin "M27"
-			(uuid "a5956c97-8b1d-4ef2-a3a8-cd30a866f55f")
-		)
-		(pin "AH2"
-			(uuid "8f05a879-e53a-445f-8fcf-582658ccc486")
-		)
-		(pin "AF4"
-			(uuid "671ea8f7-6e49-4c81-bdbb-8ba1a439d505")
-		)
-		(pin "AH1"
-			(uuid "be96377c-d3b0-4e7b-b186-701facb80cb1")
-		)
-		(pin "AJ2"
-			(uuid "a49da759-1b8a-4450-bf7f-fa09e59f0886")
-		)
-		(pin "AD6"
-			(uuid "51abc4e6-3b59-440c-bd55-598e7ec3a0c4")
+		(pin "P28"
+			(uuid "d51ff664-610f-4ce5-b336-b07fa97caad3")
 		)
 		(pin "R31"
-			(uuid "f6e5f465-98c6-440d-a16c-797fd8d1485a")
+			(uuid "1d071d63-8324-417c-9c02-56f2c661f13a")
 		)
-		(pin "AC6"
-			(uuid "78224c94-c1dc-4eb8-8abc-3814c5061c1d")
+		(pin "P23"
+			(uuid "e595a546-8206-4bd9-8325-a2f8269c82d5")
 		)
-		(pin "AF3"
-			(uuid "bc9ce4f7-962f-460b-ad28-ec545be18e4e")
+		(pin "P27"
+			(uuid "d7b786ab-c75c-4f2e-9537-c54c4d958bdf")
+		)
+		(pin "B27"
+			(uuid "84e1d5aa-41fe-45fc-b9c8-ee3e78782b1d")
+		)
+		(pin "H30"
+			(uuid "7668c3ca-fe94-4a3f-93c1-217d09ba970a")
+		)
+		(pin "AA8"
+			(uuid "052a287a-2483-4c75-a6b1-f538f5a2a151")
+		)
+		(pin "J23"
+			(uuid "b6ac886f-a2e9-4f0d-90b2-4af86a33a212")
+		)
+		(pin "H27"
+			(uuid "39cf963d-1fc9-4a1f-a391-9df3249cc1ff")
+		)
+		(pin "G31"
+			(uuid "1fbfd4ad-8ea0-45c6-abbe-1a5037b06582")
+		)
+		(pin "F28"
+			(uuid "54287f3e-3020-420d-a076-cd884affd254")
+		)
+		(pin "H29"
+			(uuid "01411713-ea46-4271-94c1-1e890d66f9cc")
+		)
+		(pin "G30"
+			(uuid "d6b605a9-595b-47a3-bdf7-33a9b2cf2dcd")
+		)
+		(pin "F31"
+			(uuid "2a82c216-db07-4948-8bb0-9eee61b7231a")
+		)
+		(pin "R17"
+			(uuid "50fe48b1-3dae-4b8d-919f-067256882b09")
+		)
+		(pin "T24"
+			(uuid "82a4ffe2-6afe-46fe-b080-63d5e53d353b")
+		)
+		(pin "F29"
+			(uuid "b33757c0-331b-41b3-ab44-5923553cbbc2")
+		)
+		(pin "H25"
+			(uuid "f297f4e2-6d27-48b1-9369-a70017257ab1")
+		)
+		(pin "Y8"
+			(uuid "c31119c3-72ab-4eb7-be6d-dfbd45061c53")
+		)
+		(pin "H31"
+			(uuid "8d276062-341b-48a8-9bbb-d420072e3b3c")
+		)
+		(pin "N23"
+			(uuid "498c3e30-9c08-4687-a157-4fa097da41ed")
+		)
+		(pin "P18"
+			(uuid "cd0c874d-3be8-445d-953f-d9b5c0558c35")
+		)
+		(pin "R24"
+			(uuid "cf0edf84-e086-47af-8020-3bbe86b57edb")
+		)
+		(pin "AB8"
+			(uuid "e57ee27b-b497-4293-be27-dfd37cfefcee")
+		)
+		(pin "U25"
+			(uuid "68ee513a-93be-4166-8e9b-27ed6400d317")
+		)
+		(pin "P29"
+			(uuid "9641946c-5854-48dc-911a-592bd2f3d3e7")
 		)
 		(pin "M26"
-			(uuid "556de49c-8c2c-4572-96fb-23bdf90f72bf")
+			(uuid "6c7625ad-d0be-4ca2-8e98-f9cf5b5e870f")
 		)
-		(pin "AE5"
-			(uuid "04e5e01e-a644-4742-8682-5893dd3f4195")
+		(pin "AH1"
+			(uuid "6b7ebbc1-c7ec-4c36-a339-92f010268b56")
 		)
-		(pin "N30"
-			(uuid "83cded91-2804-43c8-a044-0c005dcb9b1a")
+		(pin "AG3"
+			(uuid "d1b14b4e-f015-400a-a947-373040317d97")
 		)
 		(pin "Y7"
-			(uuid "7593a3ad-6736-42b7-94cb-bf121ebe24bd")
+			(uuid "f2b0c253-955a-4f67-bcab-de9dcc974736")
+		)
+		(pin "AF4"
+			(uuid "73176ee3-d000-410d-a104-a419a49a2ba3")
+		)
+		(pin "AJ2"
+			(uuid "9d5ed3a0-4e9b-4858-8f2b-a44bc4fee8c5")
+		)
+		(pin "N31"
+			(uuid "e821ebe1-0d49-4483-8872-47e1f08ffae1")
+		)
+		(pin "M27"
+			(uuid "c7b50b91-c98c-4ebf-a0dc-b41250319de2")
+		)
+		(pin "N30"
+			(uuid "81fc031f-403a-4647-8f0c-9ba295aef0ac")
+		)
+		(pin "AE5"
+			(uuid "0353328b-099e-4f34-a956-3a767299b8eb")
+		)
+		(pin "AA6"
+			(uuid "d51429ae-9774-4c33-a643-07a0bc3df759")
+		)
+		(pin "AD6"
+			(uuid "0f17f822-a794-4ccb-a238-4165f911f027")
+		)
+		(pin "AF3"
+			(uuid "f2e69cb1-4526-416b-aae6-9b6fec6585c6")
+		)
+		(pin "AC6"
+			(uuid "cfd62c7c-ffa8-43e7-afd3-d2ae1cf98854")
+		)
+		(pin "AC7"
+			(uuid "67d73c4d-7b0a-4f05-be61-5f2fd190599b")
 		)
 		(pin "AA7"
-			(uuid "f76e67f0-9669-4682-a435-2137d119d09a")
+			(uuid "357dc093-20cb-40f8-af10-124e8f923cb2")
+		)
+		(pin "AJ1"
+			(uuid "514e752b-e559-4917-94a6-a8cca1d4a6f6")
+		)
+		(pin "AH2"
+			(uuid "b7fbedc8-9c14-49ec-b5ef-2346917f9759")
 		)
 		(instances
-			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/72ea5c00-7e69-4de6-bdd7-dbdcea913c16"
+			(project ""
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
 					(reference "U1")
-					(unit 13)
+					(unit 23)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "component_library:Resistors/0402WGF220JTCE")
-		(at 111.76 91.44 0)
-		(mirror y)
+		(lib_id "component_library:Resistors/0402WGF2003TCE")
+		(at 91.44 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b2627642-7517-4e64-b3e4-84089e83b680")
-		(property "Reference" "R54"
-			(at 114.3 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "f52f8cb4-197f-42df-916d-4bc579031122")
+		(property "Reference" "R25"
+			(at 93.98 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 91.44 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19962,7 +20581,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RESC1005X35N"
-			(at 111.76 91.44 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19971,7 +20590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 91.44 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19979,8 +20598,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 111.76 91.44 0)
+		(property "Description" "-55℃~+155℃ 200kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19988,25 +20607,26 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "22Ω"
-			(at 101.6 90.17 0)
+		(property "Resistance" "200kΩ"
+			(at 93.98 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 107.95 87.63 0)
+			(at 93.98 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Package" "0402"
-			(at 111.76 91.44 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20015,7 +20635,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 111.76 91.44 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20023,8 +20643,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part" "C25092"
-			(at 111.76 91.44 0)
+		(property "LCSC_Part" "C25764"
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20033,7 +20653,7 @@
 			)
 		)
 		(property "Supplier" "JLCPCB"
-			(at 111.76 91.44 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20041,16 +20661,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d5676cad-a312-4124-aaa7-710eca51e398")
-		)
 		(pin "2"
-			(uuid "72abfff6-4651-45db-b35f-b68f0d7c7e5a")
+			(uuid "6ad4f97b-be99-4bee-bbf4-1d2e0ba20220")
+		)
+		(pin "1"
+			(uuid "4d481c63-f2fb-429b-8f81-fd6ed439c7a7")
 		)
 		(instances
-			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/72ea5c00-7e69-4de6-bdd7-dbdcea913c16"
-					(reference "R54")
+			(project ""
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/8e54df69-c690-4274-be8c-a875e1312d09"
+					(reference "R25")
 					(unit 1)
 				)
 			)

@@ -478,57 +478,92 @@
         "line_style": 0,
         "name": "CAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 14,
         "schematic_color": "rgb(0, 194, 194)"
+      },
+      {
+        "line_style": 0,
+        "name": "CPU I2C0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "CPU I2C4",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 194, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "CPU SDIO0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 153, 0)"
       },
       {
         "line_style": 0,
         "name": "CPU System",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgb(194, 194, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "CPU UART0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 153, 0)"
       },
       {
         "line_style": 0,
         "name": "FAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 13,
         "schematic_color": "rgb(132, 132, 132)"
       },
       {
         "line_style": 0,
         "name": "Ground",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 7,
         "schematic_color": "rgb(72, 72, 72)",
         "wire_width": 50
       },
       {
         "line_style": 0,
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 0, 255)"
+      },
+      {
+        "line_style": 0,
         "name": "MSD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 15,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 17,
         "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "PHY",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 16,
         "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 50
       },
@@ -536,63 +571,63 @@
         "line_style": 0,
         "name": "Power Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 0)"
       },
       {
         "line_style": 0,
         "name": "RAM0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 11,
         "schematic_color": "rgb(194, 0, 194)"
       },
       {
         "line_style": 0,
         "name": "RAM1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 10,
         "schematic_color": "rgb(194, 0, 194)"
       },
       {
         "line_style": 0,
         "name": "USBA0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 15,
+        "priority": 20,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "USBA1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 16,
+        "priority": 21,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "USBC0",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 13,
+        "priority": 18,
         "schematic_color": "rgb(194, 0, 194)"
       },
       {
         "line_style": 0,
         "name": "USBC1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 14,
+        "priority": 19,
         "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "WLBT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 12,
         "schematic_color": "rgb(255, 153, 0)"
       },
       {
         "line_style": 0,
         "name": "eMMC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 9,
         "schematic_color": "rgb(194, 0, 194)"
       }
     ],
@@ -604,63 +639,63 @@
     "netclass_patterns": [
       {
         "netclass": "USBC0",
-        "pattern": "/*USBC0_*"
+        "pattern": "*USBC0_*"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/*PCIe_*"
+        "pattern": "*PCIe_*"
       },
       {
         "netclass": "USBC1",
-        "pattern": "/*USBC1_*"
+        "pattern": "*USBC1_*"
       },
       {
         "netclass": "USBA0",
-        "pattern": "/*USBA0_*"
+        "pattern": "*USBA0_*"
       },
       {
         "netclass": "USBA1",
-        "pattern": "/*USBA1_*"
+        "pattern": "*USBA1_*"
       },
       {
         "netclass": "PHY",
-        "pattern": "/*PHY_*"
+        "pattern": "*PHY_*"
       },
       {
         "netclass": "MSD",
-        "pattern": "/*MSD_*"
+        "pattern": "*MSD_*"
       },
       {
         "netclass": "CAM",
-        "pattern": "/*CAM_*"
+        "pattern": "*CAM_*"
       },
       {
         "netclass": "FAN",
-        "pattern": "/*FAN_*"
+        "pattern": "*FAN_*"
       },
       {
         "netclass": "WLBT",
-        "pattern": "/*WLBT_*"
+        "pattern": "*WLBT_*"
       },
       {
         "netclass": "WLBT",
-        "pattern": "/*WL_*"
+        "pattern": "*WL_*"
       },
       {
         "netclass": "WLBT",
-        "pattern": "/*BT_*"
+        "pattern": "*BT_*"
       },
       {
         "netclass": "RAM0",
-        "pattern": "/*RAM0_*"
+        "pattern": "*RAM0_*"
       },
       {
         "netclass": "RAM1",
-        "pattern": "/*RAM1_*"
+        "pattern": "*RAM1_*"
       },
       {
         "netclass": "eMMC",
-        "pattern": "/*eMMC_*"
+        "pattern": "*eMMC_*"
       },
       {
         "netclass": "Power",
@@ -689,6 +724,30 @@
       {
         "netclass": "Power Control",
         "pattern": "*_PWR_EN"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "*HDMI*"
+      },
+      {
+        "netclass": "CPU UART0",
+        "pattern": "*CPU_UART0*"
+      },
+      {
+        "netclass": "CPU SDIO0",
+        "pattern": "*CPU_SDIO0*"
+      },
+      {
+        "netclass": "CPU I2C4",
+        "pattern": "*CPU_I2C4*"
+      },
+      {
+        "netclass": "CPU I2C0",
+        "pattern": "*CPU_I2C0*"
+      },
+      {
+        "netclass": "Power Control",
+        "pattern": "*LOG_DVS_PWR_PWM"
       }
     ]
   },
@@ -865,10 +924,6 @@
       "micro SD Card"
     ],
     [
-      "6bb371b6-f9bc-4f68-8f9c-289a385bb968",
-      "Camera"
-    ],
-    [
       "6a669102-a19a-49d5-b9d0-7ee0396bb179",
       "Cooling Fan"
     ],
@@ -923,6 +978,46 @@
     [
       "45110715-13df-4072-93ea-47fc84947840",
       "CPU-RK3399 USB"
+    ],
+    [
+      "8e54df69-c690-4274-be8c-a875e1312d09",
+      "CPU-RK3399 SAR-ADC"
+    ],
+    [
+      "330777a9-95d0-480d-9a4e-ca1348364667",
+      "Recovery Button"
+    ],
+    [
+      "daf6b753-9b7e-4afa-be48-3492e6b4d132",
+      "CPU-RK3399 DVP"
+    ],
+    [
+      "25d97e15-4196-4e44-984c-f8c0409a1a6b",
+      "CPU-RK3399 HDMI"
+    ],
+    [
+      "7a7ed7e9-2984-44c5-925a-99999bacbf30",
+      "CPU-RK3399 MAC"
+    ],
+    [
+      "6aed072b-e48f-49d3-9ccf-1a1784592333",
+      "CPU-RK3399 UART"
+    ],
+    [
+      "c2dbf484-dc59-43bf-a4c9-ee0f896e482f",
+      "CPU-RK3399 I2S"
+    ],
+    [
+      "34360fb0-b2c5-4c89-ba9d-b3004bec58f5",
+      "CPU-RK3399 I2C"
+    ],
+    [
+      "167550da-07d0-43a7-b1c8-aead45aab856",
+      "CPU-RK3399 ISP"
+    ],
+    [
+      "8ece7fe7-03c5-41bd-88f7-b24e390ba255",
+      "CPU-RK3399 SPI"
     ]
   ],
   "text_variables": {}
