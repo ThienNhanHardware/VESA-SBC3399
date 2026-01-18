@@ -3,12 +3,355 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "e2502132-2e9a-4958-be0a-4c39cd89e906")
-	(paper "A4")
+	(paper "A5")
 	(title_block
+		(title "Power")
 		(date "2026-01-14")
 		(rev "1.0.0")
 		(company "TickLab")
-		(comment 1 "Project: VESA-SBC3399")
+		(comment 1 "VESA-SBC3399")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b843807-e04c-4852-b1b5-377f60279a07")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 104.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239f00f6-9ace-4afe-b2f8-7f1cc0124913")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae08e24-194c-4b57-aee4-7a24157730a3")
+	)
+	(wire
+		(pts
+			(xy 101.6 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f4c35d-bda0-4f2d-8785-1d6a82dbddec")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab5b42e-d466-4b30-b22c-519ea844c34e")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83cc0aa8-fc00-4d55-a94d-b2da10e497fa")
+	)
+	(bus
+		(pts
+			(xy 101.6 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef55bb55-d749-4c8d-86c9-d13f0a2d6240")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62adc1c-481d-45ad-8ae3-1982755674b4")
+	)
+	(hierarchical_label "PMIC_OTP"
+		(shape input)
+		(at 101.6 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26be5fb8-fc71-4842-b108-e7d30f6fa042")
+	)
+	(hierarchical_label "PMIC_CLK32KOUT1"
+		(shape output)
+		(at 101.6 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5550bd66-954e-4243-9f3a-26e2ea9d0c01")
+	)
+	(hierarchical_label "PMIC_NRESPWRON"
+		(shape output)
+		(at 101.6 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fef3134-4a2f-418b-9b56-a909f60e565f")
+	)
+	(hierarchical_label "I2C0"
+		(shape bidirectional)
+		(at 101.6 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ef6c5a3-9f02-4c2d-8fe9-0e8677a57f06")
+	)
+	(hierarchical_label "PMIC_SLEEP"
+		(shape input)
+		(at 101.6 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "968eaedd-0d4a-4075-ae1e-e5d642f1f8b3")
+	)
+	(hierarchical_label "PMIC_PWRON"
+		(shape input)
+		(at 101.6 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aef1db2f-2ae9-4202-a7e0-a42f03e2f26f")
+	)
+	(hierarchical_label "PMIC_CLK32KOUT2"
+		(shape output)
+		(at 101.6 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bac38fc0-96a9-4126-bb84-1d01f943df01")
+	)
+	(hierarchical_label "PMIC_INT"
+		(shape output)
+		(at 101.6 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1455db2-27c4-4c0e-a96a-2bc246fe878a")
+	)
+	(sheet
+		(at 104.14 68.58)
+		(size 17.78 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38c7e9d0-2862-4b60-ad54-dabfc0843142")
+		(property "Sheetname" "Power PMIC"
+			(at 104.14 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_PMIC.kicad_sch"
+			(at 104.14 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C0" bidirectional
+			(at 104.14 71.12 180)
+			(uuid "d4fbe5a9-1a48-45f9-8249-36e5d7ab0a84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SLEEP" input
+			(at 104.14 73.66 180)
+			(uuid "f059a456-22f0-4464-8ce1-bf2814944d01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 104.14 76.2 180)
+			(uuid "f055b24e-16c1-41b7-af5d-513c9f6a0a3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRESPWRON" output
+			(at 104.14 78.74 180)
+			(uuid "ef5867dc-3120-46d3-b4df-99f099977d27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK32KOUT1" output
+			(at 104.14 81.28 180)
+			(uuid "21e0dd13-31f5-4cbb-9b6e-99d545929cdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK32KOUT2" output
+			(at 104.14 83.82 180)
+			(uuid "425f6e6b-fff6-4e96-8c47-6896a08efb6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_EN" output
+			(at 104.14 88.9 180)
+			(uuid "13856105-f456-4abe-adc0-a2f8a726682d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWRON" input
+			(at 104.14 86.36 180)
+			(uuid "cc435bb7-d15f-4d59-a743-69e41a4c2cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OTP" input
+			(at 104.14 91.44 180)
+			(uuid "bcb4d07c-10cb-4f6f-b8c5-e58c2abe1d35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/b4295e3d-89af-4ec3-a4c2-88697a7d3c22"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 48.26)
+		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ccf9ff69-44c8-4670-b4fe-5f2f3588aa4d")
+		(property "Sheetname" "Power DC-IN"
+			(at 147.32 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_DC-IN.kicad_sch"
+			(at 147.32 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/b4295e3d-89af-4ec3-a4c2-88697a7d3c22"
+					(page "32")
+				)
+			)
+		)
+	)
 )

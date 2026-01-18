@@ -15885,6 +15885,303 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "component_library:FETs/WNM2021-3/TR"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "footprints:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+150℃ 1 N-channel 1.15nC@4.5V 20V 320mΩ@1.8V 370mW 50pF 850mV 890mA 8pF N-Channel SOT-323 MOSFETs ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "footprints:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FETs/WNM2021-3/TR_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.8575 0.3175) (xy 2.8575 -0.3175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.8575 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.8575 -1.5875) (xy 2.8575 -0.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.8575 -2.8575) (xy 2.8575 -2.2225)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4925 -0.9525) (xy 2.8575 -1.27) (xy 3.4925 -1.5875) (xy 3.4925 -0.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1274 -2.54) (xy 4.1274 -1.27) (xy 2.8575 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.1275 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.7625 -0.9525) (xy 5.3975 -0.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -0.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.9525) (xy 4.7625 -1.5875) (xy 5.3975 -1.5875) (xy 5.08 -0.9525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -1.5875)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FETs/WNM2021-3/TR_1_1"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "Gate"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 270)
+					(length 2.54)
+					(name "Drain"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "Source"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "component_library:Resistors/0402WGF1001TCE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -32217,6 +32514,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 99.06) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21770b83-5335-42fb-bd83-5dc8b5531b66")
+	)
+	(wire
+		(pts
 			(xy 114.3 124.46) (xy 114.3 129.54)
 		)
 		(stroke
@@ -32297,16 +32604,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 134.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55ba41c7-c865-484e-9955-4f89fa94678c")
-	)
-	(wire
-		(pts
 			(xy 114.3 88.9) (xy 134.62 88.9)
 		)
 		(stroke
@@ -32314,6 +32611,16 @@
 			(type default)
 		)
 		(uuid "5cf5e953-87d0-4dad-bfd3-92ccf1b378f4")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629fd2db-27fc-42f9-aa59-4d0d2a245723")
 	)
 	(wire
 		(pts
@@ -32334,6 +32641,16 @@
 			(type default)
 		)
 		(uuid "72aec547-0080-46f2-a865-c6c879e4ac79")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b81df5-3376-485c-b6e8-277da803b4d0")
 	)
 	(bus
 		(pts
@@ -32397,6 +32714,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca478e37-127a-41e4-b8aa-78eecd51fecd")
+	)
+	(wire
+		(pts
 			(xy 124.46 83.82) (xy 124.46 86.36)
 		)
 		(stroke
@@ -32454,6 +32781,16 @@
 			(type default)
 		)
 		(uuid "e9ed74d7-2963-4071-9eb9-e9da2eea4dab")
+	)
+	(label "PHY_PMEB"
+		(at 63.5 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0399788f-c74e-478b-9ed1-f3217c37e48c")
 	)
 	(label "CPU_I2C4_SDA"
 		(at 91.44 86.36 0)
@@ -32525,15 +32862,15 @@
 		)
 		(uuid "d840c935-5e9a-4082-addb-29a6ff1558f8")
 	)
-	(label "PHY_PMEB"
-		(at 121.92 96.52 0)
+	(label "PMIC_INT#"
+		(at 121.92 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "df68ba63-7ab3-4440-9f18-ec07a4652f50")
+		(uuid "f6bf01bf-60d8-4cbd-997a-5bf2f1bed3c9")
 	)
 	(hierarchical_label "I2C4"
 		(shape bidirectional)
@@ -32546,16 +32883,27 @@
 		)
 		(uuid "2c96480a-5144-4099-8469-4111d4f47830")
 	)
-	(hierarchical_label "GPIO1_C4"
-		(shape output)
-		(at 119.38 96.52 180)
+	(hierarchical_label "GPIO1_C5"
+		(shape input)
+		(at 119.38 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2e66d461-f336-487f-b3f3-e48a343c0a95")
+		(uuid "34c6fb59-d0c8-42d1-b645-81c3437a1ef2")
+	)
+	(hierarchical_label "GPIO1_C4"
+		(shape output)
+		(at 60.96 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cf7de5d-65a1-4b22-bc07-40f88cf42f62")
 	)
 	(hierarchical_label "I2C0"
 		(shape bidirectional)
@@ -32828,6 +33176,79 @@
 		)
 	)
 	(symbol
+		(lib_id "component_library:FETs/WNM2021-3/TR")
+		(at 78.74 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4839035c-361c-4ff4-874e-c8d50affc778")
+		(property "Reference" "Q1"
+			(at 80.0099 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 N-channel 1.15nC@4.5V 20V 320mΩ@1.8V 370mW 50pF 850mV 890mA 8pF N-Channel SOT-323 MOSFETs ROHS"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D"
+			(uuid "0e1fe958-da97-45d9-a52e-4e8e5a97b570")
+		)
+		(pin "G"
+			(uuid "eac7ea97-e0dc-481b-b8d4-ef7d7d1da056")
+		)
+		(pin "S"
+			(uuid "f49667c9-b3cd-44e5-95cb-ef679e6b38a9")
+		)
+		(instances
+			(project ""
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/34360fb0-b2c5-4c89-ba9d-b3004bec58f5"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "component_library:Resistors/0402WGF1001TCE")
 		(at 124.46 116.84 270)
 		(unit 1)
@@ -32946,6 +33367,71 @@
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/34360fb0-b2c5-4c89-ba9d-b3004bec58f5"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 81.28 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "851ad784-32fc-4307-801d-b7f358325243")
+		(property "Reference" "#PWR0131"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8_VCC"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "218360ad-38a8-43a3-9345-35a947377ab1")
+		)
+		(instances
+			(project "VESA-SBC3399"
+				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/34360fb0-b2c5-4c89-ba9d-b3004bec58f5"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)

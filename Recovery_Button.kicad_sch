@@ -9,7 +9,7 @@
 		(date "2026-01-14")
 		(rev "1.0.0")
 		(company "TickLab")
-		(comment 1 "Project: VESA-SBC3399")
+		(comment 1 "VESA-SBC3399")
 	)
 	(lib_symbols
 		(symbol "component_library:Capacitors/CL05B104KO5NNNC"
@@ -952,7 +952,7 @@
 			(symbol "TVS, ESD/ESD5Z2.5T1G_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -1.778 -0.508)
+						(xy -1.27 0) (xy -1.778 0.508)
 					)
 					(stroke
 						(width 0)
@@ -964,19 +964,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54) (xy 0 0)
+						(xy 0 0) (xy 1.27 -2.54) (xy -1.27 -2.54) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -988,7 +976,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 1.778 0.508)
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.778 -0.508)
 					)
 					(stroke
 						(width 0)

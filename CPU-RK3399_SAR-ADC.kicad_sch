@@ -9,7 +9,7 @@
 		(date "2026-01-14")
 		(rev "1.0.0")
 		(company "TickLab")
-		(comment 1 "Project: VESA-SBC3399")
+		(comment 1 "VESA-SBC3399")
 	)
 	(lib_symbols
 		(symbol "component_library:Capacitors/CL05B104KO5NNNC"
@@ -6329,8 +6329,8 @@
 			)
 			(symbol "System On Chip (SoC)/RK3399_8_0"
 				(rectangle
-					(start -20.32 -22.86)
-					(end 20.32 22.86)
+					(start -20.32 22.86)
+					(end 20.32 -22.86)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -6510,44 +6510,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 20.32 180)
-					(length 5.08)
-					(name "PCIE_AVDD_0V9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "W24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 17.78 180)
-					(length 5.08)
-					(name "PCIE_AVDD_1V8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Y24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
-					(at 25.4 12.7 180)
+					(at 25.4 20.32 180)
 					(length 5.08)
 					(name "PCIE_TX0_P"
 						(effects
@@ -6565,7 +6529,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 10.16 180)
+					(at 25.4 17.78 180)
 					(length 5.08)
 					(name "PCIE_TX0_N"
 						(effects
@@ -6583,7 +6547,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 5.08 180)
+					(at 25.4 12.7 180)
 					(length 5.08)
 					(name "PCIE_TX1_P"
 						(effects
@@ -6601,7 +6565,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 2.54 180)
+					(at 25.4 10.16 180)
 					(length 5.08)
 					(name "PCIE_TX1_N"
 						(effects
@@ -6619,7 +6583,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 -2.54 180)
+					(at 25.4 5.08 180)
 					(length 5.08)
 					(name "PCIE_TX2_P"
 						(effects
@@ -6637,7 +6601,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 -5.08 180)
+					(at 25.4 2.54 180)
 					(length 5.08)
 					(name "PCIE_TX2_N"
 						(effects
@@ -6655,7 +6619,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 -10.16 180)
+					(at 25.4 -2.54 180)
 					(length 5.08)
 					(name "PCIE_TX3_P"
 						(effects
@@ -6673,7 +6637,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 -12.7 180)
+					(at 25.4 -5.08 180)
 					(length 5.08)
 					(name "PCIE_TX3_N"
 						(effects
@@ -6691,7 +6655,25 @@
 					)
 				)
 				(pin output line
-					(at 25.4 -17.78 180)
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "PCIE_RCLK_100M_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AD31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -12.7 180)
 					(length 5.08)
 					(name "PCIE_RCLK_100M_N"
 						(effects
@@ -6708,17 +6690,35 @@
 						)
 					)
 				)
-				(pin output line
-					(at 25.4 -20.32 180)
+				(pin power_in line
+					(at 25.4 -17.78 180)
 					(length 5.08)
-					(name "PCIE_RCLK_100M_P"
+					(name "PCIE_AVDD_0V9"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AD31"
+					(number "W24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "PCIE_AVDD_1V8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Y24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -15063,14 +15063,14 @@
 				(pin bidirectional line
 					(at 30.48 5.08 180)
 					(length 5.08)
-					(name "GPIO4_C1/I2C3_SCL/UART2B_TX"
+					(name "GPIO4_C0/I2C3_SDA/UART2B_RX"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AL2"
+					(number "AG6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -15081,14 +15081,14 @@
 				(pin bidirectional line
 					(at 30.48 2.54 180)
 					(length 5.08)
-					(name "GPIO4_C0/I2C3_SDA/UART2B_RX"
+					(name "GPIO4_C1/I2C3_SCL/UART2B_TX"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AG6"
+					(number "AL2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -15157,42 +15157,6 @@
 				(pin bidirectional line
 					(at -15.24 5.08 0)
 					(length 5.08)
-					(name "GPIO4_A1/I2C1_SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AG1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional clock
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "GPIO4_A2/I2C1_SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Y6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 5.08)
 					(name "GPIO1_B3/I2C4_SDA"
 						(effects
 							(font
@@ -15209,7 +15173,7 @@
 					)
 				)
 				(pin bidirectional clock
-					(at -15.24 -2.54 0)
+					(at -15.24 2.54 0)
 					(length 5.08)
 					(name "GPIO1_B4/I2C4_SCL"
 						(effects
@@ -15219,6 +15183,42 @@
 						)
 					)
 					(number "P30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "GPIO4_A1/I2C1_SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AG1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "GPIO4_A2/I2C1_SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Y6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -15265,8 +15265,8 @@
 			)
 			(symbol "System On Chip (SoC)/RK3399_27_0"
 				(rectangle
-					(start -22.86 -7.62)
-					(end 22.86 7.62)
+					(start -17.78 7.62)
+					(end 17.78 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -15276,7 +15276,7 @@
 					)
 				)
 				(text "PWM"
-					(at -22.9858 7.6806 0)
+					(at -17.9058 7.6806 0)
 					(effects
 						(font
 							(size 1.786 1.786)
@@ -15285,7 +15285,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 5.08 0)
+					(at -22.86 5.08 0)
 					(length 5.08)
 					(name "GPIO4_C2/PWM0/VOP0_PWM/VOP1_PWM"
 						(effects
@@ -15303,7 +15303,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 2.54 0)
+					(at -22.86 2.54 0)
 					(length 5.08)
 					(name "GPIO4_C6/PWM1"
 						(effects
@@ -15321,7 +15321,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 0 0)
+					(at -22.86 0 0)
 					(length 5.08)
 					(name "GPIO1_C3/PWM2"
 						(effects
@@ -15339,7 +15339,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -2.54 0)
+					(at -22.86 -2.54 0)
 					(length 5.08)
 					(name "GPIO0_A6/PWM3A_IR"
 						(effects
@@ -15357,7 +15357,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -5.08 0)
+					(at -22.86 -5.08 0)
 					(length 5.08)
 					(name "GPIO1_B6/PWM3B_IR"
 						(effects
@@ -15943,8 +15943,8 @@
 			)
 			(symbol "System On Chip (SoC)/RK3399_30_0"
 				(rectangle
-					(start -22.86 -5.08)
-					(end 22.86 7.62)
+					(start -15.24 7.62)
+					(end 17.78 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -15954,7 +15954,7 @@
 					)
 				)
 				(text "SPI1"
-					(at -22.9417 7.6659 0)
+					(at -15.3217 7.6659 0)
 					(effects
 						(font
 							(size 1.7825 1.7825)
@@ -15963,7 +15963,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 5.08 0)
+					(at -20.32 5.08 0)
 					(length 5.08)
 					(name "GPIO1_B1/SPI1_CLK/PMCU_JTAG_TCK"
 						(effects
@@ -15981,7 +15981,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 2.54 0)
+					(at -20.32 2.54 0)
 					(length 5.08)
 					(name "GPIO1_B2/SPI1_CSN0/PMCU_JTAG_TMS"
 						(effects
@@ -15999,7 +15999,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 0 0)
+					(at -20.32 0 0)
 					(length 5.08)
 					(name "GPIO1_B0/SPI1_TXD/UART4_TX"
 						(effects
@@ -16017,7 +16017,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -2.54 0)
+					(at -20.32 -2.54 0)
 					(length 5.08)
 					(name "GPIO1_A7/SPI1_RXD/UART4_RX"
 						(effects
@@ -16037,8 +16037,8 @@
 			)
 			(symbol "System On Chip (SoC)/RK3399_31_0"
 				(rectangle
-					(start -22.86 -5.08)
-					(end 22.86 7.62)
+					(start -12.7 7.62)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -16048,7 +16048,7 @@
 					)
 				)
 				(text "SPI3/I2C0"
-					(at -22.9822 7.6794 0)
+					(at -12.8222 7.6794 0)
 					(effects
 						(font
 							(size 1.7857 1.7857)
@@ -16056,35 +16056,17 @@
 						(justify left bottom)
 					)
 				)
-				(pin bidirectional line
-					(at -27.94 5.08 0)
+				(pin output line
+					(at -17.78 5.08 0)
 					(length 5.08)
-					(name "GPIO1_C1/SPI3_CLK"
+					(name "GPIO1_B7/SPI3_RXD/I2C0_SDA"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "M27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 2.54 0)
-					(length 5.08)
-					(name "GPIO1_C2/SPI3_CSN0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N31"
+					(number "M26"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -16093,7 +16075,7 @@
 					)
 				)
 				(pin input line
-					(at -27.94 0 0)
+					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "GPIO1_C0/SPI3_TXD/I2C0_SCL"
 						(effects
@@ -16110,17 +16092,35 @@
 						)
 					)
 				)
-				(pin output line
-					(at -27.94 -2.54 0)
+				(pin bidirectional line
+					(at -17.78 0 0)
 					(length 5.08)
-					(name "GPIO1_B7/SPI3_RXD/I2C0_SDA"
+					(name "GPIO1_C2/SPI3_CSN0"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "M26"
+					(number "N31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "GPIO1_C1/SPI3_CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "M27"
 						(effects
 							(font
 								(size 1.016 1.016)

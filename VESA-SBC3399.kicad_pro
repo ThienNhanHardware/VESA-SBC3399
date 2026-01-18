@@ -485,35 +485,35 @@
         "line_style": 0,
         "name": "CPU I2C0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 194, 0)"
       },
       {
         "line_style": 0,
         "name": "CPU I2C4",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 194, 0)"
       },
       {
         "line_style": 0,
         "name": "CPU SDIO0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 153, 0)"
       },
       {
         "line_style": 0,
         "name": "CPU System",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(194, 194, 0)"
       },
       {
         "line_style": 0,
         "name": "CPU UART0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 153, 0)"
       },
       {
@@ -527,7 +527,7 @@
         "line_style": 0,
         "name": "Ground",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(72, 72, 72)",
         "wire_width": 50
       },
@@ -535,7 +535,7 @@
         "line_style": 0,
         "name": "HDMI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 255)"
       },
       {
@@ -563,7 +563,7 @@
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 50
       },
@@ -571,7 +571,7 @@
         "line_style": 0,
         "name": "Power Control",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 0)"
       },
       {
@@ -748,6 +748,38 @@
       {
         "netclass": "Power Control",
         "pattern": "*LOG_DVS_PWR_PWM"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*5V0_USB_SW"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*5V0_SYS_SW"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*0V9_VDD_CENTER_SW"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*0V9_VDD_CPU_L_SW"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*1V8_VCC_SW"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*1V35_VCC_DDR_SW"
+      },
+      {
+        "netclass": "CPU System",
+        "pattern": "*PMIC_INT#"
+      },
+      {
+        "netclass": "CPU System",
+        "pattern": "*PMIC_PWRON"
       }
     ]
   },
@@ -866,7 +898,15 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "kicad-embed://TickLab_Sheet_template.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -964,8 +1004,8 @@
       "CPU-RK3399 eMMC"
     ],
     [
-      "02abafec-d112-4cf6-b064-deccb7e5bae1",
-      "CPU-RK3399 PWM"
+      "8c8e1d96-8c5a-4c87-9cb3-f60d5f431bd8",
+      "CPU-RK3399 PCIe"
     ],
     [
       "a2f1a77f-77be-4fa6-bc18-df703764e02b",
@@ -1001,23 +1041,15 @@
     ],
     [
       "6aed072b-e48f-49d3-9ccf-1a1784592333",
-      "CPU-RK3399 UART"
+      "CPU-RK3399 Protocols"
     ],
     [
-      "c2dbf484-dc59-43bf-a4c9-ee0f896e482f",
-      "CPU-RK3399 I2S"
+      "ccf9ff69-44c8-4670-b4fe-5f2f3588aa4d",
+      "Power DC-IN"
     ],
     [
-      "34360fb0-b2c5-4c89-ba9d-b3004bec58f5",
-      "CPU-RK3399 I2C"
-    ],
-    [
-      "167550da-07d0-43a7-b1c8-aead45aab856",
-      "CPU-RK3399 ISP"
-    ],
-    [
-      "8ece7fe7-03c5-41bd-88f7-b24e390ba255",
-      "CPU-RK3399 SPI"
+      "38c7e9d0-2862-4b60-ad54-dabfc0843142",
+      "Power PMIC"
     ]
   ],
   "text_variables": {}

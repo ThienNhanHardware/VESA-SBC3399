@@ -8,7 +8,7 @@
 		(date "2026-01-14")
 		(rev "1.0.0")
 		(company "TickLab")
-		(comment 1 "Project: VESA-SBC3399")
+		(comment 1 "VESA-SBC3399")
 	)
 	(lib_symbols)
 	(wire
@@ -50,6 +50,16 @@
 			(type default)
 		)
 		(uuid "9d02821d-6fd2-4cb3-ba84-c3992e744889")
+	)
+	(wire
+		(pts
+			(xy 157.48 96.52) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d856628-00b1-4053-86fc-871134f2cc75")
 	)
 	(bus
 		(pts
@@ -110,6 +120,16 @@
 			(justify right bottom)
 		)
 		(uuid "6961e108-16d9-4215-bc07-3294cd442242")
+	)
+	(label "WL_RTC_CLK"
+		(at 172.72 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7eb3440c-296c-48c8-b5a0-4ef472705298")
 	)
 	(label "BT_HOST_WAKE"
 		(at 172.72 86.36 180)
@@ -183,6 +203,17 @@
 			(justify left)
 		)
 		(uuid "65f83c7c-bca6-4b82-bd6c-2c377f1dba4d")
+	)
+	(hierarchical_label "LPO"
+		(shape input)
+		(at 175.26 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "686102ab-8d05-4510-ad65-c6561e0a92cd")
 	)
 	(hierarchical_label "SDIO"
 		(shape bidirectional)
