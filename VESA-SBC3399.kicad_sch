@@ -252,16 +252,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 33.02) (xy 175.26 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125ca6f4-39f7-4802-99d2-67a53d1f2b00")
-	)
-	(wire
-		(pts
 			(xy 279.4 139.7) (xy 292.1 139.7)
 		)
 		(stroke
@@ -302,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 175.26 91.44)
+			(xy 172.72 68.58) (xy 175.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -372,6 +362,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 60.96) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1762f2-5b46-4bf6-ae00-212b5dc8bb2a")
+	)
+	(wire
+		(pts
 			(xy 160.02 256.54) (xy 142.24 256.54)
 		)
 		(stroke
@@ -422,7 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 40.64) (xy 175.26 40.64)
+			(xy 111.76 38.1) (xy 175.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -449,6 +449,16 @@
 			(type default)
 		)
 		(uuid "368f230e-56cb-4f6d-80ae-344dc4ecd2af")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37644b27-f932-4906-b437-fe2fe4491908")
 	)
 	(wire
 		(pts
@@ -482,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 55.88) (xy 119.38 55.88)
+			(xy 111.76 53.34) (xy 119.38 53.34)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 45.72) (xy 175.26 45.72)
+			(xy 111.76 43.18) (xy 175.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 66.04) (xy 175.26 66.04)
+			(xy 142.24 76.2) (xy 175.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1019,26 +1029,6 @@
 			(type default)
 		)
 		(uuid "af20ce4e-98ba-4a9e-bfcc-46ac4d6831fe")
-	)
-	(wire
-		(pts
-			(xy 172.72 30.48) (xy 175.26 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2489889-07f0-42cc-8440-14e6335c5c9d")
-	)
-	(wire
-		(pts
-			(xy 172.72 93.98) (xy 175.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b513befb-1f70-47b2-9d69-0d3ba4b5b0ac")
 	)
 	(bus
 		(pts
@@ -1162,7 +1152,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 53.34) (xy 175.26 53.34)
+			(xy 111.76 50.8) (xy 175.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1242,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 175.26 63.5)
+			(xy 172.72 73.66) (xy 175.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1272,7 +1262,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 48.26) (xy 175.26 48.26)
+			(xy 111.76 45.72) (xy 175.26 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 55.88) (xy 119.38 241.3)
+			(xy 119.38 53.34) (xy 119.38 241.3)
 		)
 		(stroke
 			(width 0)
@@ -1352,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 175.26 43.18)
+			(xy 111.76 40.64) (xy 175.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1422,7 +1412,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 50.8) (xy 175.26 50.8)
+			(xy 111.76 58.42) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f539feed-a23d-4a05-bce2-86ec31dd6431")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 175.26 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1442,7 +1442,7 @@
 	)
 	(bus
 		(pts
-			(xy 111.76 38.1) (xy 175.26 38.1)
+			(xy 111.76 35.56) (xy 175.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1600,6 +1600,16 @@
 		)
 		(uuid "185d89c9-0eb7-48cb-b187-5a814927d9d7")
 	)
+	(label "0V9_VDD_GPU_FB"
+		(at 172.72 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bcdb1ec-a689-411a-8777-336bf44fcf22")
+	)
 	(label "{CPU_I2C4}"
 		(at 210.82 68.58 0)
 		(effects
@@ -1641,7 +1651,7 @@
 		(uuid "23dd2f2c-48dc-40b7-b4b7-f8867ea20a16")
 	)
 	(label "PMIC_RTC_CLKO_CPU"
-		(at 172.72 50.8 180)
+		(at 172.72 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1761,7 +1771,7 @@
 		(uuid "43aa7f5f-9c41-43f2-a025-11dc2ea3c2d7")
 	)
 	(label "PMIC_INT#"
-		(at 172.72 43.18 180)
+		(at 172.72 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1769,6 +1779,16 @@
 			(justify right bottom)
 		)
 		(uuid "44326864-e71c-45d2-b296-f6512310c411")
+	)
+	(label "0V9_VDD_CPU_B_FB"
+		(at 172.72 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4447ace4-4eed-4c8f-b708-ac2ef0ce98aa")
 	)
 	(label "RAM0_BA[2..0]"
 		(at 172.72 157.48 180)
@@ -1781,7 +1801,7 @@
 		(uuid "44f49885-11fc-4b44-b9ca-189345e7c1c4")
 	)
 	(label "PCIe_PWR_EN"
-		(at 172.72 63.5 180)
+		(at 172.72 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,7 +1881,7 @@
 		(uuid "5a0d2e51-5aa7-4f4c-b431-1ef0b1e19bdc")
 	)
 	(label "CPU_SYS_RECOVERY"
-		(at 172.72 66.04 180)
+		(at 172.72 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1881,7 +1901,7 @@
 		(uuid "5b1d41b6-2eb7-4592-ac0b-163c0cc2852a")
 	)
 	(label "{CPU_I2C0}"
-		(at 172.72 38.1 180)
+		(at 172.72 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,16 +2110,6 @@
 		)
 		(uuid "96a10695-b806-4cbb-8c3d-c40170c4ae71")
 	)
-	(label "VDD_GPU_FB"
-		(at 172.72 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97414380-c1ce-4040-bf57-d32af3399762")
-	)
 	(label "RAM0_CS#[0..3]"
 		(at 172.72 165.1 180)
 		(effects
@@ -2111,7 +2121,7 @@
 		(uuid "9775b54d-9826-4836-ae5b-b8053dd59e16")
 	)
 	(label "CPU_SYS_B_SLEEP"
-		(at 172.72 93.98 180)
+		(at 172.72 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,18 +2160,8 @@
 		)
 		(uuid "9d660936-7015-4926-b912-55017f24fc7e")
 	)
-	(label "VDD_CPU_B_FB"
-		(at 172.72 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e1f1fba-886a-4062-9841-faf2ce1a8e33")
-	)
 	(label "WL_RTC_CLK"
-		(at 114.3 55.88 0)
+		(at 114.3 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 		(uuid "a8d14c38-d759-4edf-ace1-67503f455309")
 	)
 	(label "PMIC_SLEEP"
-		(at 172.72 40.64 180)
+		(at 172.72 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 		(uuid "ec6495d6-8238-4d15-9ff9-969c17ccd83d")
 	)
 	(label "CPU_SYS_OTP_OUT"
-		(at 172.72 53.34 180)
+		(at 172.72 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2541,7 +2541,7 @@
 		(uuid "ed02caa5-e3d8-4b1b-b2fe-93021b21b166")
 	)
 	(label "CPU_SYS_RESET#"
-		(at 172.72 45.72 180)
+		(at 172.72 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2551,7 +2551,7 @@
 		(uuid "eebc04db-b8ac-4e2d-b3c6-294642c044dd")
 	)
 	(label "CPU_SYS_GPU_SLEEP"
-		(at 172.72 91.44 180)
+		(at 172.72 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2591,7 +2591,7 @@
 		(uuid "f6bc0552-2840-4c37-a7f0-09bafa4d949b")
 	)
 	(label "PMIC_PWR_KEY#"
-		(at 172.72 48.26 180)
+		(at 172.72 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2909,7 +2909,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 63.5)
+		(at 129.54 73.66)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2925,7 +2925,7 @@
 		)
 		(uuid "330777a9-95d0-480d-9a4e-ca1348364667")
 		(property "Sheetname" "Recovery Button"
-			(at 129.54 62.7884 0)
+			(at 129.54 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +2934,7 @@
 			)
 		)
 		(property "Sheetfile" "Recovery_Button.kicad_sch"
-			(at 129.54 69.1646 0)
+			(at 129.54 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2943,7 @@
 			)
 		)
 		(pin "BTN" output
-			(at 142.24 66.04 0)
+			(at 142.24 76.2 0)
 			(uuid "bf2be465-30d7-4058-b5f9-685df22bf15e")
 			(effects
 				(font
@@ -3857,8 +3857,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 27.94)
-		(size 33.02 220.98)
+		(at 175.26 33.02)
+		(size 33.02 215.9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3873,7 +3873,7 @@
 		)
 		(uuid "a7299b18-4123-434b-8c69-0b9524fffa12")
 		(property "Sheetname" "CPU-RK3399"
-			(at 175.26 27.2284 0)
+			(at 175.26 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,28 +3900,8 @@
 				(justify right)
 			)
 		)
-		(pin "EMMC" bidirectional
-			(at 175.26 60.96 180)
-			(uuid "9f390968-6307-449d-b81d-4eb6b85cb94b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SARADC" bidirectional
-			(at 175.26 58.42 180)
-			(uuid "f3934bdd-d9b3-4b20-8e15-7d3a6f9b7098")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I2C0" bidirectional
-			(at 175.26 38.1 180)
+			(at 175.26 35.56 180)
 			(uuid "286b9caf-7802-473b-a32f-aa8174995aac")
 			(effects
 				(font
@@ -4641,7 +4621,7 @@
 			)
 		)
 		(pin "VDD_CPU_B_FB" output
-			(at 175.26 30.48 180)
+			(at 175.26 58.42 180)
 			(uuid "1d367987-4647-4bbf-9b91-a5534f3a6d07")
 			(effects
 				(font
@@ -4651,7 +4631,7 @@
 			)
 		)
 		(pin "VDD_GPU_FB" output
-			(at 175.26 33.02 180)
+			(at 175.26 66.04 180)
 			(uuid "6bac4f34-0c10-477e-b72b-8365066ae2ef")
 			(effects
 				(font
@@ -4661,7 +4641,7 @@
 			)
 		)
 		(pin "NPOR" input
-			(at 175.26 45.72 180)
+			(at 175.26 43.18 180)
 			(uuid "33d6181d-11fe-4800-b19c-ee207141a3d3")
 			(effects
 				(font
@@ -4671,7 +4651,7 @@
 			)
 		)
 		(pin "CLK32K_IN" input
-			(at 175.26 50.8 180)
+			(at 175.26 48.26 180)
 			(uuid "2c530b15-2ef4-4846-ba10-20e5a7788d0c")
 			(effects
 				(font
@@ -4681,7 +4661,7 @@
 			)
 		)
 		(pin "AP_PWROFF" output
-			(at 175.26 40.64 180)
+			(at 175.26 38.1 180)
 			(uuid "43bf58e0-841c-4d79-a5b6-773dbc14580c")
 			(effects
 				(font
@@ -4701,7 +4681,7 @@
 			)
 		)
 		(pin "GPIO0_A5" output
-			(at 175.26 48.26 180)
+			(at 175.26 45.72 180)
 			(uuid "4ed2fadf-1fca-41a0-85ba-caa58fb1f80e")
 			(effects
 				(font
@@ -4731,7 +4711,7 @@
 			)
 		)
 		(pin "ADC_IN1" input
-			(at 175.26 66.04 180)
+			(at 175.26 76.2 180)
 			(uuid "1210b3da-c283-46b8-9bfc-13870655e3cb")
 			(effects
 				(font
@@ -4761,7 +4741,7 @@
 			)
 		)
 		(pin "TSADC_INT" output
-			(at 175.26 53.34 180)
+			(at 175.26 50.8 180)
 			(uuid "40f16d4b-8338-4b29-acc6-8da202eb8b01")
 			(effects
 				(font
@@ -4771,7 +4751,7 @@
 			)
 		)
 		(pin "GPIO1_B6" output
-			(at 175.26 91.44 180)
+			(at 175.26 68.58 180)
 			(uuid "74188466-f773-4b84-8458-67b8ea583af1")
 			(effects
 				(font
@@ -4781,7 +4761,7 @@
 			)
 		)
 		(pin "GPIO1_C1" output
-			(at 175.26 93.98 180)
+			(at 175.26 60.96 180)
 			(uuid "851836da-c09b-4b9a-9f0a-557727b3d039")
 			(effects
 				(font
@@ -4811,7 +4791,7 @@
 			)
 		)
 		(pin "GPIO1_C5" input
-			(at 175.26 43.18 180)
+			(at 175.26 40.64 180)
 			(uuid "162e6a02-2fd1-45f7-883a-93c791ee27e2")
 			(effects
 				(font
@@ -4831,7 +4811,7 @@
 			)
 		)
 		(pin "GPIO1_D0" output
-			(at 175.26 63.5 180)
+			(at 175.26 73.66 180)
 			(uuid "5df0ae8c-4f29-4407-99de-97be2090d2e7")
 			(effects
 				(font
@@ -5031,8 +5011,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 27.94)
-		(size 58.42 83.82)
+		(at 53.34 33.02)
+		(size 58.42 78.74)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5047,7 +5027,7 @@
 		)
 		(uuid "b4295e3d-89af-4ec3-a4c2-88697a7d3c22")
 		(property "Sheetname" "Power"
-			(at 53.34 27.2284 0)
+			(at 53.34 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +5045,7 @@
 			)
 		)
 		(pin "I2C0" bidirectional
-			(at 111.76 38.1 0)
+			(at 111.76 35.56 0)
 			(uuid "73297e12-2867-4797-8f3b-adb4fc99d26c")
 			(effects
 				(font
@@ -5075,7 +5055,7 @@
 			)
 		)
 		(pin "PMIC_SLEEP" input
-			(at 111.76 40.64 0)
+			(at 111.76 38.1 0)
 			(uuid "34d9d050-f375-412c-8958-aac7bdce80e9")
 			(effects
 				(font
@@ -5085,7 +5065,7 @@
 			)
 		)
 		(pin "PMIC_NRESPWRON" output
-			(at 111.76 45.72 0)
+			(at 111.76 43.18 0)
 			(uuid "f0581778-588c-4f55-8371-45120bec88a1")
 			(effects
 				(font
@@ -5095,7 +5075,7 @@
 			)
 		)
 		(pin "PMIC_INT" output
-			(at 111.76 43.18 0)
+			(at 111.76 40.64 0)
 			(uuid "7ef196a9-de80-41e8-a0ac-5c244b90bd8e")
 			(effects
 				(font
@@ -5105,7 +5085,7 @@
 			)
 		)
 		(pin "PMIC_CLK32KOUT1" output
-			(at 111.76 50.8 0)
+			(at 111.76 48.26 0)
 			(uuid "f1902338-702c-4684-a93e-981594cca95a")
 			(effects
 				(font
@@ -5115,7 +5095,7 @@
 			)
 		)
 		(pin "PMIC_CLK32KOUT2" output
-			(at 111.76 55.88 0)
+			(at 111.76 53.34 0)
 			(uuid "63718b2c-3b6d-4dc7-ba40-ddbd32a0f93c")
 			(effects
 				(font
@@ -5125,7 +5105,7 @@
 			)
 		)
 		(pin "PMIC_PWRON" input
-			(at 111.76 48.26 0)
+			(at 111.76 45.72 0)
 			(uuid "7303948d-c236-4454-96ae-97a859a0b029")
 			(effects
 				(font
@@ -5135,8 +5115,38 @@
 			)
 		)
 		(pin "PMIC_OTP" input
-			(at 111.76 53.34 0)
+			(at 111.76 50.8 0)
 			(uuid "02aca6e0-0482-4968-b011-6cb371811a89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0V9_VDD_CPU_B_FB" input
+			(at 111.76 58.42 0)
+			(uuid "14c9435c-8137-4a21-80c2-77a8b5cbcbaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0V9_VDD_CPU_B_VSEL" input
+			(at 111.76 60.96 0)
+			(uuid "205af08a-ba19-4a1c-981e-ae66f4d25c29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0V9_VDD_GPU_FB" input
+			(at 111.76 66.04 0)
+			(uuid "e9d64aec-68e4-4d64-9013-8435c874e53d")
 			(effects
 				(font
 					(size 1.27 1.27)

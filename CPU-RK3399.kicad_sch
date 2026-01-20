@@ -775,6 +775,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 30.48) (xy 144.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e403459-aefc-4143-a425-0e588c2cf1ef")
+	)
+	(wire
+		(pts
 			(xy 48.26 139.7) (xy 50.8 139.7)
 		)
 		(stroke
@@ -802,6 +812,16 @@
 			(type default)
 		)
 		(uuid "a8ef1619-e342-4ea5-98b3-0d6b443f7063")
+	)
+	(wire
+		(pts
+			(xy 142.24 27.94) (xy 144.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bfac22-0818-4e3e-acca-9ba8696de036")
 	)
 	(bus
 		(pts
@@ -1521,6 +1541,17 @@
 		)
 		(uuid "3f900169-bb14-42ea-866d-afc8c9120833")
 	)
+	(hierarchical_label "GPIO1_C1"
+		(shape output)
+		(at 144.78 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4597ec6e-3dd9-4c45-a25c-7183afca2724")
+	)
 	(hierarchical_label "WLBT_GPIO"
 		(shape bidirectional)
 		(at 167.64 101.6 180)
@@ -2137,6 +2168,17 @@
 		)
 		(uuid "d8f8ef7b-1e75-4ce7-82ef-3bdbb9ff7123")
 	)
+	(hierarchical_label "GPIO1_B6"
+		(shape output)
+		(at 144.78 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de597cc5-e5c4-49da-91a2-6ca3ebf877ca")
+	)
 	(hierarchical_label "UART0"
 		(shape bidirectional)
 		(at 149.86 53.34 180)
@@ -2701,6 +2743,26 @@
 		(pin "I2C0" bidirectional
 			(at 142.24 25.4 0)
 			(uuid "7e1f2a65-99fe-4191-b3b8-ecaea4973f4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1_C1" output
+			(at 142.24 27.94 0)
+			(uuid "2f7bad14-06b1-4976-a249-45e1789a230b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1_B6" output
+			(at 142.24 30.48 0)
+			(uuid "5cf0f386-c4c6-465e-bd49-0aa69f70f5f1")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -569,7 +569,7 @@
       },
       {
         "line_style": 0,
-        "name": "Power Control",
+        "name": "Power System",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
         "schematic_color": "rgb(255, 0, 0)"
@@ -722,7 +722,7 @@
         "pattern": "*PMIC_PWR_KEY#"
       },
       {
-        "netclass": "Power Control",
+        "netclass": "Power System",
         "pattern": "*_PWR_EN"
       },
       {
@@ -746,7 +746,7 @@
         "pattern": "*CPU_I2C0*"
       },
       {
-        "netclass": "Power Control",
+        "netclass": "Power System",
         "pattern": "*LOG_DVS_PWR_PWM"
       },
       {
@@ -780,6 +780,14 @@
       {
         "netclass": "CPU System",
         "pattern": "*PMIC_PWRON"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*SW"
+      },
+      {
+        "netclass": "Power System",
+        "pattern": "*FB"
       }
     ]
   },
@@ -1042,14 +1050,6 @@
     [
       "6aed072b-e48f-49d3-9ccf-1a1784592333",
       "CPU-RK3399 Protocols"
-    ],
-    [
-      "ccf9ff69-44c8-4670-b4fe-5f2f3588aa4d",
-      "Power DC-IN"
-    ],
-    [
-      "38c7e9d0-2862-4b60-ad54-dabfc0843142",
-      "Power PMIC"
     ]
   ],
   "text_variables": {}

@@ -17288,7 +17288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05aca6a5-51c3-4c6b-953c-b7092294b4d6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0122"
 			(at 193.04 115.57 0)
 			(effects
 				(font
@@ -17338,7 +17338,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "#PWR041")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -17354,7 +17354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d7cacaa-6c64-44fd-ac46-ea25dee9e936")
-		(property "Reference" "R7"
+		(property "Reference" "R30"
 			(at 168.91 80.01 0)
 			(effects
 				(font
@@ -17459,7 +17459,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "R7")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -17475,7 +17475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e7b7b65-30f5-4707-a0cd-f0ea1102d4cd")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 134.62 78.74 0)
 			(effects
 				(font
@@ -20113,7 +20113,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "U1")
+					(reference "U2")
 					(unit 14)
 				)
 			)
@@ -20129,7 +20129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f243189-9eb2-4fc3-81a8-68cb5f9a4685")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0124"
 			(at 167.64 130.81 0)
 			(effects
 				(font
@@ -20179,7 +20179,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "#PWR043")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -20195,7 +20195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2477206f-3cdc-4fdf-a9a4-0c75cce1781e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0125"
 			(at 193.04 130.81 0)
 			(effects
 				(font
@@ -20245,7 +20245,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "#PWR044")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -20260,7 +20260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bbf2be0-3c67-480f-a9aa-bc64c11873b2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0121"
 			(at 161.29 106.68 0)
 			(effects
 				(font
@@ -20311,7 +20311,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "#PWR040")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -20327,7 +20327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d4920d-4c80-4c51-bcf9-fb0655f271cf")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0126"
 			(at 208.28 130.81 0)
 			(effects
 				(font
@@ -20377,7 +20377,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "#PWR045")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -20393,7 +20393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56f44571-97c0-4803-adfb-85b00aa2bc84")
-		(property "Reference" "C65"
+		(property "Reference" "C118"
 			(at 212.09 114.2999 0)
 			(effects
 				(font
@@ -20519,7 +20519,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "C65")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -20534,7 +20534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c9fe333-fc1b-4f2b-a93b-71297869b46c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0120"
 			(at 161.29 104.14 0)
 			(effects
 				(font
@@ -20585,7 +20585,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "#PWR039")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -20601,7 +20601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8b07a1-3ee3-48c1-a91b-ebf0dcd14036")
-		(property "Reference" "R8"
+		(property "Reference" "R31"
 			(at 170.18 115.5699 90)
 			(effects
 				(font
@@ -20709,7 +20709,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "R8")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -20725,7 +20725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2bd48eb-90e7-42ef-a896-3c6ce75674c0")
-		(property "Reference" "C64"
+		(property "Reference" "C117"
 			(at 196.85 114.2999 0)
 			(effects
 				(font
@@ -20851,7 +20851,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "C64")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -20866,7 +20866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eed61302-4d65-4376-96aa-5ae6732f51a2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0123"
 			(at 208.28 115.57 0)
 			(effects
 				(font
@@ -20916,7 +20916,7 @@
 		(instances
 			(project "VESA-SBC3399"
 				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3/a7299b18-4123-434b-8c69-0b9524fffa12/96be71fe-71b4-43ba-b7cc-b259b072f6c2"
-					(reference "#PWR042")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
