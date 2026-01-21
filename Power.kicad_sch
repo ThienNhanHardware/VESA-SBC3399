@@ -19084,6 +19084,20 @@
 		)
 		(uuid "307db7aa-7309-437e-bc64-5d95af0d9b82")
 	)
+	(text "Trace > 750mA"
+		(exclude_from_sim no)
+		(at 384.81 527.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "423a778b-ab98-4205-a468-cf0b8fd20b37")
+	)
 	(text "Trace > 2.18A"
 		(exclude_from_sim no)
 		(at 31.75 173.99 0)
@@ -19293,6 +19307,20 @@
 			(justify left bottom)
 		)
 		(uuid "c47892af-491a-4281-9566-83755bd30b7b")
+	)
+	(text "Trace > 1A"
+		(exclude_from_sim no)
+		(at 542.29 527.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "c5b5bbe0-9278-4c3b-b4b5-59ae2e948b1c")
 	)
 	(text "Trace > 1A"
 		(exclude_from_sim no)

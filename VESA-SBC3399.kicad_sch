@@ -1232,7 +1232,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 121.92) (xy 236.22 121.92)
+			(xy 208.28 111.76) (xy 236.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2341,7 +2341,7 @@
 		(uuid "c4fe0c23-8209-41fa-a885-c4282ea3b54a")
 	)
 	(label "{USBA1_D}"
-		(at 210.82 121.92 0)
+		(at 210.82 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,60 +2611,8 @@
 		(uuid "fa705db7-ee89-4b0a-901d-f0e333469fe2")
 	)
 	(sheet
-		(at 236.22 119.38)
-		(size 12.7 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 255 255 0.1000)
-		)
-		(uuid "038ed0bb-e354-4d8a-9455-2e2616d06d47")
-		(property "Sheetname" "USB 2.0 Type-A1"
-			(at 236.22 118.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USBA1.kicad_sch"
-			(at 236.22 125.0446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "D" bidirectional
-			(at 236.22 121.92 180)
-			(uuid "b035ecca-3621-4924-8053-b94900f0b0ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "VESA-SBC3399"
-				(path "/ebc9dc57-8b05-484a-a5cd-c53b1efc71d3"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 236.22 106.68)
-		(size 12.7 5.08)
+		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2678,7 +2626,7 @@
 			(color 0 255 255 0.1000)
 		)
 		(uuid "0bd72756-3330-4d64-827b-2c8a864843f4")
-		(property "Sheetname" "USB 2.0 Type-A0"
+		(property "Sheetname" "USB 2.0 Type-A"
 			(at 236.22 105.9684 0)
 			(effects
 				(font
@@ -2687,8 +2635,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USBA0.kicad_sch"
-			(at 236.22 112.3446 0)
+		(property "Sheetfile" "USBA.kicad_sch"
+			(at 236.22 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,9 +2644,19 @@
 				(justify left top)
 			)
 		)
-		(pin "D" bidirectional
+		(pin "USB_D0" bidirectional
 			(at 236.22 109.22 180)
-			(uuid "209201e1-49c4-47b0-aa5e-10f49220f2c8")
+			(uuid "b50df92b-1c0d-4c11-a1e7-f6b5aca9bea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D1" bidirectional
+			(at 236.22 111.76 180)
+			(uuid "2956475c-8536-4ccf-9ce5-f8d737a051c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4039,7 @@
 			)
 		)
 		(pin "USB1_D" bidirectional
-			(at 208.28 121.92 0)
+			(at 208.28 111.76 0)
 			(uuid "c32dc6e4-f753-4909-922e-99a27d91b73d")
 			(effects
 				(font
@@ -5011,8 +4969,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 33.02)
-		(size 58.42 78.74)
+		(at 78.74 33.02)
+		(size 33.02 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5027,7 +4985,7 @@
 		)
 		(uuid "b4295e3d-89af-4ec3-a4c2-88697a7d3c22")
 		(property "Sheetname" "Power"
-			(at 53.34 32.3084 0)
+			(at 78.74 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +4994,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 53.34 112.3446 0)
+			(at 78.74 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
