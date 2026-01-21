@@ -290,16 +290,6 @@
 		)
 		(uuid "18cb5374-9691-4492-893a-19aadc58030a")
 	)
-	(wire
-		(pts
-			(xy 172.72 68.58) (xy 175.26 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191eeb90-2ed4-4490-b148-eac1eefe617a")
-	)
 	(bus
 		(pts
 			(xy 142.24 154.94) (xy 175.26 154.94)
@@ -499,16 +489,6 @@
 			(type default)
 		)
 		(uuid "43e397bb-077b-49c7-b63a-89cb13067978")
-	)
-	(wire
-		(pts
-			(xy 172.72 104.14) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4450dfb6-23c8-4ae6-9ff0-2f4bb14a58a1")
 	)
 	(bus
 		(pts
@@ -750,16 +730,6 @@
 		)
 		(uuid "742ad382-1cc6-402e-9cae-15609e26e9f1")
 	)
-	(wire
-		(pts
-			(xy 172.72 109.22) (xy 175.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75165695-284c-4887-b202-5df6cc5a2ae8")
-	)
 	(bus
 		(pts
 			(xy 223.52 243.84) (xy 223.52 246.38)
@@ -992,7 +962,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 175.26 76.2)
+			(xy 111.76 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27a152d-25c2-4d0f-8d8d-e4ba5d3d5edb")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 175.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1190,6 +1170,16 @@
 		)
 		(uuid "cbf56019-1eb0-48f5-a154-075f61bee641")
 	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0de637-6fac-4a1e-958f-caea81324042")
+	)
 	(bus
 		(pts
 			(xy 236.22 45.72) (xy 208.28 45.72)
@@ -1232,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.66) (xy 175.26 73.66)
+			(xy 172.72 88.9) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1319,6 +1309,16 @@
 			(type default)
 		)
 		(uuid "e1b70dc4-0d30-4d95-82f0-bc66e181e287")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c4c8cb-7181-4ca1-aa54-8cad60b66b85")
 	)
 	(wire
 		(pts
@@ -1511,7 +1511,7 @@
 		(uuid "ff6cf72e-38c3-46e0-9d3a-d011c15f852d")
 	)
 	(label "LOG_DVS_PWR_PWM"
-		(at 172.72 109.22 180)
+		(at 172.72 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1531,7 +1531,7 @@
 		(uuid "02e75351-fe98-4651-aa99-ff26e230f1fd")
 	)
 	(label "SDMMC0_PWR_EN"
-		(at 172.72 104.14 180)
+		(at 172.72 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 		(uuid "44f49885-11fc-4b44-b9ca-189345e7c1c4")
 	)
 	(label "PCIe_PWR_EN"
-		(at 172.72 73.66 180)
+		(at 172.72 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1881,7 +1881,7 @@
 		(uuid "5a0d2e51-5aa7-4f4c-b431-1ef0b1e19bdc")
 	)
 	(label "CPU_SYS_RECOVERY"
-		(at 172.72 76.2 180)
+		(at 172.72 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2909,7 +2909,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 73.66)
+		(at 129.54 88.9)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2925,7 +2925,7 @@
 		)
 		(uuid "330777a9-95d0-480d-9a4e-ca1348364667")
 		(property "Sheetname" "Recovery Button"
-			(at 129.54 72.9484 0)
+			(at 129.54 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +2934,7 @@
 			)
 		)
 		(property "Sheetfile" "Recovery_Button.kicad_sch"
-			(at 129.54 79.3246 0)
+			(at 129.54 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2943,7 @@
 			)
 		)
 		(pin "BTN" output
-			(at 142.24 76.2 0)
+			(at 142.24 91.44 0)
 			(uuid "bf2be465-30d7-4058-b5f9-685df22bf15e")
 			(effects
 				(font
@@ -3911,7 +3911,7 @@
 			)
 		)
 		(pin "PWM1" bidirectional
-			(at 175.26 78.74 180)
+			(at 175.26 93.98 180)
 			(uuid "9c04b359-cecd-450a-abd2-b73cf25c5376")
 			(effects
 				(font
@@ -3921,7 +3921,7 @@
 			)
 		)
 		(pin "UART2" bidirectional
-			(at 175.26 83.82 180)
+			(at 175.26 99.06 180)
 			(uuid "dac3c9c2-6ed1-4663-95f2-ae3bd522af87")
 			(effects
 				(font
@@ -4671,7 +4671,7 @@
 			)
 		)
 		(pin "GPIO0_A1" output
-			(at 175.26 104.14 180)
+			(at 175.26 73.66 180)
 			(uuid "5c4e94fc-9845-4e4d-9df5-e9a1105a2c8b")
 			(effects
 				(font
@@ -4711,7 +4711,7 @@
 			)
 		)
 		(pin "ADC_IN1" input
-			(at 175.26 76.2 180)
+			(at 175.26 91.44 180)
 			(uuid "1210b3da-c283-46b8-9bfc-13870655e3cb")
 			(effects
 				(font
@@ -4771,7 +4771,7 @@
 			)
 		)
 		(pin "PWM2" output
-			(at 175.26 109.22 180)
+			(at 175.26 78.74 180)
 			(uuid "bf23448a-f993-4c64-b541-2f13da52dd0e")
 			(effects
 				(font
@@ -4811,7 +4811,7 @@
 			)
 		)
 		(pin "GPIO1_D0" output
-			(at 175.26 73.66 180)
+			(at 175.26 88.9 180)
 			(uuid "5df0ae8c-4f29-4407-99de-97be2090d2e7")
 			(effects
 				(font
@@ -5147,6 +5147,36 @@
 		(pin "0V9_VDD_GPU_FB" input
 			(at 111.76 66.04 0)
 			(uuid "e9d64aec-68e4-4d64-9013-8435c874e53d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0V9_VDD_GPU_VSEL" input
+			(at 111.76 68.58 0)
+			(uuid "9b5f608a-2ea9-460b-9c75-d3cf67bc8095")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_VCC_SD_EN" input
+			(at 111.76 73.66 0)
+			(uuid "9a8d180c-b267-47b9-926d-c6214e77d168")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0V9_VDD_LOG_DVS_PWR_PWM" input
+			(at 111.76 78.74 0)
+			(uuid "963a5a61-e1d7-479c-ac7f-93696ad63766")
 			(effects
 				(font
 					(size 1.27 1.27)

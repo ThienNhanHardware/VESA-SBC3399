@@ -435,6 +435,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 33.02) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4969f330-258e-427f-a707-d207021fb730")
+	)
+	(wire
+		(pts
 			(xy 129.54 104.14) (xy 132.08 104.14)
 		)
 		(stroke
@@ -1419,6 +1429,17 @@
 			(justify left)
 		)
 		(uuid "147190a2-020c-45e1-9422-5be173075c90")
+	)
+	(hierarchical_label "PWM2"
+		(shape output)
+		(at 144.78 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17f09796-b986-44c9-9efe-cbf6e2ff797c")
 	)
 	(hierarchical_label "DDR1_DM"
 		(shape output)
@@ -2763,6 +2784,16 @@
 		(pin "GPIO1_B6" output
 			(at 142.24 30.48 0)
 			(uuid "5cf0f386-c4c6-465e-bd49-0aa69f70f5f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM2" output
+			(at 142.24 33.02 0)
+			(uuid "de90358d-cf64-4cbf-ba7d-f93c7e8ecf02")
 			(effects
 				(font
 					(size 1.27 1.27)
