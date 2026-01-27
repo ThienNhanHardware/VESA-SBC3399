@@ -1,4 +1,11 @@
-8840462326529
+14148799425664
+footprints
+AF SS-JB17.6
+
+
+0
+12
+12
 footprints
 BGA828C65P31X31_2100X2100X161
 
@@ -21,9 +28,23 @@ CAPC1608X80N
 2
 2
 footprints
+M4_Hole
+
+
+0
+0
+0
+footprints
 RESC1005X35N
 
 
 0
 2
 2
+footprints
+TYPE-C 24P QT
+
+
+0
+30
+28

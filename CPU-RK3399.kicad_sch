@@ -145,6 +145,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 83.82) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c298cb-3897-4321-9f64-4a99596b49c7")
+	)
+	(wire
+		(pts
 			(xy 190.5 111.76) (xy 210.82 111.76)
 		)
 		(stroke
@@ -253,16 +263,6 @@
 		)
 		(uuid "1f2d7b56-785d-4d58-a37f-886966b958b8")
 	)
-	(wire
-		(pts
-			(xy 7.62 106.68) (xy 30.48 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f55ef3-ae0c-4d04-ac9b-40b2d72a035c")
-	)
 	(bus
 		(pts
 			(xy 187.96 114.3) (xy 187.96 119.38)
@@ -285,7 +285,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 106.68) (xy 71.12 106.68)
+			(xy 68.58 109.22) (xy 71.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -342,6 +342,16 @@
 			(type default)
 		)
 		(uuid "324a50f8-4d8f-4e70-8107-326f4681498d")
+	)
+	(wire
+		(pts
+			(xy 68.58 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350d27e6-1acd-4a9d-91ff-a9128b0adb23")
 	)
 	(wire
 		(pts
@@ -533,6 +543,16 @@
 		)
 		(uuid "59db82d4-66f3-4fb3-b889-aec43dba5f74")
 	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0b29b7-504b-475c-90d0-85e70fc5cff2")
+	)
 	(bus
 		(pts
 			(xy 342.9 35.56) (xy 345.44 35.56)
@@ -545,7 +565,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 111.76) (xy 71.12 111.76)
+			(xy 68.58 114.3) (xy 71.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -565,7 +585,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 101.6) (xy 71.12 101.6)
+			(xy 68.58 104.14) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +765,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 109.22) (xy 71.12 109.22)
+			(xy 68.58 111.76) (xy 71.12 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 172.72) (xy 111.76 172.72)
+			(xy 144.78 35.56) (xy 142.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1125,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 104.14) (xy 71.12 104.14)
+			(xy 68.58 106.68) (xy 71.12 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1205,6 +1225,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 40.64) (xy 144.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa82844a-30b3-4ca3-88c0-43af4bf3e409")
+	)
+	(wire
+		(pts
 			(xy 208.28 66.04) (xy 210.82 66.04)
 		)
 		(stroke
@@ -1215,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 170.18) (xy 111.76 170.18)
+			(xy 144.78 38.1) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1242,16 +1272,6 @@
 			(justify left bottom)
 		)
 		(uuid "0d6e4bc1-ac50-4856-be9a-ef5d7822bb2c")
-	)
-	(label "USBC1_INT#"
-		(at 27.94 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1caeef18-2e56-4781-9e34-e70039ac4bba")
 	)
 	(label "WL_REG_ON"
 		(at 190.5 109.22 0)
@@ -1377,7 +1397,7 @@
 	)
 	(hierarchical_label "TYPEC1_D"
 		(shape bidirectional)
-		(at 71.12 101.6 0)
+		(at 71.12 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,6 +1427,17 @@
 			(justify left)
 		)
 		(uuid "0b0767c1-6ed2-440d-b877-296d40759e72")
+	)
+	(hierarchical_label "TYPEC1_U2VBUSDET"
+		(shape input)
+		(at 71.12 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fc117be-c72c-4968-a295-d7c76addfcb8")
 	)
 	(hierarchical_label "MAC_RXDV"
 		(shape input)
@@ -1551,17 +1582,6 @@
 		)
 		(uuid "3f12c65a-fa30-410e-a446-073f3d523a88")
 	)
-	(hierarchical_label "TYPEC1_GPIO"
-		(shape input)
-		(at 30.48 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f900169-bb14-42ea-866d-afc8c9120833")
-	)
 	(hierarchical_label "GPIO1_C1"
 		(shape output)
 		(at 144.78 27.94 0)
@@ -1671,6 +1691,17 @@
 			(justify right)
 		)
 		(uuid "62c500cd-0eea-46f1-8036-ad856cbe079d")
+	)
+	(hierarchical_label "GPIO4_D2"
+		(shape output)
+		(at 231.14 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "633a47e4-131a-41d8-9bb9-e73ae321f94f")
 	)
 	(hierarchical_label "TYPEC0_D"
 		(shape bidirectional)
@@ -1784,12 +1815,12 @@
 	)
 	(hierarchical_label "GPIO1_A2"
 		(shape input)
-		(at 109.22 170.18 180)
+		(at 144.78 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6eb93a12-3f0c-4992-943b-0505e0d1669c")
 	)
@@ -1814,6 +1845,17 @@
 			(justify right)
 		)
 		(uuid "72d74a7c-a78b-4c5a-aa23-d15e7dab4fc9")
+	)
+	(hierarchical_label "GPIO1_A1"
+		(shape input)
+		(at 144.78 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75b85463-daf1-49bd-b328-38696c5e97d9")
 	)
 	(hierarchical_label "DDR0_A"
 		(shape output)
@@ -1927,7 +1969,7 @@
 	)
 	(hierarchical_label "TYPEC1_RX"
 		(shape bidirectional)
-		(at 71.12 106.68 0)
+		(at 71.12 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1938,7 +1980,7 @@
 	)
 	(hierarchical_label "TYPEC1_AUX_DC"
 		(shape bidirectional)
-		(at 71.12 111.76 0)
+		(at 71.12 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1960,7 +2002,7 @@
 	)
 	(hierarchical_label "TYPEC1_TX"
 		(shape output)
-		(at 71.12 104.14 0)
+		(at 71.12 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1993,12 +2035,12 @@
 	)
 	(hierarchical_label "GPIO1_A3"
 		(shape output)
-		(at 109.22 172.72 180)
+		(at 144.78 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "960e20c6-48e1-4634-b2d0-03b10ce6222b")
 	)
@@ -2301,7 +2343,7 @@
 	)
 	(hierarchical_label "TYPEC1_AUX"
 		(shape bidirectional)
-		(at 71.12 109.22 0)
+		(at 71.12 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2320,6 +2362,17 @@
 			(justify right)
 		)
 		(uuid "ea51edf9-3b00-415f-acde-2fa01ebdbfa7")
+	)
+	(hierarchical_label "TYPEC0_U2VBUSDET"
+		(shape input)
+		(at 71.12 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eae12350-ee4e-43af-8cf6-b8b9d6809584")
 	)
 	(hierarchical_label "GPIO0_A1"
 		(shape output)
@@ -2566,8 +2619,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 76.2)
-		(size 20.32 38.1)
+		(at 45.72 76.2)
+		(size 22.86 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2582,7 +2635,7 @@
 		)
 		(uuid "45110715-13df-4072-93ea-47fc84947840")
 		(property "Sheetname" "CPU-RK3399 USB"
-			(at 48.26 75.4884 0)
+			(at 45.72 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2644,7 @@
 			)
 		)
 		(property "Sheetfile" "CPU-RK3399_USB.kicad_sch"
-			(at 48.26 114.8846 0)
+			(at 45.72 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2723,7 @@
 			)
 		)
 		(pin "TYPEC1_D" bidirectional
-			(at 68.58 101.6 0)
+			(at 68.58 104.14 0)
 			(uuid "3106843a-1bd8-47e4-bfca-6bd59146d4c6")
 			(effects
 				(font
@@ -2680,7 +2733,7 @@
 			)
 		)
 		(pin "TYPEC1_TX" output
-			(at 68.58 104.14 0)
+			(at 68.58 106.68 0)
 			(uuid "37813cbf-2ad0-4cef-aa4d-afb474fdc2b3")
 			(effects
 				(font
@@ -2690,7 +2743,7 @@
 			)
 		)
 		(pin "TYPEC1_RX" bidirectional
-			(at 68.58 106.68 0)
+			(at 68.58 109.22 0)
 			(uuid "5b62387b-8a35-4742-a3e3-2fced7955255")
 			(effects
 				(font
@@ -2700,7 +2753,7 @@
 			)
 		)
 		(pin "TYPEC1_AUX_DC" bidirectional
-			(at 68.58 111.76 0)
+			(at 68.58 114.3 0)
 			(uuid "69f85c2d-b03c-41ed-8e23-3e9bb92daa77")
 			(effects
 				(font
@@ -2710,8 +2763,28 @@
 			)
 		)
 		(pin "TYPEC1_AUX" bidirectional
-			(at 68.58 109.22 0)
+			(at 68.58 111.76 0)
 			(uuid "ea5c344d-60e7-4350-a5e5-4c4321563206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC0_U2VBUSDET" input
+			(at 68.58 99.06 0)
+			(uuid "72233a8c-b777-4341-954c-99145ffd370f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TYPEC1_U2VBUSDET" input
+			(at 68.58 116.84 0)
+			(uuid "064b3f8c-c2e2-4426-a24b-970c6206f49b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2802,7 @@
 	)
 	(sheet
 		(at 129.54 22.86)
-		(size 12.7 17.78)
+		(size 12.7 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2753,7 +2826,7 @@
 			)
 		)
 		(property "Sheetfile" "CPU-RK3399_Protocols.kicad_sch"
-			(at 129.54 41.2246 0)
+			(at 129.54 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,6 +2867,36 @@
 		(pin "PWM2" output
 			(at 142.24 33.02 0)
 			(uuid "de90358d-cf64-4cbf-ba7d-f93c7e8ecf02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1_A3" output
+			(at 142.24 35.56 0)
+			(uuid "c25c9b15-1651-4106-b4b5-b1e4651c8e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1_A2" input
+			(at 142.24 38.1 0)
+			(uuid "0d6876a7-90e0-40bf-9aaf-13e29a847a9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1_A1" input
+			(at 142.24 40.64 0)
+			(uuid "a51e78b1-4db1-49fe-8194-e09d8a70695e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,6 +3709,16 @@
 		(pin "GPIO1_D0" output
 			(at 228.6 81.28 0)
 			(uuid "7c6ea820-329c-413c-a580-710f8225c5fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO4_D2" output
+			(at 228.6 83.82 0)
+			(uuid "b485533e-8095-453d-929e-c402f6f2794f")
 			(effects
 				(font
 					(size 1.27 1.27)
